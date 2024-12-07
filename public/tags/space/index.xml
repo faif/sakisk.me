@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Space on Sakis Kasampalis - Personal homepage</title>
-    <link>http://localhost:1313/tags/space/</link>
+    <link>https://sakisk.me/tags/space/</link>
     <description>Recent content in Space on Sakis Kasampalis - Personal homepage</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 18 Jul 2012 21:48:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/space/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://sakisk.me/tags/space/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>What we can learn from the space guys</title>
-      <link>http://localhost:1313/blog/2012-07-18-what-we-can-learn-from-space-guys/</link>
+      <link>https://sakisk.me/blog/2012-07-18-what-we-can-learn-from-space-guys/</link>
       <pubDate>Wed, 18 Jul 2012 21:48:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/2012-07-18-what-we-can-learn-from-space-guys/</guid>
+      <guid>https://sakisk.me/blog/2012-07-18-what-we-can-learn-from-space-guys/</guid>
       <description>&lt;div dir=&#34;ltr&#34; style=&#34;text-align: left;&#34; trbidi=&#34;on&#34;&gt;The &lt;a href=&#34;http://www.se-radio.net/2008/06/episode-100-software-in-space/&#34;&gt;software in space&lt;/a&gt; podcast (by se-radio) put me into thoughts about finding ways to improve code quality. First of all, I think that using &lt;span style=&#34;font-family: &amp;quot;Courier New&amp;quot;,Courier,monospace;&#34;&gt;void&lt;/span&gt; methods in languages that support exceptions is not very useful. Instead, I prefer using idioms like the &lt;a href=&#34;http://pragprog.com/magazines/2012-04/the-pragmatic-defense&#34;&gt;boolean return value and single exit point&lt;/a&gt;. Together with design by contract and sufficient testing coverage, mistakes like the Ariane 5 crash can be discovered and eliminated at an early phase -- before it&#39;s too late...&lt;br /&gt;&lt;br /&gt;The fact that there are usually two discrete programming teams developing the same space software part using different programming languages (and members with different mindsets) is extremely important. It focuses on the importance of the human factor and emphasizes on using different tools to solve the same problem as a way of writing &#34;better&#34; (for example faster, with less bugs, cleaner, more fault tolerant, etc.) code.&lt;br /&gt;&lt;br /&gt;This is aligned with one of my basic principles: Programming languages are just tools, and the right tool should be used for the right job. Dogmatic decisions increase the potential of failure.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/div&gt;</description>
     </item>
   </channel>

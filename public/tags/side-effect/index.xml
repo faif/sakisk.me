@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Side Effect on Sakis Kasampalis - Personal homepage</title>
-    <link>http://localhost:1313/tags/side-effect/</link>
+    <link>https://sakisk.me/tags/side-effect/</link>
     <description>Recent content in Side Effect on Sakis Kasampalis - Personal homepage</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 29 Jul 2022 19:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/side-effect/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://sakisk.me/tags/side-effect/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Map results should be free from side-effects</title>
-      <link>http://localhost:1313/blog/2022-07-29-map-no-side-effects/</link>
+      <link>https://sakisk.me/blog/2022-07-29-map-no-side-effects/</link>
       <pubDate>Fri, 29 Jul 2022 19:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/2022-07-29-map-no-side-effects/</guid>
+      <guid>https://sakisk.me/blog/2022-07-29-map-no-side-effects/</guid>
       <description>&lt;p&gt;When we want to write code that operates on a data structure, it is common to initially implement it for a single item, and then make it more general. In functional languages like Clojure, I use the following pattern a lot, to execute a function on all items of a data structure (aka collection, or seq):&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-clojure&#34; data-lang=&#34;clojure&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;(&lt;span style=&#34;color:#66d9ef&#34;&gt;defn &lt;/span&gt;single-item-function [item]&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    (&lt;span style=&#34;color:#a6e22e&#34;&gt;dostuff&lt;/span&gt;))&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;(&lt;span style=&#34;color:#66d9ef&#34;&gt;defn &lt;/span&gt;collection-function [collection]&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    (map &lt;span style=&#34;color:#f92672&#34;&gt;#&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;single-item-function&lt;/span&gt; %) collection))&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&#xA;&lt;p&gt;So far so good, until I found out that only one of the functions &lt;a href=&#34;https://github.com/faif/sub-matcher&#34;&gt;in my hobby project&lt;/a&gt; was working fine at the &lt;abbr title=&#34;Read-Eval-Print-Loop&#34;&gt;REPL&lt;/abbr&gt; (Read-Eval-Print-Loop), but not outside of it. Guess what was wrong with that function: It had side-effects!&lt;/p&gt;</description>
     </item>
   </channel>

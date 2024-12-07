@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Uncle Bob on Sakis Kasampalis - Personal homepage</title>
-    <link>http://localhost:1313/tags/uncle-bob/</link>
+    <link>https://sakisk.me/tags/uncle-bob/</link>
     <description>Recent content in Uncle Bob on Sakis Kasampalis - Personal homepage</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 06 Jul 2016 10:38:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/uncle-bob/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://sakisk.me/tags/uncle-bob/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About uncle Bob&#39;s The Last Programming Language keynote</title>
-      <link>http://localhost:1313/blog/2016-07-06-last-language/</link>
+      <link>https://sakisk.me/blog/2016-07-06-last-language/</link>
       <pubDate>Wed, 06 Jul 2016 10:38:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/2016-07-06-last-language/</guid>
+      <guid>https://sakisk.me/blog/2016-07-06-last-language/</guid>
       <description>&lt;p&gt;I decided to watch some programming-related videos and I began with uncle Bob&amp;rsquo;s&#xA;keynote &lt;a href=&#34;https://cleancoders.com/episode/clean-code-episode-0/show?autoplay=true&#34;&gt;The Last Programming Language&lt;/a&gt;. In  general I agree with what&#xA;he says, with one exception. Uncle Bob believes that functional programming is important&#xA;because it plays well with multicore programming.&lt;/p&gt;&#xA;&lt;p&gt;I don&amp;rsquo;t think that this is the most important value of functional programming. First of&#xA;all, there&amp;rsquo;s a lot of code written out there that is not multicore-aware. That can happen&#xA;for example when single core performance is sufficient. You can laugh as much as you want&#xA;about this statement but there are many programs where it is actually very true.&lt;/p&gt;</description>
     </item>
   </channel>

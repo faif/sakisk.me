@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Cigarette on Sakis Kasampalis - Personal homepage</title>
-    <link>http://localhost:1313/tags/cigarette/</link>
+    <link>https://sakisk.me/tags/cigarette/</link>
     <description>Recent content in Cigarette on Sakis Kasampalis - Personal homepage</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 18 Dec 2011 20:30:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/cigarette/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://sakisk.me/tags/cigarette/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>I love your boot loader</title>
-      <link>http://localhost:1313/blog/2011-12-18-i-love-your-boot-loader/</link>
+      <link>https://sakisk.me/blog/2011-12-18-i-love-your-boot-loader/</link>
       <pubDate>Sun, 18 Dec 2011 20:30:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/2011-12-18-i-love-your-boot-loader/</guid>
+      <guid>https://sakisk.me/blog/2011-12-18-i-love-your-boot-loader/</guid>
       <description>&lt;div dir=&#34;ltr&#34; style=&#34;text-align: left;&#34; trbidi=&#34;on&#34;&gt;&lt;h4 class=&#34;documentDescription&#34; style=&#34;text-align: left;&#34;&gt;                      &lt;span class=&#34; kssattr-atfieldname-description kssattr-templateId-widgets/textarea kssattr-macro-textarea-field-view inlineEditable&#34; id=&#34;parent-fieldname-description&#34;&gt;            GRUB on a cigarette machine&amp;nbsp;&lt;/span&gt;&lt;/h4&gt;&lt;div class=&#34;documentDescription&#34;&gt;According to &lt;a class=&#34;external-link&#34; href=&#34;http://weblog.savanne.be/478-as-seen-in-an-amsterdam-bar&#34;&gt;Ruben&lt;/a&gt; the GRUB (and probably POSIX) powered cigarette machine can be found in  an Amsterdam bar. What an interesting embedded system! After seeing  this it&#39;s impossible not to show sympathy for the Netherlands. Most  other embedded systems that I have seen in other countries are using  Windows. Good job bar owners. I&#39;ll make sure to visit your bar for a  beer :)&lt;span class=&#34; kssattr-atfieldname-description kssattr-templateId-widgets/textarea kssattr-macro-textarea-field-view inlineEditable&#34; id=&#34;parent-fieldname-description&#34;&gt;&amp;nbsp;&lt;/span&gt;             &lt;/div&gt;&lt;/div&gt;</description>
     </item>
   </channel>

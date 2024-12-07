@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Web on Sakis Kasampalis - Personal homepage</title>
-    <link>http://localhost:1313/tags/web/</link>
+    <link>https://sakisk.me/tags/web/</link>
     <description>Recent content in Web on Sakis Kasampalis - Personal homepage</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 21 May 2011 19:31:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/web/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://sakisk.me/tags/web/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Automatic Web logon</title>
-      <link>http://localhost:1313/blog/2011-05-21-automatic-web-logon/</link>
+      <link>https://sakisk.me/blog/2011-05-21-automatic-web-logon/</link>
       <pubDate>Sat, 21 May 2011 19:31:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/2011-05-21-automatic-web-logon/</guid>
+      <guid>https://sakisk.me/blog/2011-05-21-automatic-web-logon/</guid>
       <description>&lt;div dir=&#34;ltr&#34; style=&#34;text-align: left;&#34; trbidi=&#34;on&#34;&gt;&lt;div dir=&#34;ltr&#34; style=&#34;text-align: left;&#34; trbidi=&#34;on&#34;&gt;&lt;h4 class=&#34;documentDescription&#34; style=&#34;text-align: left;&#34;&gt;                  &lt;span class=&#34; kssattr-atfieldname-description kssattr-templateId-widgets/textarea kssattr-macro-textarea-field-view inlineEditable&#34; id=&#34;parent-fieldname-description&#34;&gt;            Visiting Yahoo! Answers without using a Web browser&amp;nbsp;&lt;/span&gt;&lt;/h4&gt;I believe that services like Yahoo! Answers are very useful and use  them at times. The Yahoo! Answers community gives an extra point to  users each time they visit their account (but only once/day).&lt;br /&gt;&lt;br /&gt;The problem is that usually I&#39;m very busy (or lazy) and thus I always  forget to visit my account. Therefore I was looking for ways of  automating the process. It looks like this is very straightforward to do  when the right tools are used. Here&#39;s a quick solution using Python:&lt;br /&gt;&lt;div class=&#34;documentDescription&#34;&gt;&lt;br /&gt;&lt;script src=&#34;https://gist.github.com/1567050.js?file=answers.py&#34;&gt;  &lt;/script&gt; You might argue that using clear-text passwords is not a good  practice; that is absolutely right, but in this case I&#39;m not insane  about the protection of my Yahoo! credentials since Answers is the only  Yahoo! service that I use.&lt;br /&gt;&lt;br /&gt;Happy coding!&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
     </item>
   </channel>

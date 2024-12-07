@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Exception Handling on Sakis Kasampalis - Personal homepage</title>
-    <link>http://localhost:1313/tags/exception-handling/</link>
+    <link>https://sakisk.me/tags/exception-handling/</link>
     <description>Recent content in Exception Handling on Sakis Kasampalis - Personal homepage</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 19 Aug 2020 20:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/exception-handling/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://sakisk.me/tags/exception-handling/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>One catch to rule them all</title>
-      <link>http://localhost:1313/blog/2020-08-19-one-catch/</link>
+      <link>https://sakisk.me/blog/2020-08-19-one-catch/</link>
       <pubDate>Wed, 19 Aug 2020 20:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/2020-08-19-one-catch/</guid>
+      <guid>https://sakisk.me/blog/2020-08-19-one-catch/</guid>
       <description>&lt;p&gt;When writing code, we need to handle errors. What happens if you are trying to read a corrupt file? Or if the network goes down while receiving data? The programming language runtime will try to&#xA;give you an error message that makes sense, but that doesn&amp;rsquo;t mean that this is what you want to show to your application/API users.&lt;/p&gt;&#xA;&lt;p&gt;There are two traditional ways of doing error handling. One is using error codes. That means returning a code (usually a number) to the users when something goes wrong, and let them interpret&#xA;that number using a lookup table. In languages that support exceptions, the recommended way is using exception handling.&lt;/p&gt;</description>
     </item>
   </channel>

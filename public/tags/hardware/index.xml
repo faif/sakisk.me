@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hardware on Sakis Kasampalis - Personal homepage</title>
-    <link>http://localhost:1313/tags/hardware/</link>
+    <link>https://sakisk.me/tags/hardware/</link>
     <description>Recent content in Hardware on Sakis Kasampalis - Personal homepage</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 01 Jun 2011 16:30:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/hardware/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://sakisk.me/tags/hardware/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>TheHackerspace</title>
-      <link>http://localhost:1313/blog/2011-06-01-thehackerspace/</link>
+      <link>https://sakisk.me/blog/2011-06-01-thehackerspace/</link>
       <pubDate>Wed, 01 Jun 2011 16:30:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/2011-06-01-thehackerspace/</guid>
+      <guid>https://sakisk.me/blog/2011-06-01-thehackerspace/</guid>
       <description>&lt;div dir=&#34;ltr&#34; style=&#34;text-align: left;&#34; trbidi=&#34;on&#34;&gt;&lt;h4 class=&#34;documentDescription&#34; style=&#34;text-align: left;&#34;&gt;                       &lt;span class=&#34; kssattr-atfieldname-description kssattr-templateId-widgets/textarea kssattr-macro-textarea-field-view inlineEditable&#34; id=&#34;parent-fieldname-description&#34;&gt;            Thesssaloniki&#39;s hackerspace is here!&lt;/span&gt;&lt;/h4&gt;&lt;div class=&#34;documentDescription&#34;&gt;&lt;span class=&#34; kssattr-atfieldname-description kssattr-templateId-widgets/textarea kssattr-macro-textarea-field-view inlineEditable&#34; id=&#34;parent-fieldname-description&#34;&gt;&lt;/span&gt; The following excerpt is taken from the &lt;a class=&#34;external-link&#34; href=&#34;http://the-hackerspace.blogspot.com/&#34;&gt;homepage&lt;/a&gt; of TheHackerspace: &lt;/div&gt;&lt;blockquote class=&#34;tr_bq&#34;&gt;&lt;div class=&#34;callout&#34; style=&#34;text-align: justify;&#34;&gt;&#34;Unless you are rich, it is unlikely that you own all the hardware and the tools required to build different kinds of embedded systems. For example you might already own an arduino board, but most probably you are missing the X or Y sensor required to build your favourite prototype.&lt;/div&gt;&lt;div class=&#34;callout&#34; style=&#34;text-align: justify;&#34;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div class=&#34;callout&#34; style=&#34;text-align: justify;&#34;&gt;And unless you are a genius, it is unlikely that you know everything about all the available free software/open source operating systems. Thus, perhaps you wrote your own system call or driver for the Linux kernel, but most probably you don’t know how to do the same stuff on another operating system that you like (for example MINIX 3).&lt;/div&gt;&lt;div class=&#34;callout&#34; style=&#34;text-align: justify;&#34;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div class=&#34;callout&#34; style=&#34;text-align: justify;&#34;&gt;Don’t worry. That is exactly why we founded TheHackerspace. It is a place where hardware, books, code, and knowledge is shared between people who like to hack. If you are interested on embedded and system hacking, you are welcomed to join us.&#34;&lt;/div&gt;&lt;/blockquote&gt;&lt;div style=&#34;text-align: justify;&#34;&gt;Personally I contributed in many ways to  the foundation of TheHackerspace by helping to build the lab, donating books, writing most of the (current) content  in the homepage, etc. Unfortunately I don&#39;t have the time to enjoy  TheHackerspace since in a week I&#39;m relocating to the Netherlands where I  got a job (but that&#39;s good news!). I hope that when I&#39;m back in  Thessaloniki TheHackerspace will still exist and some really great  projects will be the outcomes of its foundation :)&lt;/div&gt;&lt;/div&gt;</description>
     </item>
   </channel>
