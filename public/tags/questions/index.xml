@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Questions on Sakis Kasampalis - Personal homepage</title>
+    <link>http://localhost:1313/tags/questions/</link>
+    <description>Recent content in Questions on Sakis Kasampalis - Personal homepage</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 03 Jun 2012 17:29:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/questions/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Do you evaluate your potential employers?</title>
+      <link>http://localhost:1313/blog/2012-06-03-are-you-evaluating-your-potential/</link>
+      <pubDate>Sun, 03 Jun 2012 17:29:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/2012-06-03-are-you-evaluating-your-potential/</guid>
+      <description>&lt;div dir=&#34;ltr&#34; style=&#34;text-align: left;&#34; trbidi=&#34;on&#34;&gt;The prolonged financial crisis that we are living has caused an enormous growth in unemployment rates all over the world. Software Engineers and Programmers are by no means an exception to that rule, especially fresh graduates with no or little professional experience. But to find a job (or search for a better one) we need to (1) sit for (usually many) interviews, (2) find if there&#39;s a match between what we are looking and what the employer can provide us.&lt;br /&gt;&lt;br /&gt;Being interviewed is unfortunately no fun in most cases. The employers are looking for the perfect candidate, thus they are trying to push us as much as possible: They check our programming and software engineering skills, our communication and social skills, our logic and problem-solving skills, our future plans, etc. (the list can go forever).&lt;br /&gt;&lt;br /&gt;But what do the employers provide in exchange? A good salary? That&#39;s obviously important, but I don&#39;t think it&#39;s enough. If I have to devote at least 8 hours of my life everyday on working for someone, a good salary is not sufficient. Most employers might use some buzzwords (agile, scrum, TDD, etc.)&amp;nbsp; during an interview for convincing us to work for them. Unfortunately reality can be different, and we only find out when it&#39;s too late...&lt;br /&gt;&lt;br /&gt;So what can we do to avoid that situation? It&#39;s simple: We can also ask questions. The next time that your potential employer is going to ask you if you have any questions, surprise her by asking interesting questions similar (but not necessarily the same) to the questions of &lt;a href=&#34;http://www.joelonsoftware.com/articles/fog0000000043.html&#34;&gt;The Joel Test&lt;/a&gt;:&lt;br /&gt;&lt;ol&gt;&lt;li&gt;Do you use a distributed version control system?&lt;/li&gt;&lt;li&gt;Do you have a bug database?&amp;nbsp; &lt;/li&gt;&lt;li&gt;Can I make a build in one step using your build system?  &lt;/li&gt;&lt;li&gt;Can I suggest new programming languages/practices? &lt;/li&gt;&lt;li&gt;Do you use an agile methodology?&lt;/li&gt;&lt;li&gt;Do programmers have quiet working conditions?  &lt;/li&gt;&lt;li&gt;Do you have testers?&amp;nbsp;&lt;/li&gt;&lt;/ol&gt;In contrast to Joel&#39;s Test, simple yes/no answers should not be acceptable since the employer might not be 100% honest...&lt;/div&gt;</description>
+    </item>
+  </channel>
+</rss>

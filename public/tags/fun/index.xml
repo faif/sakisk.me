@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fun on Sakis Kasampalis - Personal homepage</title>
+    <link>http://localhost:1313/tags/fun/</link>
+    <description>Recent content in Fun on Sakis Kasampalis - Personal homepage</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 05 Aug 2011 22:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/fun/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Job seeking post</title>
+      <link>http://localhost:1313/blog/2011-08-05-job-seeking-post/</link>
+      <pubDate>Fri, 05 Aug 2011 22:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/2011-08-05-job-seeking-post/</guid>
+      <description>&lt;div dir=&#34;ltr&#34; style=&#34;text-align: left;&#34; trbidi=&#34;on&#34;&gt;&lt;div class=&#34;documentDescription&#34;&gt;&lt;h4 style=&#34;text-align: left;&#34;&gt;   &lt;span class=&#34; kssattr-atfieldname-description kssattr-templateId-widgets/textarea kssattr-macro-textarea-field-view inlineEditable&#34; id=&#34;parent-fieldname-description&#34;&gt;            Would you hire this seeker?&amp;nbsp;&lt;/span&gt;&lt;/h4&gt;&lt;/div&gt;This is a real LinkedIn post from a job seeker:&lt;cite&gt;&lt;/cite&gt;&lt;br /&gt;&lt;blockquote class=&#34;tr_bq&#34;&gt;Hi, i search work. I web-programmer. I work to PHP. I from COUNTRY&lt;sup&gt;[1]&lt;/sup&gt;. Interested in remote work. Please write me in profile.&lt;/blockquote&gt;&lt;cite&gt;&lt;/cite&gt;Honestly: If you were a job recruiter, would you give a change to this seeker? I guess not...&lt;br /&gt;&amp;nbsp;&lt;a href=&#34;http://www.blogger.com/blogger.g?blogID=7146248794813174249&#34; name=&#34;ref_1&#34;&gt;&lt;br /&gt;&lt;/a&gt;&lt;br /&gt;[1] I removed the name of the country since the point of this post is not to offend a specific country, but to make fun of the actual content.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;span class=&#34; kssattr-atfieldname-description kssattr-templateId-widgets/textarea kssattr-macro-textarea-field-view inlineEditable&#34; id=&#34;parent-fieldname-description&#34;&gt;&amp;nbsp;&lt;/span&gt;             &lt;/div&gt;</description>
+    </item>
+  </channel>
+</rss>

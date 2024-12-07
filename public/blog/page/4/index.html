@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html>
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta http-equiv="Accept-CH" content="DPR, Viewport-Width, Width">
+<link rel="icon" href=/images/lambda.png type="image/gif">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload"
+      as="style"
+      href="https://fonts.googleapis.com/css2?family=Alata&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+>
+<link rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Alata&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      media="print" onload="this.media='all'" />
+<noscript>
+  <link
+          href="https://fonts.googleapis.com/css2?family=Alata&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+          rel="stylesheet">
+</noscript>
+
+
+<link rel="stylesheet" href="/css/font.css" media="all">
+
+
+
+<meta property="og:url" content="http://localhost:1313/blog/">
+  <meta property="og:site_name" content="Sakis Kasampalis - Personal homepage">
+  <meta property="og:title" content="Blogs">
+  <meta property="og:description" content="Unix, Emacs, functional programming">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="website">
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Blogs">
+  <meta name="twitter:description" content="Unix, Emacs, functional programming">
+
+
+<link rel="stylesheet" href="/bootstrap-5/css/bootstrap.min.css" media="all"><link rel="stylesheet" href="/css/header.css" media="all">
+<link rel="stylesheet" href="/css/footer.css" media="all">
+
+
+<link rel="stylesheet" href="/css/theme.css" media="all">
+
+<style>
+    :root {
+        --text-color: #343a40;
+        --text-secondary-color: #6c757d;
+        --text-link-color: #007bff;
+        --background-color: #eaedf0;
+        --secondary-background-color: #64ffda1a;
+        --primary-color: #007bff;
+        --secondary-color: #f8f9fa;
+
+         
+        --text-color-dark: #e4e6eb;
+        --text-secondary-color-dark: #b0b3b8;
+        --text-link-color-dark: #ffffff;
+        --background-color-dark: #18191a;
+        --secondary-background-color-dark: #212529;
+        --primary-color-dark: #ffffff;
+        --secondary-color-dark: #212529;
+    }
+    body {
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        text-align: left;
+    }
+
+    html {
+        background-color: var(--background-color) !important;
+    }
+
+    body::-webkit-scrollbar {
+        height: 0px;
+        width: 8px;
+        background-color: var(--background-color);
+    }
+
+    ::-webkit-scrollbar-track {
+        border-radius: 1rem;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        border-radius: 1rem;
+        background: #b0b0b0;
+        outline: 1px solid var(--background-color);
+    }
+
+    #search-content::-webkit-scrollbar {
+        width: .5em;
+        height: .1em;
+        background-color: var(--background-color);
+    }
+</style>
+
+
+
+<meta name="description" content="Blogs of Sakis Kasampalis - Personal homepage">
+<link rel="stylesheet" href="/css/list.css" media="all">
+
+
+  
+  
+
+  <title>
+Blogs | Sakis Kasampalis - Personal homepage
+
+  </title>
+</head>
+
+<body class="light">
+  
+  
+<script>
+    let localStorageValue = localStorage.getItem("pref-theme");
+    let mediaQuery = window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+    switch (localStorageValue) {
+        case "dark":
+            document.body.classList.add('dark');
+            break;
+        case "light":
+            document.body.classList.remove('dark');
+            break;
+        default:
+            if (mediaQuery) {
+                document.body.classList.add('dark');
+            }
+            break;
+    }
+</script>
+
+
+
+
+<script>
+    var prevScrollPos = window.pageYOffset;
+    window.addEventListener("scroll", function showHeaderOnScroll() {
+        let profileHeaderElem = document.getElementById("profileHeader");
+        let currentScrollPos = window.pageYOffset;
+        let resetHeaderStyle = false;
+        let showNavBarOnScrollUp =  true ;
+        let showNavBar = showNavBarOnScrollUp ? prevScrollPos > currentScrollPos : currentScrollPos > 0;
+        if (showNavBar) {
+            profileHeaderElem.classList.add("showHeaderOnTop");
+        } else {
+            resetHeaderStyle = true;
+        }
+        if(currentScrollPos === 0) {
+            resetHeaderStyle = true;
+        }
+        if(resetHeaderStyle) {
+            profileHeaderElem.classList.remove("showHeaderOnTop");
+        }
+        prevScrollPos = currentScrollPos;
+    });
+</script>
+
+
+
+<header id="profileHeader">
+    <nav class="pt-3 navbar navbar-expand-lg animate">
+        <div class="container-fluid mx-xs-2 mx-sm-5 mx-md-5 mx-lg-5">
+            
+            <a class="navbar-brand primary-font text-wrap" href="/">
+                
+                <img src="/images/lambda.png" width="30" height="30"
+                    class="d-inline-block align-top">
+                
+                
+            </a>
+
+            
+                <div>
+                    <input id="search" autocomplete="off" class="form-control mr-sm-2 d-none d-md-block" placeholder='Ctrl &#43; k to Search...'
+                        aria-label="Search" oninput="searchOnChange(event)">
+                </div>
+            
+
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
+                aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                <svg aria-hidden="true" height="24" viewBox="0 0 16 16" version="1.1" width="24" data-view-component="true">
+                    <path fill-rule="evenodd" d="M1 2.75A.75.75 0 011.75 2h12.5a.75.75 0 110 1.5H1.75A.75.75 0 011 2.75zm0 5A.75.75 0 011.75 7h12.5a.75.75 0 110 1.5H1.75A.75.75 0 011 7.75zM1.75 12a.75.75 0 100 1.5h12.5a.75.75 0 100-1.5H1.75z"></path>
+                </svg>
+            </button>
+
+            
+            <div class="collapse navbar-collapse text-wrap primary-font" id="navbarContent">
+                <ul class="navbar-nav ms-auto text-center">
+                    
+                        <li class="nav-item navbar-text d-block d-md-none">
+                            <div class="nav-link">
+                                <input id="search" autocomplete="off" class="form-control mr-sm-2" placeholder='Ctrl &#43; k to Search...' aria-label="Search" oninput="searchOnChange(event)">
+                            </div>
+                        </li>
+                    
+
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="/#about" aria-label="about">
+                            About
+                        </a>
+                    </li>
+                    
+
+                    
+
+                    
+
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="/#projects"
+                            aria-label="projects">
+                            Portfolio
+                        </a>
+                    </li>
+                    
+
+                    
+
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="/#contact"
+                            aria-label="contact">
+                            Contact
+                        </a>
+                    </li>
+                    
+
+                    
+
+                    
+                    
+                    
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="/blog" title="Blog posts">
+                            
+                            Blog
+                        </a>
+                    </li>
+                    
+                    
+
+                    
+                    <li class="nav-item navbar-text">
+                        
+                        <div class="text-center">
+                            <button id="theme-toggle">
+                                <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                                </svg>
+                                <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <circle cx="12" cy="12" r="5"></circle>
+                                    <line x1="12" y1="1" x2="12" y2="3"></line>
+                                    <line x1="12" y1="21" x2="12" y2="23"></line>
+                                    <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                                    <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                                    <line x1="1" y1="12" x2="3" y2="12"></line>
+                                    <line x1="21" y1="12" x2="23" y2="12"></line>
+                                    <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                                    <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                                </svg>
+                            </button>
+                        </div>
+                    </li>
+                    
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+</header>
+<div id="content">
+<div class="container pt-5" id="list-page">
+    <h2 class="text-center pb-2">Blogs</h2>
+    <div class="row">
+        
+        <div class="col-lg-4 col-md-6 my-3">
+            <div class="card-columns">
+                <div class="card h-100">
+                    
+                    <div class="card-body bg-transparent p-4 shadow-sm">
+                        <a href="/blog/2014-05-04-being-technical-reviewer-again/" class="primary-font card-title">
+                            <h5 class="card-title bg-transparent" title="Being a technical reviewer (again)">Being a technical …</h5>
+                        </a>
+                        <div class="card-text secondary-font">
+                            <p><div dir="ltr" style="text-align: left;" trbidi="on">A few months ago I experienced (for the first time) how it feels to be part of a technical reviewing team. I reviewed a packt introductory <a href="http://sakiskasampalis.blogspot.nl/2013/11/my-first-book-review.html">book</a> about Design Patterns.<br /><br />Today I'm glad to see that another packt book, of which I was for once again one of the technical reviewers, has been published. The …</div></p>
+                        </div>
+                    </div>
+                    <div class="mt-auto post-footer bg-transparent py-3">
+                        <span class="float-start bg-transparent">May 4, 2014</span>
+                        <a href="/blog/2014-05-04-being-technical-reviewer-again/" class="float-end btn btn-outline-info btn-sm">Read</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-lg-4 col-md-6 my-3">
+            <div class="card-columns">
+                <div class="card h-100">
+                    
+                    <div class="card-body bg-transparent p-4 shadow-sm">
+                        <a href="/blog/2014-04-19-bash-syntax-error-near-unexpected-token/" class="primary-font card-title">
+                            <h5 class="card-title bg-transparent" title="BASH: syntax error near unexpected token `(&#39;">BASH: syntax error near …</h5>
+                        </a>
+                        <div class="card-text secondary-font">
+                            <p><div dir="ltr" style="text-align: left;" trbidi="on">After making some portability and readability improvements to <a href="https://github.com/faif/shell-utils"><span style="font-family: &quot;Courier New&quot;,Courier,monospace;">shell-utils</span></a>, I used BASH, sh, and dash to test it. While sh and dash were fine, BASH returned the error:<br /><br /><b>line 358: syntax error near unexpected token `('</b><br /><b>line 358: `ls ()'</b><br /><br />That is strange. BASH usually introduces shell portability issues …</div></p>
+                        </div>
+                    </div>
+                    <div class="mt-auto post-footer bg-transparent py-3">
+                        <span class="float-start bg-transparent">Apr 19, 2014</span>
+                        <a href="/blog/2014-04-19-bash-syntax-error-near-unexpected-token/" class="float-end btn btn-outline-info btn-sm">Read</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-lg-4 col-md-6 my-3">
+            <div class="card-columns">
+                <div class="card h-100">
+                    
+                    <div class="card-body bg-transparent p-4 shadow-sm">
+                        <a href="/blog/2014-03-08-joy-of-coding-2014-my-impressions/" class="primary-font card-title">
+                            <h5 class="card-title bg-transparent" title="Joy of Coding 2014 - My impressions">Joy of Coding 2014 - My …</h5>
+                        </a>
+                        <div class="card-text secondary-font">
+                            <p><div dir="ltr" style="text-align: left;" trbidi="on">I haven't been to a conference for years, but this year I decided to join <a href="http://joyofcoding.org/">Joy of Coding</a>. And I don't regret it!<br /><br />The conference started with a keynote by Dan North: "Accelerating Agile: hyper-performing       without the hype". Dan described what he learnt about Agile while working in the trading …</div></p>
+                        </div>
+                    </div>
+                    <div class="mt-auto post-footer bg-transparent py-3">
+                        <span class="float-start bg-transparent">Mar 8, 2014</span>
+                        <a href="/blog/2014-03-08-joy-of-coding-2014-my-impressions/" class="float-end btn btn-outline-info btn-sm">Read</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-lg-4 col-md-6 my-3">
+            <div class="card-columns">
+                <div class="card h-100">
+                    
+                    <div class="card-body bg-transparent p-4 shadow-sm">
+                        <a href="/blog/2013-11-28-my-first-book-review/" class="primary-font card-title">
+                            <h5 class="card-title bg-transparent" title="My first book review">My first book review</h5>
+                        </a>
+                        <div class="card-text secondary-font">
+                            <p><div dir="ltr" style="text-align: left;" trbidi="on">During the last month(s) I participated in the review process of a book about Design Patterns in Python. I am happy to see that the book has been released. The title of it is <a href="http://www.packtpub.com/learning-python-design-patterns/book">Learning Python Design Patterns</a>.<br /><br />Reviewing a book is definitely not harder than writing one, but that doesn't mean that it's …</div></p>
+                        </div>
+                    </div>
+                    <div class="mt-auto post-footer bg-transparent py-3">
+                        <span class="float-start bg-transparent">Nov 28, 2013</span>
+                        <a href="/blog/2013-11-28-my-first-book-review/" class="float-end btn btn-outline-info btn-sm">Read</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-lg-4 col-md-6 my-3">
+            <div class="card-columns">
+                <div class="card h-100">
+                    
+                    <div class="card-body bg-transparent p-4 shadow-sm">
+                        <a href="/blog/2013-07-28-mbed-usb-voltmeter/" class="primary-font card-title">
+                            <h5 class="card-title bg-transparent" title="mbed USB voltmeter">mbed USB voltmeter</h5>
+                        </a>
+                        <div class="card-text secondary-font">
+                            <p><div dir="ltr" style="text-align: left;" trbidi="on">USB communication with mbed is easy. That's because USB is the default protocol used to transfer programs from a computer to an mbed.<br /><br />In this prototype I measure the analog value of a pot, I convert it to  voltage, and finally I use USB to print it on my computer's  screen. That's a simplistic …</div></p>
+                        </div>
+                    </div>
+                    <div class="mt-auto post-footer bg-transparent py-3">
+                        <span class="float-start bg-transparent">Jul 28, 2013</span>
+                        <a href="/blog/2013-07-28-mbed-usb-voltmeter/" class="float-end btn btn-outline-info btn-sm">Read</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-lg-4 col-md-6 my-3">
+            <div class="card-columns">
+                <div class="card h-100">
+                    
+                    <div class="card-body bg-transparent p-4 shadow-sm">
+                        <a href="/blog/2013-06-15-numeric-string-sorting-in-ruby/" class="primary-font card-title">
+                            <h5 class="card-title bg-transparent" title="Numerical string sorting in Ruby">Numerical string sorting …</h5>
+                        </a>
+                        <div class="card-text secondary-font">
+                            <p>The problem: You have an unsorted array of strings (product codes, area codes, etc.) containing both letters and numbers (for example 'A28', 'A3', 'A1', etc.) and you want to sort them numerically (that is, 'A1', 'A2', ..., 'An'). Ruby offers a <span style="font-family: &quot;Courier New&quot;,Courier,monospace;">sort</span> method, so let's see what it does...<br /><br /><script src="https://gist.github.com/faif/5786178.js?file=sort.rb"></script> Nope, that's …</p>
+                        </div>
+                    </div>
+                    <div class="mt-auto post-footer bg-transparent py-3">
+                        <span class="float-start bg-transparent">Jun 15, 2013</span>
+                        <a href="/blog/2013-06-15-numeric-string-sorting-in-ruby/" class="float-end btn btn-outline-info btn-sm">Read</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-lg-4 col-md-6 my-3">
+            <div class="card-columns">
+                <div class="card h-100">
+                    
+                    <div class="card-body bg-transparent p-4 shadow-sm">
+                        <a href="/blog/2013-03-23-why-you-should-try-emacs-if-you-are/" class="primary-font card-title">
+                            <h5 class="card-title bg-transparent" title="Why you should try Emacs if you are a Bash user">Why you should try Emacs …</h5>
+                        </a>
+                        <div class="card-text secondary-font">
+                            <p><div dir="ltr" style="text-align: left;" trbidi="on">Are you a GNU Bash user but you are not using Emacs? Perhaps you should consider trying it. You will be amazed by the similarities...<br /><br />I know, your IDE (Eclipse, QT, etc.) is superior and you are extremely productive with it. Why bother using an ancient editor like Emacs? I will not begin another …</div></p>
+                        </div>
+                    </div>
+                    <div class="mt-auto post-footer bg-transparent py-3">
+                        <span class="float-start bg-transparent">Mar 23, 2013</span>
+                        <a href="/blog/2013-03-23-why-you-should-try-emacs-if-you-are/" class="float-end btn btn-outline-info btn-sm">Read</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-lg-4 col-md-6 my-3">
+            <div class="card-columns">
+                <div class="card h-100">
+                    
+                    <div class="card-body bg-transparent p-4 shadow-sm">
+                        <a href="/blog/2013-01-04-data-structures-and-algorithms-101-part/" class="primary-font card-title">
+                            <h5 class="card-title bg-transparent" title="Data Structures and Algorithms 101 part two: Queues">Data Structures and …</h5>
+                        </a>
+                        <div class="card-text secondary-font">
+                            <p><div dir="ltr" style="text-align: left;" trbidi="on"><h3 style="text-align: left;">Definition </h3>Think of a queue as a line of people waiting to buy a ticket for an event (music concert, film, etc.).<br /><br /><table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="http://4.bp.blogspot.com/-KwTq6z26_yo/UNyrDwvyqPI/AAAAAAAAAE8/SImW5YezxFo/s1600/line.jpg" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" src="http://4.bp.blogspot.com/-KwTq6z26_yo/UNyrDwvyqPI/AAAAAAAAAE8/SImW5YezxFo/s400/line.jpg" height="300" width="400" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">Photo Credit: Bryan Bedder/Getty Images for Tribeca Film Festival</td><td class="tr-caption" style="text-align: center;"><div style="background-color: white; border: medium none; color: black; overflow: hidden; text-align: left; text-decoration: none;"><br /></div></td></tr></tbody></table>In the queue shown at the picture, a person who just arrives to buy a ticket goes to the left side (unless cheating) and a …</div></p>
+                        </div>
+                    </div>
+                    <div class="mt-auto post-footer bg-transparent py-3">
+                        <span class="float-start bg-transparent">Jan 4, 2013</span>
+                        <a href="/blog/2013-01-04-data-structures-and-algorithms-101-part/" class="float-end btn btn-outline-info btn-sm">Read</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-lg-4 col-md-6 my-3">
+            <div class="card-columns">
+                <div class="card h-100">
+                    
+                    <div class="card-body bg-transparent p-4 shadow-sm">
+                        <a href="/blog/2012-10-06-interview-question-remove-duplicate/" class="primary-font card-title">
+                            <h5 class="card-title bg-transparent" title="Interview question: Remove duplicate characters">Interview question: …</h5>
+                        </a>
+                        <div class="card-text secondary-font">
+                            <p><div dir="ltr" style="text-align: left;" trbidi="on">Let's assume that we are asked to solve the following problem in a programming interview: "Write a function that removes all duplicate characters from a string". Piece of cake, you might think. Surely they are not asking us to write a Web Browser but there must be a reason for that.<br /><br /><h3 style="text-align: left;">Test first</h3>The …</div></p>
+                        </div>
+                    </div>
+                    <div class="mt-auto post-footer bg-transparent py-3">
+                        <span class="float-start bg-transparent">Oct 6, 2012</span>
+                        <a href="/blog/2012-10-06-interview-question-remove-duplicate/" class="float-end btn btn-outline-info btn-sm">Read</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-lg-4 col-md-6 my-3">
+            <div class="card-columns">
+                <div class="card h-100">
+                    
+                    <div class="card-body bg-transparent p-4 shadow-sm">
+                        <a href="/blog/2012-09-23-data-structures-and-algorithms-101-part/" class="primary-font card-title">
+                            <h5 class="card-title bg-transparent" title="Data Structures and Algorithms 101 part one: Stacks">Data Structures and …</h5>
+                        </a>
+                        <div class="card-text secondary-font">
+                            <p><div dir="ltr" style="text-align: left;" trbidi="on"><div dir="ltr" style="text-align: left;" trbidi="on"><h3 style="text-align: left;">Rationale (boring)</h3>I decided to write down some notes about common (and maybe less common) Data Structures and Algorithms. This is the first part, covering stacks.<br /><br /><h3 style="text-align: left;">Definition</h3>Think of a stack as a pile of books.<br /><br /><table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="http://3.bp.blogspot.com/-89gwMK_cF6Y/UF9MEcR1B0I/AAAAAAAAACw/gNWHlhOk1oA/s1600/2012-09-22+20.18.02.jpg" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" height="107" src="http://3.bp.blogspot.com/-89gwMK_cF6Y/UF9MEcR1B0I/AAAAAAAAACw/gNWHlhOk1oA/s320/2012-09-22+20.18.02.jpg" width="320" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">A stack looks like a pile of books</td></tr></tbody></table>If I want to study "Modern Operating Systems", I first …</div></div></p>
+                        </div>
+                    </div>
+                    <div class="mt-auto post-footer bg-transparent py-3">
+                        <span class="float-start bg-transparent">Sep 23, 2012</span>
+                        <a href="/blog/2012-09-23-data-structures-and-algorithms-101-part/" class="float-end btn btn-outline-info btn-sm">Read</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="row justify-content-center">
+            <div class="col-auto m-3">
+                
+    <ul class="pagination pagination-default">
+      <li class="page-item">
+        <a href="/blog/" aria-label="First" class="page-link" role="button"><span aria-hidden="true">&laquo;&laquo;</span></a>
+      </li>
+      <li class="page-item">
+        <a href="/blog/page/3/" aria-label="Previous" class="page-link" role="button"><span aria-hidden="true">&laquo;</span></a>
+      </li>
+      <li class="page-item">
+        <a href="/blog/page/2/" aria-label="Page 2" class="page-link" role="button">2</a>
+      </li>
+      <li class="page-item">
+        <a href="/blog/page/3/" aria-label="Page 3" class="page-link" role="button">3</a>
+      </li>
+      <li class="page-item active">
+        <a aria-current="page" aria-label="Page 4" class="page-link" role="button">4</a>
+      </li>
+      <li class="page-item">
+        <a href="/blog/page/5/" aria-label="Page 5" class="page-link" role="button">5</a>
+      </li>
+      <li class="page-item">
+        <a href="/blog/page/6/" aria-label="Page 6" class="page-link" role="button">6</a>
+      </li>
+      <li class="page-item">
+        <a href="/blog/page/5/" aria-label="Next" class="page-link" role="button"><span aria-hidden="true">&raquo;</span></a>
+      </li>
+      <li class="page-item">
+        <a href="/blog/page/6/" aria-label="Last" class="page-link" role="button"><span aria-hidden="true">&raquo;&raquo;</span></a>
+      </li>
+    </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+  </div><footer>
+    
+ 
+ 
+<div class="container py-3" id="recent-posts">
+    
+    
+    <div class="h3 text-center text-secondary py-3">
+        Recent Posts
+    </div>
+    <div class="row justify-content-center">
+        
+        <div class="col-lg-4 col-md-6 pt-2">
+            <div class="card h-100">
+                
+                <div class="card-body bg-transparent p-3 shadow-sm">
+                    <a href="/blog/2022-12-29-dirty-clouds/" class="primary-font card-title">
+                        <h5 class="card-title bg-transparent" title="Dirty clouds">Dirty clouds</h5>
+                    </a>
+                    <div class="card-text secondary-font">
+                        <p><p><img src="/assets/cloud.png" alt="Cloud and Linux"></p>
+<p>Ideally, all resources of a cloud environment should be handled by Infrastructure As Code (<abbr title="Infrastructure As Code">IAC</abbr>). At work, we are using Terraform to do this. But as usual, the ideal situation is never what happens in practice. So, it is not uncommon for people to change things directly on the cloud environment: in …</p></p>
+                    </div>
+                </div>
+                <div class="mt-auto card-footer">
+                    <span class="float-start">Dec 29, 2022</span>
+                    <a href="/blog/2022-12-29-dirty-clouds/" class="float-end btn btn-outline-info btn-sm">Read</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-lg-4 col-md-6 pt-2">
+            <div class="card h-100">
+                
+                <div class="card-body bg-transparent p-3 shadow-sm">
+                    <a href="/blog/2022-11-09-bye-experia/" class="primary-font card-title">
+                        <h5 class="card-title bg-transparent" title="Bye bye Experia Box (V10)">Bye bye Experia Box (V10)</h5>
+                    </a>
+                    <div class="card-text secondary-font">
+                        <p><p><img src="/assets/experia.jpeg" alt="WAN settings"></p>
+<p>This is something that I wanted to do for years, and it finally happened. I got rid of the Experia Box.</p>
+<p>You know the story. You switched to a fiber Internet connection. Is there anything better? I love it!</p>
+<p>And then comes your &ldquo;generous&rdquo; <abbr title="Internet Service Provider">ISP</abbr>. They gave you the Experia Box, in my case V10 …</p></p>
+                    </div>
+                </div>
+                <div class="mt-auto card-footer">
+                    <span class="float-start">Nov 9, 2022</span>
+                    <a href="/blog/2022-11-09-bye-experia/" class="float-end btn btn-outline-info btn-sm">Read</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-lg-4 col-md-6 pt-2">
+            <div class="card h-100">
+                
+                <div class="card-body bg-transparent p-3 shadow-sm">
+                    <a href="/blog/2022-07-29-map-no-side-effects/" class="primary-font card-title">
+                        <h5 class="card-title bg-transparent" title="Map results should be free from side-effects">Map results should be …</h5>
+                    </a>
+                    <div class="card-text secondary-font">
+                        <p><p>When we want to write code that operates on a data structure, it is common to initially implement it for a single item, and then make it more general. In functional languages like Clojure, I use the following pattern a lot, to execute a function on all items of a data structure (aka collection, or …</p></p>
+                    </div>
+                </div>
+                <div class="mt-auto card-footer">
+                    <span class="float-start">Jul 29, 2022</span>
+                    <a href="/blog/2022-07-29-map-no-side-effects/" class="float-end btn btn-outline-info btn-sm">Read</a>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</div>
+
+<div class="text-center pt-2">
+    
+
+    
+
+    
+
+    
+
+    
+</div><div class="container py-4">
+    <div class="row justify-content-center">
+        <div class="col-md-4 text-center">
+            &copy; 2024  Licensed under CC BY 4.0
+        </div>
+    </div>
+</div>
+</footer><script src="/bootstrap-5/js/bootstrap.bundle.min.js"></script>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+    var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+        return new bootstrap.Tooltip(tooltipTriggerEl)
+    })
+
+</script>
+
+
+    <script src="/js/search.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+  <section id="search-content" class="py-2">
+    <div class="container" id="search-results"></div>
+  </section>
+</body>
+
+</html>

@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html>
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta http-equiv="Accept-CH" content="DPR, Viewport-Width, Width">
+<link rel="icon" href=/images/lambda.png type="image/gif">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload"
+      as="style"
+      href="https://fonts.googleapis.com/css2?family=Alata&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+>
+<link rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Alata&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      media="print" onload="this.media='all'" />
+<noscript>
+  <link
+          href="https://fonts.googleapis.com/css2?family=Alata&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+          rel="stylesheet">
+</noscript>
+
+
+<link rel="stylesheet" href="/css/font.css" media="all">
+
+
+
+<meta property="og:url" content="http://localhost:1313/post/2015-11-20-joy-of-coding-2015-review/">
+  <meta property="og:site_name" content="Sakis Kasampalis - Personal homepage">
+  <meta property="og:title" content="Joy Of Coding 2015 Review">
+  <meta property="og:description" content="Like last year, Joy of Coding 2015 was a great conference. This year the conference took place during May, for once again in Rotterdam. The organisation was similar to that of last year: A few common talks, but also parallel talks and workshops.
+The conference this year started with a keynote by Chris Granger (@ibdknox): &#34;Programming as distributed cognition: Defining a super power&#34;. I missed the beginning of the keynote but AFAIU Chris wanted to stress the importance of using programming as an exploration tool. In that sense, we should create programming tools that make it easier for scientists to model problems and experiment quickly. His tools Light Table and Eve focus on those aspects.
+Next, I watched the presentation &#34;Joy of testing&#34; by John Hughes. The quote of this presentation was &#34;Do not write tests, generate them!&#34;. Indeed, using the Erlang version of QuickCheck, John showed a live demo of discovering and fixing bugs using generated tests. John also explained his personal experiences of using the same tools to discover and fix bugs that existed in concurrent Erlang production code (AFAIR the code was used in the automotive industry).
+The next speaker was Laurent Bossavit (@Morendil). This keynote was more over psychology than technology. But it seems that there&#39;s a deep connection between the two. Laurent suffered by depression and according to him depression is a feature and not a bug. It is very important to be able to debug ourselves, and not just programs. We should stay away from things that make as sad and focus on the things that make us happy. As an example, you might be able to find a COBOL job that pays well, but does COBOL really make you happy? Maybe a job with a lower salary but more fun (think of python, arduino, etc.) is better for you.
+The next keynote was about &#34;Mutation testing&#34; by Roy van Rijn. Roy believes that mutation testing, a technique for measuring the quality of unit tests, is better than code coverage. There&#39;s an actual Java tool that can be used to explore this area: Judy. A mutant is a version of a program with a modified operator. For example replacing logical AND with logical OR. Killing a mutant means that the incorrect behaviour of the modified code is detected properly and reported, and that&#39;s what basically Judy does. I&#39;ve never tried mutation testing. Maybe one day I will...
+I enjoyed the next talk by Crista Lopes (@cristalopes) a lot. Crista is the author of a really nice programming book that anyone who is involved with programming should read: Exercises in Programming Style. The book uses a simple concept: Implement the same program using the  same language (Python) in 33 different styles! A style is basically a form of a programming paradigm (think of object-oriented, functional, procedural, etc.). During the talk Crista demonstrated a subset of the 33 styles of her book. The purpose of Crista&#39;s talk (and AFAIU that&#39;s also the focus point of the book) was not to compare the different styles and take sides, but to stress the importance of recognising and understanding the different styles. I can&#39;t agree more. There&#39;s no best programming style for all purposes, and we should be able to work with all of them. BTW there&#39;s a GitHub repository with the styles.
+The workshop that I picked for Joy of Coding 2015 was about &#34;Property based testing&#34;, by Marc Evers, Rob Westgeest, and Willem van den Ende. Property based testing is about the automatic generation of unit tests for a system by describing its properties. The benefit of using property based testing instead of unit testing is that it (a) takes less time since the tests are generated, (b) is more reliable than manual writing since humans tend to forget to cover all possible cases.
+During the workshop we used Javascript (NodeJs and JSVerify) and went through several examples.
+The closing keynote couldn&#39;t be better. A mix of jokes and programming advices by Kevlin Henney (@KevlinHenney), by checking nice (and not so nice) pieces of code written by various programmers in different languages. Studying code written by others is something that is important and we all need to do.
+Yet another good year for Joy of Coding. I hope that it will continue to use the same successful recipe in the years to come... :)">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="post">
+    <meta property="article:published_time" content="2015-11-20T19:42:00+00:00">
+    <meta property="article:modified_time" content="2015-11-20T19:42:00+00:00">
+    <meta property="article:tag" content="Conference">
+    <meta property="article:tag" content="2015">
+    <meta property="article:tag" content="Joy of Coding">
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Joy Of Coding 2015 Review">
+  <meta name="twitter:description" content="Like last year, Joy of Coding 2015 was a great conference. This year the conference took place during May, for once again in Rotterdam. The organisation was similar to that of last year: A few common talks, but also parallel talks and workshops.
+The conference this year started with a keynote by Chris Granger (@ibdknox): &#34;Programming as distributed cognition: Defining a super power&#34;. I missed the beginning of the keynote but AFAIU Chris wanted to stress the importance of using programming as an exploration tool. In that sense, we should create programming tools that make it easier for scientists to model problems and experiment quickly. His tools Light Table and Eve focus on those aspects.
+Next, I watched the presentation &#34;Joy of testing&#34; by John Hughes. The quote of this presentation was &#34;Do not write tests, generate them!&#34;. Indeed, using the Erlang version of QuickCheck, John showed a live demo of discovering and fixing bugs using generated tests. John also explained his personal experiences of using the same tools to discover and fix bugs that existed in concurrent Erlang production code (AFAIR the code was used in the automotive industry).
+The next speaker was Laurent Bossavit (@Morendil). This keynote was more over psychology than technology. But it seems that there&#39;s a deep connection between the two. Laurent suffered by depression and according to him depression is a feature and not a bug. It is very important to be able to debug ourselves, and not just programs. We should stay away from things that make as sad and focus on the things that make us happy. As an example, you might be able to find a COBOL job that pays well, but does COBOL really make you happy? Maybe a job with a lower salary but more fun (think of python, arduino, etc.) is better for you.
+The next keynote was about &#34;Mutation testing&#34; by Roy van Rijn. Roy believes that mutation testing, a technique for measuring the quality of unit tests, is better than code coverage. There&#39;s an actual Java tool that can be used to explore this area: Judy. A mutant is a version of a program with a modified operator. For example replacing logical AND with logical OR. Killing a mutant means that the incorrect behaviour of the modified code is detected properly and reported, and that&#39;s what basically Judy does. I&#39;ve never tried mutation testing. Maybe one day I will...
+I enjoyed the next talk by Crista Lopes (@cristalopes) a lot. Crista is the author of a really nice programming book that anyone who is involved with programming should read: Exercises in Programming Style. The book uses a simple concept: Implement the same program using the  same language (Python) in 33 different styles! A style is basically a form of a programming paradigm (think of object-oriented, functional, procedural, etc.). During the talk Crista demonstrated a subset of the 33 styles of her book. The purpose of Crista&#39;s talk (and AFAIU that&#39;s also the focus point of the book) was not to compare the different styles and take sides, but to stress the importance of recognising and understanding the different styles. I can&#39;t agree more. There&#39;s no best programming style for all purposes, and we should be able to work with all of them. BTW there&#39;s a GitHub repository with the styles.
+The workshop that I picked for Joy of Coding 2015 was about &#34;Property based testing&#34;, by Marc Evers, Rob Westgeest, and Willem van den Ende. Property based testing is about the automatic generation of unit tests for a system by describing its properties. The benefit of using property based testing instead of unit testing is that it (a) takes less time since the tests are generated, (b) is more reliable than manual writing since humans tend to forget to cover all possible cases.
+During the workshop we used Javascript (NodeJs and JSVerify) and went through several examples.
+The closing keynote couldn&#39;t be better. A mix of jokes and programming advices by Kevlin Henney (@KevlinHenney), by checking nice (and not so nice) pieces of code written by various programmers in different languages. Studying code written by others is something that is important and we all need to do.
+Yet another good year for Joy of Coding. I hope that it will continue to use the same successful recipe in the years to come... :)">
+
+
+<link rel="stylesheet" href="/bootstrap-5/css/bootstrap.min.css" media="all"><link rel="stylesheet" href="/css/header.css" media="all">
+<link rel="stylesheet" href="/css/footer.css" media="all">
+
+
+<link rel="stylesheet" href="/css/theme.css" media="all">
+
+<style>
+    :root {
+        --text-color: #343a40;
+        --text-secondary-color: #6c757d;
+        --text-link-color: #007bff;
+        --background-color: #eaedf0;
+        --secondary-background-color: #64ffda1a;
+        --primary-color: #007bff;
+        --secondary-color: #f8f9fa;
+
+         
+        --text-color-dark: #e4e6eb;
+        --text-secondary-color-dark: #b0b3b8;
+        --text-link-color-dark: #ffffff;
+        --background-color-dark: #18191a;
+        --secondary-background-color-dark: #212529;
+        --primary-color-dark: #ffffff;
+        --secondary-color-dark: #212529;
+    }
+    body {
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        text-align: left;
+    }
+
+    html {
+        background-color: var(--background-color) !important;
+    }
+
+    body::-webkit-scrollbar {
+        height: 0px;
+        width: 8px;
+        background-color: var(--background-color);
+    }
+
+    ::-webkit-scrollbar-track {
+        border-radius: 1rem;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        border-radius: 1rem;
+        background: #b0b0b0;
+        outline: 1px solid var(--background-color);
+    }
+
+    #search-content::-webkit-scrollbar {
+        width: .5em;
+        height: .1em;
+        background-color: var(--background-color);
+    }
+</style>
+
+
+
+<meta name="description" content="">
+<link rel="stylesheet" href="/css/single.css">
+
+
+<script defer src="/fontawesome-6/all-6.4.2.js"></script>
+
+
+  
+  
+
+  <title>
+Joy Of Coding 2015 Review | Sakis Kasampalis - Personal homepage
+
+  </title>
+</head>
+
+<body class="light">
+  
+  
+<script>
+    let localStorageValue = localStorage.getItem("pref-theme");
+    let mediaQuery = window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+    switch (localStorageValue) {
+        case "dark":
+            document.body.classList.add('dark');
+            break;
+        case "light":
+            document.body.classList.remove('dark');
+            break;
+        default:
+            if (mediaQuery) {
+                document.body.classList.add('dark');
+            }
+            break;
+    }
+</script>
+
+
+
+
+<script>
+    var prevScrollPos = window.pageYOffset;
+    window.addEventListener("scroll", function showHeaderOnScroll() {
+        let profileHeaderElem = document.getElementById("profileHeader");
+        let currentScrollPos = window.pageYOffset;
+        let resetHeaderStyle = false;
+        let showNavBarOnScrollUp =  true ;
+        let showNavBar = showNavBarOnScrollUp ? prevScrollPos > currentScrollPos : currentScrollPos > 0;
+        if (showNavBar) {
+            profileHeaderElem.classList.add("showHeaderOnTop");
+        } else {
+            resetHeaderStyle = true;
+        }
+        if(currentScrollPos === 0) {
+            resetHeaderStyle = true;
+        }
+        if(resetHeaderStyle) {
+            profileHeaderElem.classList.remove("showHeaderOnTop");
+        }
+        prevScrollPos = currentScrollPos;
+    });
+</script>
+
+
+
+<header id="profileHeader">
+    <nav class="pt-3 navbar navbar-expand-lg animate">
+        <div class="container-fluid mx-xs-2 mx-sm-5 mx-md-5 mx-lg-5">
+            
+            <a class="navbar-brand primary-font text-wrap" href="/">
+                
+                <img src="/images/lambda.png" width="30" height="30"
+                    class="d-inline-block align-top">
+                
+                
+            </a>
+
+            
+                <div>
+                    <input id="search" autocomplete="off" class="form-control mr-sm-2 d-none d-md-block" placeholder='Ctrl &#43; k to Search...'
+                        aria-label="Search" oninput="searchOnChange(event)">
+                </div>
+            
+
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
+                aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                <svg aria-hidden="true" height="24" viewBox="0 0 16 16" version="1.1" width="24" data-view-component="true">
+                    <path fill-rule="evenodd" d="M1 2.75A.75.75 0 011.75 2h12.5a.75.75 0 110 1.5H1.75A.75.75 0 011 2.75zm0 5A.75.75 0 011.75 7h12.5a.75.75 0 110 1.5H1.75A.75.75 0 011 7.75zM1.75 12a.75.75 0 100 1.5h12.5a.75.75 0 100-1.5H1.75z"></path>
+                </svg>
+            </button>
+
+            
+            <div class="collapse navbar-collapse text-wrap primary-font" id="navbarContent">
+                <ul class="navbar-nav ms-auto text-center">
+                    
+                        <li class="nav-item navbar-text d-block d-md-none">
+                            <div class="nav-link">
+                                <input id="search" autocomplete="off" class="form-control mr-sm-2" placeholder='Ctrl &#43; k to Search...' aria-label="Search" oninput="searchOnChange(event)">
+                            </div>
+                        </li>
+                    
+
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="/#about" aria-label="about">
+                            About
+                        </a>
+                    </li>
+                    
+
+                    
+
+                    
+
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="/#projects"
+                            aria-label="projects">
+                            Portfolio
+                        </a>
+                    </li>
+                    
+
+                    
+
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="/#contact"
+                            aria-label="contact">
+                            Contact
+                        </a>
+                    </li>
+                    
+
+                    
+
+                    
+                    
+                    
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="/blog" title="Blog posts">
+                            
+                            Blog
+                        </a>
+                    </li>
+                    
+                    
+
+                    
+                    <li class="nav-item navbar-text">
+                        
+                        <div class="text-center">
+                            <button id="theme-toggle">
+                                <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                                </svg>
+                                <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <circle cx="12" cy="12" r="5"></circle>
+                                    <line x1="12" y1="1" x2="12" y2="3"></line>
+                                    <line x1="12" y1="21" x2="12" y2="23"></line>
+                                    <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                                    <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                                    <line x1="1" y1="12" x2="3" y2="12"></line>
+                                    <line x1="21" y1="12" x2="23" y2="12"></line>
+                                    <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                                    <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                                </svg>
+                            </button>
+                        </div>
+                    </li>
+                    
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+</header>
+<div id="content">
+<section id="single">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-sm-12 col-md-12 col-lg-9">
+        <div class="pr-lg-4">
+          <div class="title mb-5">
+            <h1 class="text-center mb-4">Joy Of Coding 2015 Review</h1>
+            <div class="text-center">
+              
+                Sakis Kasampallis
+                <small>|</small>
+              
+              Nov 20, 2015
+
+              
+              <span id="readingTime">
+                min read
+              </span>
+              
+            </div>
+          </div>
+          
+          <article class="page-content  p-2">
+          
+<div dir="ltr" style="text-align: left;" trbidi="on">Like <a href="http://sakiskasampalis.blogspot.nl/2014/03/joy-of-coding-2014-my-impressions.html">last year</a>, Joy of Coding 2015 was a great conference. This year the conference took place during May, for once again in Rotterdam. The organisation was similar to that of last year: A few common talks, but also parallel talks and workshops.<br /><div><br /></div><div>The conference this year started with a keynote by Chris Granger (@ibdknox): "Programming as distributed cognition: Defining a super power". I missed the beginning of the keynote but AFAIU Chris wanted to stress the importance of using programming as an exploration tool. In that sense, we should create programming tools that make it easier for scientists to model problems and experiment quickly. His tools&nbsp;<a href="http://lighttable.com/">Light Table</a>&nbsp;and Eve focus on those aspects.</div><div><div style="text-align: left;"><br /></div></div><div>Next, I watched the presentation "Joy of testing" by John Hughes. The quote of this presentation was "Do not write tests, generate them!". Indeed, using the Erlang version of QuickCheck, John showed a live demo of discovering and fixing bugs using generated tests. John also explained his personal experiences of using the same tools to discover and fix bugs that existed in concurrent Erlang production code (AFAIR the code was used in the automotive industry).</div><div><br /></div><div>The next speaker was Laurent Bossavit (@Morendil). This keynote was more over psychology than technology. But it seems that there's a deep connection between the two. Laurent suffered by depression and according to him depression is a feature and not a bug. It is very important to be able to debug ourselves, and not just programs. We should stay away from things that make as sad and focus on the things that make us happy. As an example, you might be able to find a COBOL job that pays well, but does COBOL really make you happy? Maybe a job with a lower salary but more fun (think of python, arduino, etc.) is better for you.</div><div><br /></div><div>The next keynote was about "Mutation testing" by Roy van Rijn. Roy believes that mutation testing, a technique for measuring the quality of unit tests, is better than code coverage. There's an actual Java tool that can be used to explore this area: <a href="http://mutationtesting.org/">Judy</a>. A mutant is a version of a program with a modified operator. For example replacing logical AND with logical OR. Killing a mutant means that the incorrect behaviour of the modified code is detected properly and reported, and that's what basically Judy does. I've never tried mutation testing. Maybe one day I will...<br /><br />I enjoyed the next talk by Crista Lopes (@cristalopes) a lot. Crista is the author of a really nice programming book that anyone who is involved with programming should read:&nbsp;<a href="http://www.amazon.com/Exercises-Programming-Style-Cristina-Videira/dp/1482227371/">Exercises in Programming Style</a>. The book uses a simple concept: Implement the same program using the &nbsp;same language (Python) in 33 different styles! A style is basically a form of a programming paradigm (think of object-oriented, functional, procedural, etc.). During the talk Crista demonstrated a subset of the 33 styles of her book. The purpose of Crista's talk (and AFAIU that's also the focus point of the book) was not to compare the different styles and take sides, but to stress the importance of recognising and understanding the different styles. I can't agree more. There's no best programming style for all purposes, and we should be able to work with all of them. BTW there's a GitHub <a href="https://github.com/crista/exercises-in-programming-style">repository</a> with the styles.<br /><br />The workshop that I picked for Joy of Coding 2015 was about "Property based testing", by Marc Evers, Rob Westgeest, and Willem van den Ende. Property based testing is about the automatic generation of unit tests for a system by describing its properties. The benefit of using property based testing instead of unit testing is that it (a) takes less time since the tests are generated, (b) is more reliable than manual writing since humans tend to forget to cover all possible cases.<br />During the workshop we used Javascript (NodeJs and JSVerify) and went through several examples.<br /><br />The closing keynote couldn't be better. A mix of jokes and programming advices by Kevlin Henney (@KevlinHenney), by checking nice (and not so nice) pieces of code written by various programmers in different languages. Studying code written by others is something that is important and we all need to do.<br /><br />Yet another good year for Joy of Coding. I hope that it will continue to use the same successful recipe in the years to come... :)</div></div>
+          </article>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-12 col-lg-3">
+        <div id="stickySideBar" class="sticky-sidebar">
+          
+          <aside class="toc">
+              <h5>
+                Table Of Contents
+              </h5>
+              <div class="toc-content">
+                
+              </div>
+          </aside>
+          
+
+          
+          <aside class="tags">
+            <h5>Tags</h5>
+            <ul class="tags-ul list-unstyled list-inline">
+              
+              <li class="list-inline-item"><a href="http://localhost:1313/tags/conference"
+                target="_blank"
+              >conference</a></li>
+              
+              <li class="list-inline-item"><a href="http://localhost:1313/tags/2015"
+                target="_blank"
+              >2015</a></li>
+              
+              <li class="list-inline-item"><a href="http://localhost:1313/tags/joy-of-coding"
+                target="_blank"
+              >joy of coding</a></li>
+              
+            </ul>
+          </aside>
+          
+
+          
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12 col-md-12 col-lg-9 p-4">
+        
+      </div>
+    </div>
+  </div>
+  <button class="p-2 px-3" onclick="topFunction()" id="topScroll">
+    <i class="fas fa-angle-up"></i>
+  </button>
+</section>
+
+
+<div class="progress">
+  <div id="scroll-progress-bar" class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+</div>
+<Script src="/js/scrollProgressBar.js"></script>
+
+
+<script>
+  var topScroll = document.getElementById("topScroll");
+  window.onscroll = function() {scrollFunction()};
+
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      topScroll.style.display = "block";
+    } else {
+      topScroll.style.display = "none";
+    }
+  }
+
+  function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+
+  
+  let stickySideBarElem = document.getElementById("stickySideBar");
+  let stickyNavBar =  true ;
+  if(stickyNavBar) {
+    let headerElem = document.getElementById("profileHeader");
+    let headerHeight = headerElem.offsetHeight + 15;
+    stickySideBarElem.style.top = headerHeight + "px";
+  } else {
+    stickySideBarElem.style.top = "50px";
+  }
+</script>
+
+
+<script src="/js/readingTime.js"></script>
+
+
+
+  </div><footer>
+    
+ 
+
+<div class="text-center pt-2">
+    
+
+    
+
+    
+
+    
+
+    
+</div><div class="container py-4">
+    <div class="row justify-content-center">
+        <div class="col-md-4 text-center">
+            
+                <div class="pb-2">
+                    <a href="http://localhost:1313/" title="Sakis Kasampalis - Personal homepage">
+                        <img alt="Footer logo" src="/images/lambda.png"
+                            height="40px" width="40px">
+                    </a>
+                </div>
+            
+            &copy; 2024  All rights reserved
+            <div class="text-secondary">
+                Made with
+                <span class="text-danger">
+                    &#10084;
+                </span>
+                and
+                <a href="https://github.com/gurusabarish/hugo-profile" target="_blank"
+                    title="Designed and developed by gurusabarish">
+                    Hugo Profile
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+</footer><script src="/bootstrap-5/js/bootstrap.bundle.min.js"></script>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+    var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+        return new bootstrap.Tooltip(tooltipTriggerEl)
+    })
+
+</script>
+
+
+    <script src="/js/search.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+  <section id="search-content" class="py-2">
+    <div class="container" id="search-results"></div>
+  </section>
+</body>
+
+</html>

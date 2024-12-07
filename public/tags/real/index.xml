@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Real on Sakis Kasampalis - Personal homepage</title>
+    <link>http://localhost:1313/tags/real/</link>
+    <description>Recent content in Real on Sakis Kasampalis - Personal homepage</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 21 Jun 2021 17:40:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/real/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Don&#39;t use a real programming language</title>
+      <link>http://localhost:1313/blog/2021-06-21-real-languages/</link>
+      <pubDate>Mon, 21 Jun 2021 17:40:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/2021-06-21-real-languages/</guid>
+      <description>&lt;p&gt;I like Prolog. I think that it&amp;rsquo;s a brilliant tool. And not purely educational, unlike what many people think. You can actually use it to build real, useful, and practical applications: sudoku solvers, adventure games, formal logical systems, and a lot more. It might not be the best tool for developing AAA games and real-time systems, but that doesn&amp;rsquo;t make it useless. I discovered Prolog during university, and I appreciate it since then.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html>
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta http-equiv="Accept-CH" content="DPR, Viewport-Width, Width">
+<link rel="icon" href=/images/lambda.png type="image/gif">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload"
+      as="style"
+      href="https://fonts.googleapis.com/css2?family=Alata&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+>
+<link rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Alata&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      media="print" onload="this.media='all'" />
+<noscript>
+  <link
+          href="https://fonts.googleapis.com/css2?family=Alata&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+          rel="stylesheet">
+</noscript>
+
+
+<link rel="stylesheet" href="/css/font.css" media="all">
+
+
+
+<meta property="og:url" content="http://localhost:1313/post/2015-03-15-playing-with-microcontrollers/">
+  <meta property="og:site_name" content="Sakis Kasampalis - Personal homepage">
+  <meta property="og:title" content="Playing with microcontrollers">
+  <meta property="og:description" content="The last training course that I followed was about programming microcontrollers. The course was given by Leon van Snippenberg, who has very good expertise in microcontrollers.
+For the practical part of the course we used the Microchip dsPIC33F, a 16-bit architecture 40 MHZ microcontroller (system on a chip solution). I admit that I&#39;m not very fond of this proprietary platform, so I enjoyed the theoretical part of the course much more than the practical. I would be more excited if we have used an open hardware solution like arduino, Raspberry Pi, or something comparable.
+A few highlights from the course:
+A three-operand assembly instruction does not necessarily mean that three registers are used. For example ADD W0, W1, W0 uses only one register.Most microcontrollers use the Harvard instead of the Von Neumann architecture. This means that there are two distinct address buses, as well as two data buses (instead of one address and one data bus).When writing code in assembly we should avoid thinking about code optimisation, since the code is usually very fast to execute (but very slow to produce).A common problem when programming microcontrollers is read-modify-write. One way to solve it is using shadow registers.When programming a microcontroller using a C interface and interrupts, it is very important to use the volatile keyword to disable optimisations that might remove code that seems to be dead but is actually used. Because of that, it is also very important to test the code with all compiler optimisation levels enabled, to ensure that it doesn&#39;t break.The hardware timers of a platform do not need to follow the same architecture with the processor. For example a platform might use a 16-bit processor with 32-bit timers.Buffers and interrupts are used to solve communication problems between different devices (e.g. a computer communicating with a microcontroller using the serial port).When dealing with non-deterministic problems, disabling interrupts is the most favoured solution.Using a real-time operating system (RTOS) simplifies programming, because we avoid the need to write complex state machines and custom schedulers (those problems are already solved in the RTOS).Multicore support in RTOS is a challenge (unsolved problem?).
+We (me and my colleague) challenged Leon by questioning why would one prefer a much more expensive solution like the dsPIC* family of Microchip instead of Raspberry Pi or arduino. The price of the latest Pi is unbeatable. The response was that we should use whatever fits our purpose, and that the Pi manages to achieve such a low price because its makers can estimate in advance the minimum numbers of units that will be sold. Those manufacturing deals are critical in forming the end price of a prototyping platform.
+So far I only own an mbed LPC1768 and I&#39;m very satisfied with it. I hope that I&#39;ll build some more advanced prototypes in the future, but you have to start from something. I began with flashing LEDs
+Continued with adding some basic components like a button
+And at some point I built my first practical prototype: a darkness-activated LED
+Isn&#39;t that nice? In my future posts the plan is to spend more time on explaining the code of prototypes like the last one. For now you can check my mbed repository page.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="post">
+    <meta property="article:published_time" content="2015-03-15T18:35:00+00:00">
+    <meta property="article:modified_time" content="2015-03-15T18:35:00+00:00">
+    <meta property="article:tag" content="Arm">
+    <meta property="article:tag" content="Mbed">
+    <meta property="article:tag" content="Course">
+    <meta property="article:tag" content="Programming">
+    <meta property="article:tag" content="Microcontroller">
+    <meta property="article:tag" content="Review">
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Playing with microcontrollers">
+  <meta name="twitter:description" content="The last training course that I followed was about programming microcontrollers. The course was given by Leon van Snippenberg, who has very good expertise in microcontrollers.
+For the practical part of the course we used the Microchip dsPIC33F, a 16-bit architecture 40 MHZ microcontroller (system on a chip solution). I admit that I&#39;m not very fond of this proprietary platform, so I enjoyed the theoretical part of the course much more than the practical. I would be more excited if we have used an open hardware solution like arduino, Raspberry Pi, or something comparable.
+A few highlights from the course:
+A three-operand assembly instruction does not necessarily mean that three registers are used. For example ADD W0, W1, W0 uses only one register.Most microcontrollers use the Harvard instead of the Von Neumann architecture. This means that there are two distinct address buses, as well as two data buses (instead of one address and one data bus).When writing code in assembly we should avoid thinking about code optimisation, since the code is usually very fast to execute (but very slow to produce).A common problem when programming microcontrollers is read-modify-write. One way to solve it is using shadow registers.When programming a microcontroller using a C interface and interrupts, it is very important to use the volatile keyword to disable optimisations that might remove code that seems to be dead but is actually used. Because of that, it is also very important to test the code with all compiler optimisation levels enabled, to ensure that it doesn&#39;t break.The hardware timers of a platform do not need to follow the same architecture with the processor. For example a platform might use a 16-bit processor with 32-bit timers.Buffers and interrupts are used to solve communication problems between different devices (e.g. a computer communicating with a microcontroller using the serial port).When dealing with non-deterministic problems, disabling interrupts is the most favoured solution.Using a real-time operating system (RTOS) simplifies programming, because we avoid the need to write complex state machines and custom schedulers (those problems are already solved in the RTOS).Multicore support in RTOS is a challenge (unsolved problem?).
+We (me and my colleague) challenged Leon by questioning why would one prefer a much more expensive solution like the dsPIC* family of Microchip instead of Raspberry Pi or arduino. The price of the latest Pi is unbeatable. The response was that we should use whatever fits our purpose, and that the Pi manages to achieve such a low price because its makers can estimate in advance the minimum numbers of units that will be sold. Those manufacturing deals are critical in forming the end price of a prototyping platform.
+So far I only own an mbed LPC1768 and I&#39;m very satisfied with it. I hope that I&#39;ll build some more advanced prototypes in the future, but you have to start from something. I began with flashing LEDs
+Continued with adding some basic components like a button
+And at some point I built my first practical prototype: a darkness-activated LED
+Isn&#39;t that nice? In my future posts the plan is to spend more time on explaining the code of prototypes like the last one. For now you can check my mbed repository page.">
+
+
+<link rel="stylesheet" href="/bootstrap-5/css/bootstrap.min.css" media="all"><link rel="stylesheet" href="/css/header.css" media="all">
+<link rel="stylesheet" href="/css/footer.css" media="all">
+
+
+<link rel="stylesheet" href="/css/theme.css" media="all">
+
+<style>
+    :root {
+        --text-color: #343a40;
+        --text-secondary-color: #6c757d;
+        --text-link-color: #007bff;
+        --background-color: #eaedf0;
+        --secondary-background-color: #64ffda1a;
+        --primary-color: #007bff;
+        --secondary-color: #f8f9fa;
+
+         
+        --text-color-dark: #e4e6eb;
+        --text-secondary-color-dark: #b0b3b8;
+        --text-link-color-dark: #ffffff;
+        --background-color-dark: #18191a;
+        --secondary-background-color-dark: #212529;
+        --primary-color-dark: #ffffff;
+        --secondary-color-dark: #212529;
+    }
+    body {
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        text-align: left;
+    }
+
+    html {
+        background-color: var(--background-color) !important;
+    }
+
+    body::-webkit-scrollbar {
+        height: 0px;
+        width: 8px;
+        background-color: var(--background-color);
+    }
+
+    ::-webkit-scrollbar-track {
+        border-radius: 1rem;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        border-radius: 1rem;
+        background: #b0b0b0;
+        outline: 1px solid var(--background-color);
+    }
+
+    #search-content::-webkit-scrollbar {
+        width: .5em;
+        height: .1em;
+        background-color: var(--background-color);
+    }
+</style>
+
+
+
+<meta name="description" content="">
+<link rel="stylesheet" href="/css/single.css">
+
+
+<script defer src="/fontawesome-6/all-6.4.2.js"></script>
+
+
+  
+  
+
+  <title>
+Playing with microcontrollers | Sakis Kasampalis - Personal homepage
+
+  </title>
+</head>
+
+<body class="light">
+  
+  
+<script>
+    let localStorageValue = localStorage.getItem("pref-theme");
+    let mediaQuery = window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+    switch (localStorageValue) {
+        case "dark":
+            document.body.classList.add('dark');
+            break;
+        case "light":
+            document.body.classList.remove('dark');
+            break;
+        default:
+            if (mediaQuery) {
+                document.body.classList.add('dark');
+            }
+            break;
+    }
+</script>
+
+
+
+
+<script>
+    var prevScrollPos = window.pageYOffset;
+    window.addEventListener("scroll", function showHeaderOnScroll() {
+        let profileHeaderElem = document.getElementById("profileHeader");
+        let currentScrollPos = window.pageYOffset;
+        let resetHeaderStyle = false;
+        let showNavBarOnScrollUp =  true ;
+        let showNavBar = showNavBarOnScrollUp ? prevScrollPos > currentScrollPos : currentScrollPos > 0;
+        if (showNavBar) {
+            profileHeaderElem.classList.add("showHeaderOnTop");
+        } else {
+            resetHeaderStyle = true;
+        }
+        if(currentScrollPos === 0) {
+            resetHeaderStyle = true;
+        }
+        if(resetHeaderStyle) {
+            profileHeaderElem.classList.remove("showHeaderOnTop");
+        }
+        prevScrollPos = currentScrollPos;
+    });
+</script>
+
+
+
+<header id="profileHeader">
+    <nav class="pt-3 navbar navbar-expand-lg animate">
+        <div class="container-fluid mx-xs-2 mx-sm-5 mx-md-5 mx-lg-5">
+            
+            <a class="navbar-brand primary-font text-wrap" href="/">
+                
+                <img src="/images/lambda.png" width="30" height="30"
+                    class="d-inline-block align-top">
+                
+                
+            </a>
+
+            
+                <div>
+                    <input id="search" autocomplete="off" class="form-control mr-sm-2 d-none d-md-block" placeholder='Ctrl &#43; k to Search...'
+                        aria-label="Search" oninput="searchOnChange(event)">
+                </div>
+            
+
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
+                aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                <svg aria-hidden="true" height="24" viewBox="0 0 16 16" version="1.1" width="24" data-view-component="true">
+                    <path fill-rule="evenodd" d="M1 2.75A.75.75 0 011.75 2h12.5a.75.75 0 110 1.5H1.75A.75.75 0 011 2.75zm0 5A.75.75 0 011.75 7h12.5a.75.75 0 110 1.5H1.75A.75.75 0 011 7.75zM1.75 12a.75.75 0 100 1.5h12.5a.75.75 0 100-1.5H1.75z"></path>
+                </svg>
+            </button>
+
+            
+            <div class="collapse navbar-collapse text-wrap primary-font" id="navbarContent">
+                <ul class="navbar-nav ms-auto text-center">
+                    
+                        <li class="nav-item navbar-text d-block d-md-none">
+                            <div class="nav-link">
+                                <input id="search" autocomplete="off" class="form-control mr-sm-2" placeholder='Ctrl &#43; k to Search...' aria-label="Search" oninput="searchOnChange(event)">
+                            </div>
+                        </li>
+                    
+
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="/#about" aria-label="about">
+                            About
+                        </a>
+                    </li>
+                    
+
+                    
+
+                    
+
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="/#projects"
+                            aria-label="projects">
+                            Portfolio
+                        </a>
+                    </li>
+                    
+
+                    
+
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="/#contact"
+                            aria-label="contact">
+                            Contact
+                        </a>
+                    </li>
+                    
+
+                    
+
+                    
+                    
+                    
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="/blog" title="Blog posts">
+                            
+                            Blog
+                        </a>
+                    </li>
+                    
+                    
+
+                    
+                    <li class="nav-item navbar-text">
+                        
+                        <div class="text-center">
+                            <button id="theme-toggle">
+                                <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                                </svg>
+                                <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <circle cx="12" cy="12" r="5"></circle>
+                                    <line x1="12" y1="1" x2="12" y2="3"></line>
+                                    <line x1="12" y1="21" x2="12" y2="23"></line>
+                                    <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                                    <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                                    <line x1="1" y1="12" x2="3" y2="12"></line>
+                                    <line x1="21" y1="12" x2="23" y2="12"></line>
+                                    <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                                    <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                                </svg>
+                            </button>
+                        </div>
+                    </li>
+                    
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+</header>
+<div id="content">
+<section id="single">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-sm-12 col-md-12 col-lg-9">
+        <div class="pr-lg-4">
+          <div class="title mb-5">
+            <h1 class="text-center mb-4">Playing with microcontrollers</h1>
+            <div class="text-center">
+              
+                Sakis Kasampallis
+                <small>|</small>
+              
+              Mar 15, 2015
+
+              
+              <span id="readingTime">
+                min read
+              </span>
+              
+            </div>
+          </div>
+          
+          <article class="page-content  p-2">
+          
+<div dir="ltr" style="text-align: left;" trbidi="on">The last training course that I followed was about programming microcontrollers. The course was given by Leon van Snippenberg, who has very good expertise in microcontrollers.<br /><br />For the practical part of the course we used the Microchip dsPIC33F, a 16-bit architecture 40 MHZ microcontroller (system on a chip solution). I admit that I'm not very fond of this proprietary platform, so I enjoyed the theoretical part of the course much more than the practical. I would be more excited if we have used an open hardware solution like arduino, Raspberry Pi, or something comparable.<br /><br />A few highlights from the course:<br /><ul style="text-align: left;"><li>A three-operand assembly instruction does not necessarily mean that three registers are used. For example <span style="font-family: Courier New, Courier, monospace;">ADD W0, W1, W0</span> uses only one register.</li><li>Most microcontrollers use the Harvard instead of the&nbsp;<span style="color: #252525; font-family: sans-serif; font-size: 14px; line-height: 22px;">Von Neumann</span>&nbsp;architecture. This means that there are two distinct address buses, as well as two data buses (instead of one address and one data bus).</li><li>When writing code in assembly we should avoid thinking about code optimisation, since the code is usually very fast to execute (but very slow to produce).</li><li>A common problem when programming microcontrollers is <a href="http://www.piclist.com/techref/readmodwrite.htm">read-modify-write</a>. One way to solve it is using shadow registers.</li><li>When programming a microcontroller using a C interface and interrupts, it is very important to use the <span style="font-family: Courier New, Courier, monospace;">volatile</span> keyword to disable optimisations that might remove code that seems to be dead but is actually used. Because of that, it is also very important to test the code with all compiler optimisation levels enabled, to ensure that it doesn't break.</li><li>The hardware timers of a platform do not need to follow the same architecture with the processor. For example a platform might use a 16-bit processor with 32-bit timers.</li><li>Buffers and interrupts are used to solve communication problems between different devices (e.g. a computer communicating with a microcontroller using the serial port).</li><li>When dealing with non-deterministic problems, disabling interrupts is the most favoured solution.</li><li>Using a real-time operating system (RTOS) simplifies programming, because we avoid the need to write complex state machines and custom schedulers (those problems are already solved in the RTOS).</li><li>Multicore support in RTOS is a challenge (unsolved problem?).</li></ul><div><br /></div><div>We (me and my colleague) challenged Leon by questioning why would one prefer a much more expensive solution like the dsPIC* family of Microchip instead of Raspberry Pi or arduino. The price of the latest Pi is unbeatable. The response was that we should use whatever fits our purpose, and that the Pi manages to achieve such a low price because its makers can estimate in advance the minimum numbers of units that will be sold. Those manufacturing deals are critical in forming the end price of a prototyping platform.</div><div><br /></div><div><br /></div><div>So far I only own an mbed LPC1768 and I'm very satisfied with it. I hope that I'll build some more advanced prototypes in the future, but you have to start from something. I began with flashing LEDs<br /><br /></div><div><iframe allowfullscreen="" frameborder="0" height="889" mozallowfullscreen="" src="https://player.vimeo.com/video/120307094" webkitallowfullscreen="" width="500"></iframe><br /><br /><br />Continued with adding some basic components like a button<br /><br /><iframe allowfullscreen="" frameborder="0" height="889" mozallowfullscreen="" src="https://player.vimeo.com/video/120957456" webkitallowfullscreen="" width="500"></iframe></div><div><br /><br />And at some point I built my first practical prototype: a darkness-activated LED<br /><br /></div><iframe allowfullscreen="" frameborder="0" height="889" mozallowfullscreen="" src="https://player.vimeo.com/video/120970019" webkitallowfullscreen="" width="500"></iframe> <br />Isn't that nice? In my future posts the plan is to spend more time on explaining the code of prototypes like the last one. For now you can check my <a href="http://developer.mbed.org/users/faif/">mbed repository</a> page.</div>
+          </article>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-12 col-lg-3">
+        <div id="stickySideBar" class="sticky-sidebar">
+          
+          <aside class="toc">
+              <h5>
+                Table Of Contents
+              </h5>
+              <div class="toc-content">
+                
+              </div>
+          </aside>
+          
+
+          
+          <aside class="tags">
+            <h5>Tags</h5>
+            <ul class="tags-ul list-unstyled list-inline">
+              
+              <li class="list-inline-item"><a href="http://localhost:1313/tags/arm"
+                target="_blank"
+              >arm</a></li>
+              
+              <li class="list-inline-item"><a href="http://localhost:1313/tags/mbed"
+                target="_blank"
+              >mbed</a></li>
+              
+              <li class="list-inline-item"><a href="http://localhost:1313/tags/course"
+                target="_blank"
+              >course</a></li>
+              
+              <li class="list-inline-item"><a href="http://localhost:1313/tags/programming"
+                target="_blank"
+              >programming</a></li>
+              
+              <li class="list-inline-item"><a href="http://localhost:1313/tags/microcontroller"
+                target="_blank"
+              >microcontroller</a></li>
+              
+              <li class="list-inline-item"><a href="http://localhost:1313/tags/review"
+                target="_blank"
+              >review</a></li>
+              
+              <li class="list-inline-item"><a href="http://localhost:1313/tags/embedded-system"
+                target="_blank"
+              >embedded system</a></li>
+              
+              <li class="list-inline-item"><a href="http://localhost:1313/tags/lpc1768"
+                target="_blank"
+              >LPC1768</a></li>
+              
+            </ul>
+          </aside>
+          
+
+          
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12 col-md-12 col-lg-9 p-4">
+        
+      </div>
+    </div>
+  </div>
+  <button class="p-2 px-3" onclick="topFunction()" id="topScroll">
+    <i class="fas fa-angle-up"></i>
+  </button>
+</section>
+
+
+<div class="progress">
+  <div id="scroll-progress-bar" class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+</div>
+<Script src="/js/scrollProgressBar.js"></script>
+
+
+<script>
+  var topScroll = document.getElementById("topScroll");
+  window.onscroll = function() {scrollFunction()};
+
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      topScroll.style.display = "block";
+    } else {
+      topScroll.style.display = "none";
+    }
+  }
+
+  function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+
+  
+  let stickySideBarElem = document.getElementById("stickySideBar");
+  let stickyNavBar =  true ;
+  if(stickyNavBar) {
+    let headerElem = document.getElementById("profileHeader");
+    let headerHeight = headerElem.offsetHeight + 15;
+    stickySideBarElem.style.top = headerHeight + "px";
+  } else {
+    stickySideBarElem.style.top = "50px";
+  }
+</script>
+
+
+<script src="/js/readingTime.js"></script>
+
+
+
+  </div><footer>
+    
+ 
+
+<div class="text-center pt-2">
+    
+
+    
+
+    
+
+    
+
+    
+</div><div class="container py-4">
+    <div class="row justify-content-center">
+        <div class="col-md-4 text-center">
+            
+                <div class="pb-2">
+                    <a href="http://localhost:1313/" title="Sakis Kasampalis - Personal homepage">
+                        <img alt="Footer logo" src="/images/lambda.png"
+                            height="40px" width="40px">
+                    </a>
+                </div>
+            
+            &copy; 2024  All rights reserved
+            <div class="text-secondary">
+                Made with
+                <span class="text-danger">
+                    &#10084;
+                </span>
+                and
+                <a href="https://github.com/gurusabarish/hugo-profile" target="_blank"
+                    title="Designed and developed by gurusabarish">
+                    Hugo Profile
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+</footer><script src="/bootstrap-5/js/bootstrap.bundle.min.js"></script>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+    var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+        return new bootstrap.Tooltip(tooltipTriggerEl)
+    })
+
+</script>
+
+
+    <script src="/js/search.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+  <section id="search-content" class="py-2">
+    <div class="container" id="search-results"></div>
+  </section>
+</body>
+
+</html>

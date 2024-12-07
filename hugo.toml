@@ -22,7 +22,7 @@ identifier = "blog"
 name = "Blog"
 title = "Blog posts"
 url = "/blog"
-weight = 2
+weight = 1
 
 [params]
 title = ""
@@ -195,17 +195,17 @@ btnName = "Contact me"
 btnLink = "/files/cv.pdf"
 
 [params.footer.recentPosts]
-path = "blogs"
+path = "blog"
 count = 3
 title = "Recent Posts"
 enable = true
-disableFeaturedImage = false
+disableFeaturedImage = true
 
 [params.listPages]
-disableFeaturedImage = false
+disableFeaturedImage = true
 
 [params.singlePages]
-socialShare = true
+socialShare = false
 
 [params.singlePages.readTime]
 enable = true
@@ -220,11 +220,15 @@ openInNewTab = true
 [params.terms]
 read = "Read"
 toc = "Table Of Contents"
-copyright = "All rights reserved"
-pageNotFound = "Page not found"
+copyright = "Licensed under CC BY 4.0"
+pageNotFound = "Oops, nothing found! But keep looking around..."
 emailText = "Check out this site"
 
 [params.datesFormat]
 article = "Jan 2, 2006"
 articleList = "Jan 2, 2006"
 articleRecent = "Jan 2, 2006"
+
+[services]
+[services.disqus]
+shortname = 'ieraks'

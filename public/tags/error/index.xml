@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Error on Sakis Kasampalis - Personal homepage</title>
+    <link>http://localhost:1313/tags/error/</link>
+    <description>Recent content in Error on Sakis Kasampalis - Personal homepage</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 19 Apr 2014 16:13:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/error/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>BASH: syntax error near unexpected token `(&#39;</title>
+      <link>http://localhost:1313/blog/2014-04-19-bash-syntax-error-near-unexpected-token/</link>
+      <pubDate>Sat, 19 Apr 2014 16:13:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/2014-04-19-bash-syntax-error-near-unexpected-token/</guid>
+      <description>&lt;div dir=&#34;ltr&#34; style=&#34;text-align: left;&#34; trbidi=&#34;on&#34;&gt;After making some portability and readability improvements to &lt;a href=&#34;https://github.com/faif/shell-utils&#34;&gt;&lt;span style=&#34;font-family: &amp;quot;Courier New&amp;quot;,Courier,monospace;&#34;&gt;shell-utils&lt;/span&gt;&lt;/a&gt;, I used BASH, sh, and dash to test it. While sh and dash were fine, BASH returned the error:&lt;br /&gt;&lt;br /&gt;&lt;b&gt;line 358: syntax error near unexpected token `(&#39;&lt;/b&gt;&lt;br /&gt;&lt;b&gt;line 358: `ls ()&#39;&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;That is strange. BASH usually introduces shell portability issues because of the extra features it provides, so I would expect to have a problem with the other shells.&lt;br /&gt;&lt;br /&gt;It turns out that BASH did a pretty good job with reporting the source of the error. Note that &lt;span style=&#34;font-family: &amp;quot;Courier New&amp;quot;,Courier,monospace;&#34;&gt;shell-utils&lt;/span&gt; redefines a few everyday commands as functions, to make them more verbose and &lt;strike&gt;secure&lt;/strike&gt; safe (eg. &lt;span style=&#34;font-family: &amp;quot;Courier New&amp;quot;,Courier,monospace;&#34;&gt;ls&lt;/span&gt; becomes &lt;span style=&#34;font-family: &amp;quot;Courier New&amp;quot;,Courier,monospace;&#34;&gt;ls --color=auto&lt;/span&gt;, &lt;span style=&#34;font-family: &amp;quot;Courier New&amp;quot;,Courier,monospace;&#34;&gt;rm&lt;/span&gt; becomes &lt;span style=&#34;font-family: &amp;quot;Courier New&amp;quot;,Courier,monospace;&#34;&gt;rm -i&lt;/span&gt;, etc.). But usually those everyday commands are already defined as aliases in .bashrc. Aliases are evaluated before functions, and defining a function that has the same name as an alias is not allowed. And that&#39;s what BASH is trying to tell me in the error message. Commenting all aliases in .bashrc fixed the issue :)&lt;br /&gt;&lt;br /&gt;&lt;/div&gt;</description>
+    </item>
+  </channel>
+</rss>

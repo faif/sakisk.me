@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>S3 on Sakis Kasampalis - Personal homepage</title>
+    <link>http://localhost:1313/tags/s3/</link>
+    <description>Recent content in S3 on Sakis Kasampalis - Personal homepage</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 26 May 2022 19:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/s3/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Making S3 buckets public is not the solution</title>
+      <link>http://localhost:1313/blog/2022-05-26-no-s3-public/</link>
+      <pubDate>Thu, 26 May 2022 19:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/2022-05-26-no-s3-public/</guid>
+      <description>&lt;p&gt;After doing an IAM cleanup and creating user groups to limit user permissions, our data scientists at work reported a problem. They are using Athena and boto3 to access S3 buckets programmatically, and that stopped working. They started seeing the following error message instead:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;An error occurred &lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;AccessDeniedException&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt; when calling the StartQueryExecution operation...&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&#xA;&lt;p&gt;While looking for solutions, I was disappointed to see that almost all of them suggested modifying the bucket&amp;rsquo;s policy. Adding a custom S3 bucket policy means disabling the &amp;ldquo;Block all public access&amp;rdquo; default setting. Blocking all public access on S3 is a great practice. That&amp;rsquo;s what AWS recommends and we should not change it unless there&amp;rsquo;s a very serious reason to do so.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

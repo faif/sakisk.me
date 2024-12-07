@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Javascript on Sakis Kasampalis - Personal homepage</title>
+    <link>http://localhost:1313/tags/javascript/</link>
+    <description>Recent content in Javascript on Sakis Kasampalis - Personal homepage</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 15 Oct 2016 14:58:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Book review: Single Page Web Applications</title>
+      <link>http://localhost:1313/blog/2016-10-15-book-review-spa/</link>
+      <pubDate>Sat, 15 Oct 2016 14:58:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/2016-10-15-book-review-spa/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/assets/spa.jpg&#34; alt=&#34;Book cover&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;I decided to read &lt;a href=&#34;https://www.manning.com/books/single-page-web-applications&#34;&gt;this book&lt;/a&gt; because I wanted to learn about the architecture&#xA;and implementation of a Single Page Application (SPA). And it turned out to be&#xA;a good choice.&lt;/p&gt;&#xA;&lt;p&gt;What I particularly liked about the book is that it begins from scratch and&#xA;shows how to implement a SPA without relying on heavy frameworks. Whenever a&#xA;library is used, it is done with a purpose (clearly explained by the authors).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Book review: Pragmatic Guide to JavaScript</title>
+      <link>http://localhost:1313/blog/2015-11-09-book-review-pragmatic-guide-to/</link>
+      <pubDate>Mon, 09 Nov 2015 12:23:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/2015-11-09-book-review-pragmatic-guide-to/</guid>
+      <description>&lt;div dir=&#34;ltr&#34; style=&#34;text-align: left;&#34; trbidi=&#34;on&#34;&gt;&lt;div class=&#34;description markdown collapsible&#34;&gt;                &lt;div class=&#34;separator&#34; style=&#34;clear: both; text-align: center;&#34;&gt;&lt;a href=&#34;http://2.bp.blogspot.com/-c6J5_vJHboc/VkB_haMGIvI/AAAAAAAAAKA/2Q5WiYw-ljk/s1600/41D%252BipxJ7tL._SX331_BO1%252C204%252C203%252C200_.jpg&#34; imageanchor=&#34;1&#34; style=&#34;margin-left: 1em; margin-right: 1em;&#34;&gt;&lt;img border=&#34;0&#34; height=&#34;320&#34; src=&#34;http://2.bp.blogspot.com/-c6J5_vJHboc/VkB_haMGIvI/AAAAAAAAAKA/2Q5WiYw-ljk/s320/41D%252BipxJ7tL._SX331_BO1%252C204%252C203%252C200_.jpg&#34; width=&#34;213&#34; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;This was my first JavaScript book and I consider it a  good overview covering the pros and cons of the language. The author  gives good advice regarding which features of pure JavaScript are fine  to use and for which features a framework should be preferred to avoid  browser incompatibilities.&lt;br /&gt;&lt;br /&gt; Many popular applications are demonstrated (custom tooltips, infinite  scrolling, form validation, autocompletion, lightbox, 3rd party APIs)  and concepts such as client vs server programming are clearly explained.  Christophe&#39;s &lt;a href=&#34;http://www.amazon.com/Pragmatic-Guide-JavaScript-Programmers/product-reviews/1934356670/ref=cm_cr_dp_see_all_summary?ie=UTF8&amp;amp;showViewpoints=1&amp;amp;sortBy=byRankDescending&#34;&gt;focus on Prototype&lt;/a&gt; is not a problem for me. It&#39;s his  favorite framework and the one that he knows well, so it make sense that  he&#39;s using it for the demos.&lt;br /&gt;&lt;br /&gt;One practical problem: this book is not maintained any more, and as a consequence a few examples are broken, due to a domain that has expired and changes to the Twitter API. I contacted the author on &lt;a href=&#34;https://github.com/tdd/pragmatic-javascript/issues/2&#34;&gt;GitHub &lt;/a&gt;and he confirmed it. But still, for a book that was published five years ago it&#39;s a nice compact guide to people who are familiar with programming and want to focus on the specifics of JavaScript.&lt;br /&gt;              &lt;/div&gt;&lt;/div&gt;</description>
+    </item>
+  </channel>
+</rss>

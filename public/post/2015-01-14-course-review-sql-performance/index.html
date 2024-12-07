@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html>
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta http-equiv="Accept-CH" content="DPR, Viewport-Width, Width">
+<link rel="icon" href=/images/lambda.png type="image/gif">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload"
+      as="style"
+      href="https://fonts.googleapis.com/css2?family=Alata&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+>
+<link rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Alata&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      media="print" onload="this.media='all'" />
+<noscript>
+  <link
+          href="https://fonts.googleapis.com/css2?family=Alata&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+          rel="stylesheet">
+</noscript>
+
+
+<link rel="stylesheet" href="/css/font.css" media="all">
+
+
+
+<meta property="og:url" content="http://localhost:1313/post/2015-01-14-course-review-sql-performance/">
+  <meta property="og:site_name" content="Sakis Kasampalis - Personal homepage">
+  <meta property="og:title" content="Course review: SQL Performance">
+  <meta property="og:description" content="Update: Markus was kind enough to comment on my review. Regarding the &#34;minimise the number of tables to limit joins&#34; he said:
+it is often the best approach to store some attribute redundant (e.g. normalised as before plus wherever needed). Maintenance of this redundancy should be delegated to the database whenever possible (e.g. using triggers or materialised view). You should not do that before having those performance problems (avoid &#34;premature optimisation&#34;).Reducing the number of joins is a good way to get performance. But only once you are in that situation. And of course, there are other, simpler ways to improve performance that should be leveraged first (e.g, good-old indexing).So I&#39;m glad that we agree that normalisation is a good thing and that we should only try to find alternative solutions if nothing else (e.g. proper indexing) works.
+Markus also made an important comment about the column order in the WHERE clause that is not clarified in my original post:
+The column order in indexes matters a lot The column order in the WHERE clause doesn&#39;t matter (rare exceptions exist, but generally, it doesn&#39;t!).
+The original post starts here...
+Last October November I followed a course related to the performance of SQL. The course was given by Markus Winand. Although we don&#39;t agree on everything (for example I don&#39;t like the &#34;create as few tables as possible to minimise joins and achieve better performance&#34; principle because it is against normalisation) Markus has a great knowledge of general and RDBMS-specific performance related issues.
+I&#39;m glad that I followed this course. Markus gave us a copy of his book which is very compact and to the point. This is an example of a book that I would never consider reading but it turns out to be a hidden gem. I recommend it to everyone working with relational databases.
+It took me some time to write this post because I wanted to read the book first. In this book you will find things that you don&#39;t know for sure. For example, did you know that:
+When building indexes on more than one columns (concatenated indexes), the order of the columns matters a lot?The order of the statements in the WHERE part of a query affects whether a concatenated index is used or not?LIKE expressions with leading wildcards (eg. &#39;%SQL&#39;) cannot make use of an index?ORMs can cause big performance problems because of the bad queries that they generate?Selecting only the necessary columns (avoid SELECT *) can improve the performance of joins?An index that covers all the columns of an SQL query (including the columns of the SELECT part) does not need to access any other data structures except the index and improves the performance of a query enormously?ORDER BY and GROUP BY can also be indexed?
+The main message of the book is that indexes should be built by us, the developers, not by DBAs or anyone else. That&#39;s because only we know how the data are queried, and therefore only we can build the proper indexes.
+Personally, I&#39;m very sad to see how many features that are supported by other RDBMS are not supported by MySQL. To mention a few: indexing functions and expressions, partial indexes, indexing using ASC and DESC, window functions. Fortunately, MariaDB is getting there and I hope that we&#39;ll switch to it (at work) at some point.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="post">
+    <meta property="article:published_time" content="2015-01-14T21:30:00+00:00">
+    <meta property="article:modified_time" content="2015-01-14T21:30:00+00:00">
+    <meta property="article:tag" content="Course">
+    <meta property="article:tag" content="MySQL">
+    <meta property="article:tag" content="Performance">
+    <meta property="article:tag" content="Review">
+    <meta property="article:tag" content="Book">
+    <meta property="article:tag" content="Sql">
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Course review: SQL Performance">
+  <meta name="twitter:description" content="Update: Markus was kind enough to comment on my review. Regarding the &#34;minimise the number of tables to limit joins&#34; he said:
+it is often the best approach to store some attribute redundant (e.g. normalised as before plus wherever needed). Maintenance of this redundancy should be delegated to the database whenever possible (e.g. using triggers or materialised view). You should not do that before having those performance problems (avoid &#34;premature optimisation&#34;).Reducing the number of joins is a good way to get performance. But only once you are in that situation. And of course, there are other, simpler ways to improve performance that should be leveraged first (e.g, good-old indexing).So I&#39;m glad that we agree that normalisation is a good thing and that we should only try to find alternative solutions if nothing else (e.g. proper indexing) works.
+Markus also made an important comment about the column order in the WHERE clause that is not clarified in my original post:
+The column order in indexes matters a lot The column order in the WHERE clause doesn&#39;t matter (rare exceptions exist, but generally, it doesn&#39;t!).
+The original post starts here...
+Last October November I followed a course related to the performance of SQL. The course was given by Markus Winand. Although we don&#39;t agree on everything (for example I don&#39;t like the &#34;create as few tables as possible to minimise joins and achieve better performance&#34; principle because it is against normalisation) Markus has a great knowledge of general and RDBMS-specific performance related issues.
+I&#39;m glad that I followed this course. Markus gave us a copy of his book which is very compact and to the point. This is an example of a book that I would never consider reading but it turns out to be a hidden gem. I recommend it to everyone working with relational databases.
+It took me some time to write this post because I wanted to read the book first. In this book you will find things that you don&#39;t know for sure. For example, did you know that:
+When building indexes on more than one columns (concatenated indexes), the order of the columns matters a lot?The order of the statements in the WHERE part of a query affects whether a concatenated index is used or not?LIKE expressions with leading wildcards (eg. &#39;%SQL&#39;) cannot make use of an index?ORMs can cause big performance problems because of the bad queries that they generate?Selecting only the necessary columns (avoid SELECT *) can improve the performance of joins?An index that covers all the columns of an SQL query (including the columns of the SELECT part) does not need to access any other data structures except the index and improves the performance of a query enormously?ORDER BY and GROUP BY can also be indexed?
+The main message of the book is that indexes should be built by us, the developers, not by DBAs or anyone else. That&#39;s because only we know how the data are queried, and therefore only we can build the proper indexes.
+Personally, I&#39;m very sad to see how many features that are supported by other RDBMS are not supported by MySQL. To mention a few: indexing functions and expressions, partial indexes, indexing using ASC and DESC, window functions. Fortunately, MariaDB is getting there and I hope that we&#39;ll switch to it (at work) at some point.">
+
+
+<link rel="stylesheet" href="/bootstrap-5/css/bootstrap.min.css" media="all"><link rel="stylesheet" href="/css/header.css" media="all">
+<link rel="stylesheet" href="/css/footer.css" media="all">
+
+
+<link rel="stylesheet" href="/css/theme.css" media="all">
+
+<style>
+    :root {
+        --text-color: #343a40;
+        --text-secondary-color: #6c757d;
+        --text-link-color: #007bff;
+        --background-color: #eaedf0;
+        --secondary-background-color: #64ffda1a;
+        --primary-color: #007bff;
+        --secondary-color: #f8f9fa;
+
+         
+        --text-color-dark: #e4e6eb;
+        --text-secondary-color-dark: #b0b3b8;
+        --text-link-color-dark: #ffffff;
+        --background-color-dark: #18191a;
+        --secondary-background-color-dark: #212529;
+        --primary-color-dark: #ffffff;
+        --secondary-color-dark: #212529;
+    }
+    body {
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        text-align: left;
+    }
+
+    html {
+        background-color: var(--background-color) !important;
+    }
+
+    body::-webkit-scrollbar {
+        height: 0px;
+        width: 8px;
+        background-color: var(--background-color);
+    }
+
+    ::-webkit-scrollbar-track {
+        border-radius: 1rem;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        border-radius: 1rem;
+        background: #b0b0b0;
+        outline: 1px solid var(--background-color);
+    }
+
+    #search-content::-webkit-scrollbar {
+        width: .5em;
+        height: .1em;
+        background-color: var(--background-color);
+    }
+</style>
+
+
+
+<meta name="description" content="">
+<link rel="stylesheet" href="/css/single.css">
+
+
+<script defer src="/fontawesome-6/all-6.4.2.js"></script>
+
+
+  
+  
+
+  <title>
+Course review: SQL Performance | Sakis Kasampalis - Personal homepage
+
+  </title>
+</head>
+
+<body class="light">
+  
+  
+<script>
+    let localStorageValue = localStorage.getItem("pref-theme");
+    let mediaQuery = window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+    switch (localStorageValue) {
+        case "dark":
+            document.body.classList.add('dark');
+            break;
+        case "light":
+            document.body.classList.remove('dark');
+            break;
+        default:
+            if (mediaQuery) {
+                document.body.classList.add('dark');
+            }
+            break;
+    }
+</script>
+
+
+
+
+<script>
+    var prevScrollPos = window.pageYOffset;
+    window.addEventListener("scroll", function showHeaderOnScroll() {
+        let profileHeaderElem = document.getElementById("profileHeader");
+        let currentScrollPos = window.pageYOffset;
+        let resetHeaderStyle = false;
+        let showNavBarOnScrollUp =  true ;
+        let showNavBar = showNavBarOnScrollUp ? prevScrollPos > currentScrollPos : currentScrollPos > 0;
+        if (showNavBar) {
+            profileHeaderElem.classList.add("showHeaderOnTop");
+        } else {
+            resetHeaderStyle = true;
+        }
+        if(currentScrollPos === 0) {
+            resetHeaderStyle = true;
+        }
+        if(resetHeaderStyle) {
+            profileHeaderElem.classList.remove("showHeaderOnTop");
+        }
+        prevScrollPos = currentScrollPos;
+    });
+</script>
+
+
+
+<header id="profileHeader">
+    <nav class="pt-3 navbar navbar-expand-lg animate">
+        <div class="container-fluid mx-xs-2 mx-sm-5 mx-md-5 mx-lg-5">
+            
+            <a class="navbar-brand primary-font text-wrap" href="/">
+                
+                <img src="/images/lambda.png" width="30" height="30"
+                    class="d-inline-block align-top">
+                
+                
+            </a>
+
+            
+                <div>
+                    <input id="search" autocomplete="off" class="form-control mr-sm-2 d-none d-md-block" placeholder='Ctrl &#43; k to Search...'
+                        aria-label="Search" oninput="searchOnChange(event)">
+                </div>
+            
+
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
+                aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                <svg aria-hidden="true" height="24" viewBox="0 0 16 16" version="1.1" width="24" data-view-component="true">
+                    <path fill-rule="evenodd" d="M1 2.75A.75.75 0 011.75 2h12.5a.75.75 0 110 1.5H1.75A.75.75 0 011 2.75zm0 5A.75.75 0 011.75 7h12.5a.75.75 0 110 1.5H1.75A.75.75 0 011 7.75zM1.75 12a.75.75 0 100 1.5h12.5a.75.75 0 100-1.5H1.75z"></path>
+                </svg>
+            </button>
+
+            
+            <div class="collapse navbar-collapse text-wrap primary-font" id="navbarContent">
+                <ul class="navbar-nav ms-auto text-center">
+                    
+                        <li class="nav-item navbar-text d-block d-md-none">
+                            <div class="nav-link">
+                                <input id="search" autocomplete="off" class="form-control mr-sm-2" placeholder='Ctrl &#43; k to Search...' aria-label="Search" oninput="searchOnChange(event)">
+                            </div>
+                        </li>
+                    
+
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="/#about" aria-label="about">
+                            About
+                        </a>
+                    </li>
+                    
+
+                    
+
+                    
+
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="/#projects"
+                            aria-label="projects">
+                            Portfolio
+                        </a>
+                    </li>
+                    
+
+                    
+
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="/#contact"
+                            aria-label="contact">
+                            Contact
+                        </a>
+                    </li>
+                    
+
+                    
+
+                    
+                    
+                    
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="/blog" title="Blog posts">
+                            
+                            Blog
+                        </a>
+                    </li>
+                    
+                    
+
+                    
+                    <li class="nav-item navbar-text">
+                        
+                        <div class="text-center">
+                            <button id="theme-toggle">
+                                <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                                </svg>
+                                <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <circle cx="12" cy="12" r="5"></circle>
+                                    <line x1="12" y1="1" x2="12" y2="3"></line>
+                                    <line x1="12" y1="21" x2="12" y2="23"></line>
+                                    <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                                    <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                                    <line x1="1" y1="12" x2="3" y2="12"></line>
+                                    <line x1="21" y1="12" x2="23" y2="12"></line>
+                                    <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                                    <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                                </svg>
+                            </button>
+                        </div>
+                    </li>
+                    
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+</header>
+<div id="content">
+<section id="single">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-sm-12 col-md-12 col-lg-9">
+        <div class="pr-lg-4">
+          <div class="title mb-5">
+            <h1 class="text-center mb-4">Course review: SQL Performance</h1>
+            <div class="text-center">
+              
+                Sakis Kasampallis
+                <small>|</small>
+              
+              Jan 14, 2015
+
+              
+              <span id="readingTime">
+                min read
+              </span>
+              
+            </div>
+          </div>
+          
+          <article class="page-content  p-2">
+          
+<div dir="ltr" style="text-align: left;" trbidi="on"><b>Update:</b> Markus was kind enough to comment on my review. Regarding the "minimise the number of tables to limit joins" he said:<br /><blockquote class="tr_bq"><span style="font-family: Helvetica; font-size: 12px;">it is often the best approach to store some attribute redundant (e.g.&nbsp;</span><span style="font-family: Helvetica;"><span style="font-size: 12px;">normalised&nbsp;as before plus wherever needed). Maintenance of this&nbsp;</span></span><span style="font-family: Helvetica; font-size: 12px;">redundancy should be delegated to the database whenever possible (e.g.&nbsp;</span><span style="font-family: Helvetica;"><span style="font-size: 12px;">using triggers or&nbsp;materialised&nbsp;view). You should not do that before&nbsp;having those performance problems (avoid "premature&nbsp;optimisation").</span></span><span style="font-family: Helvetica; font-size: 12px;">Reducing the number of joins is a good way to get performance. But only once you are in that situation. And of course, there are other, simpler ways to improve performance that should be leveraged first (e.g, good-old indexing).</span></blockquote>So I'm glad that we agree that normalisation is a good thing and that we should only try to find alternative solutions if nothing else (e.g. proper indexing) works.<br /><br />Markus also made an important comment about the column order in the WHERE clause that is not clarified in my original post:<br /><blockquote class="tr_bq"><ul style="text-align: left;"><li><span style="font-family: Helvetica; font-size: 12px;">The column order in indexes matters a lot</span>&nbsp;</li></ul></blockquote><blockquote class="tr_bq"><ul style="text-align: left;"><li><span style="font-family: Helvetica; font-size: 12px;">The column order in the WHERE clause doesn't matter (rare exceptions exist, but generally, it doesn't!).</span></li></ul></blockquote><br /><br />The original post starts here...<br /><br />Last <strike>October</strike>&nbsp;November I followed a course related to the performance of SQL. The course was given by <a href="http://use-the-index-luke.com/">Markus Winand</a>. Although we don't agree on everything (for example I don't like the "create as few tables as possible to minimise joins and achieve better performance" principle because it is against normalisation) Markus has a great knowledge of general and RDBMS-specific performance related issues.<br /><br />I'm glad that I followed this course. Markus gave us a copy of <a href="http://sql-performance-explained.com/?utm_source=UTIL&amp;utm_medium=main&amp;utm_campaign=second">his book</a> which is very compact and to the point. This is an example of a book that I would never consider reading but it turns out to be a hidden gem. I recommend it to everyone working with relational databases.<br /><br />It took me some time to write this post because I wanted to read the book first. In this book you will find things that you don't know for sure. For example, did you know that:<br /><ul style="text-align: left;"><li>When building indexes on more than one columns (concatenated indexes), the order of the columns matters a lot?</li><li>The order of the statements in the <span style="font-family: &quot;Courier New&quot;,Courier,monospace;">WHERE</span> part of a query affects whether a concatenated index is used or not?</li><li><span style="font-family: &quot;Courier New&quot;,Courier,monospace;">LIKE</span> expressions with leading wildcards (eg. <span style="font-family: &quot;Courier New&quot;,Courier,monospace;">'%SQL'</span>) cannot make use of an index?</li><li>ORMs can cause big performance problems because of the bad queries that they generate?</li><li>Selecting only the necessary columns (avoid <span style="font-family: &quot;Courier New&quot;,Courier,monospace;">SELECT *</span>) can improve the performance of joins?</li><li>An index that covers all the columns of an SQL query (including the columns of the <span style="font-family: &quot;Courier New&quot;,Courier,monospace;">SELECT</span> part) does not need to access any other data structures except the index and improves the performance of a query enormously?</li><li><span style="font-family: &quot;Courier New&quot;,Courier,monospace;">ORDER BY</span> and <span style="font-family: &quot;Courier New&quot;,Courier,monospace;">GROUP BY</span> can also be indexed?</li></ul><br />The main message of the book is that indexes should be built by us, the developers, not by DBAs or anyone else. That's because only we know how the data are queried, and therefore only we can build the proper indexes.<br /><br />Personally, I'm very sad to see how many features that are supported by other RDBMS are not supported by MySQL. To mention a few: indexing functions and expressions, partial indexes, indexing using <span style="font-family: &quot;Courier New&quot;,Courier,monospace;">ASC</span> and <span style="font-family: &quot;Courier New&quot;,Courier,monospace;">DESC</span>, window functions. Fortunately, MariaDB is getting there and I hope that we'll switch to it (at work) at some point.</div>
+          </article>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-12 col-lg-3">
+        <div id="stickySideBar" class="sticky-sidebar">
+          
+          <aside class="toc">
+              <h5>
+                Table Of Contents
+              </h5>
+              <div class="toc-content">
+                
+              </div>
+          </aside>
+          
+
+          
+          <aside class="tags">
+            <h5>Tags</h5>
+            <ul class="tags-ul list-unstyled list-inline">
+              
+              <li class="list-inline-item"><a href="http://localhost:1313/tags/course"
+                target="_blank"
+              >course</a></li>
+              
+              <li class="list-inline-item"><a href="http://localhost:1313/tags/mysql"
+                target="_blank"
+              >MySQL</a></li>
+              
+              <li class="list-inline-item"><a href="http://localhost:1313/tags/performance"
+                target="_blank"
+              >performance</a></li>
+              
+              <li class="list-inline-item"><a href="http://localhost:1313/tags/review"
+                target="_blank"
+              >review</a></li>
+              
+              <li class="list-inline-item"><a href="http://localhost:1313/tags/book"
+                target="_blank"
+              >book</a></li>
+              
+              <li class="list-inline-item"><a href="http://localhost:1313/tags/sql"
+                target="_blank"
+              >sql</a></li>
+              
+            </ul>
+          </aside>
+          
+
+          
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12 col-md-12 col-lg-9 p-4">
+        
+      </div>
+    </div>
+  </div>
+  <button class="p-2 px-3" onclick="topFunction()" id="topScroll">
+    <i class="fas fa-angle-up"></i>
+  </button>
+</section>
+
+
+<div class="progress">
+  <div id="scroll-progress-bar" class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+</div>
+<Script src="/js/scrollProgressBar.js"></script>
+
+
+<script>
+  var topScroll = document.getElementById("topScroll");
+  window.onscroll = function() {scrollFunction()};
+
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      topScroll.style.display = "block";
+    } else {
+      topScroll.style.display = "none";
+    }
+  }
+
+  function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+
+  
+  let stickySideBarElem = document.getElementById("stickySideBar");
+  let stickyNavBar =  true ;
+  if(stickyNavBar) {
+    let headerElem = document.getElementById("profileHeader");
+    let headerHeight = headerElem.offsetHeight + 15;
+    stickySideBarElem.style.top = headerHeight + "px";
+  } else {
+    stickySideBarElem.style.top = "50px";
+  }
+</script>
+
+
+<script src="/js/readingTime.js"></script>
+
+
+
+  </div><footer>
+    
+ 
+
+<div class="text-center pt-2">
+    
+
+    
+
+    
+
+    
+
+    
+</div><div class="container py-4">
+    <div class="row justify-content-center">
+        <div class="col-md-4 text-center">
+            
+                <div class="pb-2">
+                    <a href="http://localhost:1313/" title="Sakis Kasampalis - Personal homepage">
+                        <img alt="Footer logo" src="/images/lambda.png"
+                            height="40px" width="40px">
+                    </a>
+                </div>
+            
+            &copy; 2024  All rights reserved
+            <div class="text-secondary">
+                Made with
+                <span class="text-danger">
+                    &#10084;
+                </span>
+                and
+                <a href="https://github.com/gurusabarish/hugo-profile" target="_blank"
+                    title="Designed and developed by gurusabarish">
+                    Hugo Profile
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+</footer><script src="/bootstrap-5/js/bootstrap.bundle.min.js"></script>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+    var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+        return new bootstrap.Tooltip(tooltipTriggerEl)
+    })
+
+</script>
+
+
+    <script src="/js/search.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+  <section id="search-content" class="py-2">
+    <div class="container" id="search-results"></div>
+  </section>
+</body>
+
+</html>

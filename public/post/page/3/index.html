@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html>
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta http-equiv="Accept-CH" content="DPR, Viewport-Width, Width">
+<link rel="icon" href=/images/lambda.png type="image/gif">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload"
+      as="style"
+      href="https://fonts.googleapis.com/css2?family=Alata&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+>
+<link rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Alata&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      media="print" onload="this.media='all'" />
+<noscript>
+  <link
+          href="https://fonts.googleapis.com/css2?family=Alata&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+          rel="stylesheet">
+</noscript>
+
+
+<link rel="stylesheet" href="/css/font.css" media="all">
+
+
+
+<meta property="og:url" content="http://localhost:1313/post/">
+  <meta property="og:site_name" content="Sakis Kasampalis - Personal homepage">
+  <meta property="og:title" content="Posts">
+  <meta property="og:description" content="Unix, Emacs, functional programming">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="website">
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Posts">
+  <meta name="twitter:description" content="Unix, Emacs, functional programming">
+
+
+<link rel="stylesheet" href="/bootstrap-5/css/bootstrap.min.css" media="all"><link rel="stylesheet" href="/css/header.css" media="all">
+<link rel="stylesheet" href="/css/footer.css" media="all">
+
+
+<link rel="stylesheet" href="/css/theme.css" media="all">
+
+<style>
+    :root {
+        --text-color: #343a40;
+        --text-secondary-color: #6c757d;
+        --text-link-color: #007bff;
+        --background-color: #eaedf0;
+        --secondary-background-color: #64ffda1a;
+        --primary-color: #007bff;
+        --secondary-color: #f8f9fa;
+
+         
+        --text-color-dark: #e4e6eb;
+        --text-secondary-color-dark: #b0b3b8;
+        --text-link-color-dark: #ffffff;
+        --background-color-dark: #18191a;
+        --secondary-background-color-dark: #212529;
+        --primary-color-dark: #ffffff;
+        --secondary-color-dark: #212529;
+    }
+    body {
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        text-align: left;
+    }
+
+    html {
+        background-color: var(--background-color) !important;
+    }
+
+    body::-webkit-scrollbar {
+        height: 0px;
+        width: 8px;
+        background-color: var(--background-color);
+    }
+
+    ::-webkit-scrollbar-track {
+        border-radius: 1rem;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        border-radius: 1rem;
+        background: #b0b0b0;
+        outline: 1px solid var(--background-color);
+    }
+
+    #search-content::-webkit-scrollbar {
+        width: .5em;
+        height: .1em;
+        background-color: var(--background-color);
+    }
+</style>
+
+
+
+<meta name="description" content="Posts of Sakis Kasampalis - Personal homepage">
+<link rel="stylesheet" href="/css/list.css" media="all">
+
+
+  
+  
+
+  <title>
+Posts | Sakis Kasampalis - Personal homepage
+
+  </title>
+</head>
+
+<body class="light">
+  
+  
+<script>
+    let localStorageValue = localStorage.getItem("pref-theme");
+    let mediaQuery = window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+    switch (localStorageValue) {
+        case "dark":
+            document.body.classList.add('dark');
+            break;
+        case "light":
+            document.body.classList.remove('dark');
+            break;
+        default:
+            if (mediaQuery) {
+                document.body.classList.add('dark');
+            }
+            break;
+    }
+</script>
+
+
+
+
+<script>
+    var prevScrollPos = window.pageYOffset;
+    window.addEventListener("scroll", function showHeaderOnScroll() {
+        let profileHeaderElem = document.getElementById("profileHeader");
+        let currentScrollPos = window.pageYOffset;
+        let resetHeaderStyle = false;
+        let showNavBarOnScrollUp =  true ;
+        let showNavBar = showNavBarOnScrollUp ? prevScrollPos > currentScrollPos : currentScrollPos > 0;
+        if (showNavBar) {
+            profileHeaderElem.classList.add("showHeaderOnTop");
+        } else {
+            resetHeaderStyle = true;
+        }
+        if(currentScrollPos === 0) {
+            resetHeaderStyle = true;
+        }
+        if(resetHeaderStyle) {
+            profileHeaderElem.classList.remove("showHeaderOnTop");
+        }
+        prevScrollPos = currentScrollPos;
+    });
+</script>
+
+
+
+<header id="profileHeader">
+    <nav class="pt-3 navbar navbar-expand-lg animate">
+        <div class="container-fluid mx-xs-2 mx-sm-5 mx-md-5 mx-lg-5">
+            
+            <a class="navbar-brand primary-font text-wrap" href="/">
+                
+                <img src="/images/lambda.png" width="30" height="30"
+                    class="d-inline-block align-top">
+                
+                
+            </a>
+
+            
+                <div>
+                    <input id="search" autocomplete="off" class="form-control mr-sm-2 d-none d-md-block" placeholder='Ctrl &#43; k to Search...'
+                        aria-label="Search" oninput="searchOnChange(event)">
+                </div>
+            
+
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
+                aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                <svg aria-hidden="true" height="24" viewBox="0 0 16 16" version="1.1" width="24" data-view-component="true">
+                    <path fill-rule="evenodd" d="M1 2.75A.75.75 0 011.75 2h12.5a.75.75 0 110 1.5H1.75A.75.75 0 011 2.75zm0 5A.75.75 0 011.75 7h12.5a.75.75 0 110 1.5H1.75A.75.75 0 011 7.75zM1.75 12a.75.75 0 100 1.5h12.5a.75.75 0 100-1.5H1.75z"></path>
+                </svg>
+            </button>
+
+            
+            <div class="collapse navbar-collapse text-wrap primary-font" id="navbarContent">
+                <ul class="navbar-nav ms-auto text-center">
+                    
+                        <li class="nav-item navbar-text d-block d-md-none">
+                            <div class="nav-link">
+                                <input id="search" autocomplete="off" class="form-control mr-sm-2" placeholder='Ctrl &#43; k to Search...' aria-label="Search" oninput="searchOnChange(event)">
+                            </div>
+                        </li>
+                    
+
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="/#about" aria-label="about">
+                            About
+                        </a>
+                    </li>
+                    
+
+                    
+
+                    
+
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="/#projects"
+                            aria-label="projects">
+                            Portfolio
+                        </a>
+                    </li>
+                    
+
+                    
+
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="/#contact"
+                            aria-label="contact">
+                            Contact
+                        </a>
+                    </li>
+                    
+
+                    
+
+                    
+                    
+                    
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="/blog" title="Blog posts">
+                            
+                            Blog
+                        </a>
+                    </li>
+                    
+                    
+
+                    
+                    <li class="nav-item navbar-text">
+                        
+                        <div class="text-center">
+                            <button id="theme-toggle">
+                                <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                                </svg>
+                                <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <circle cx="12" cy="12" r="5"></circle>
+                                    <line x1="12" y1="1" x2="12" y2="3"></line>
+                                    <line x1="12" y1="21" x2="12" y2="23"></line>
+                                    <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                                    <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                                    <line x1="1" y1="12" x2="3" y2="12"></line>
+                                    <line x1="21" y1="12" x2="23" y2="12"></line>
+                                    <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                                    <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                                </svg>
+                            </button>
+                        </div>
+                    </li>
+                    
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+</header>
+<div id="content">
+<div class="container pt-5" id="list-page">
+    <h2 class="text-center pb-2">Posts</h2>
+    <div class="row">
+        
+        <div class="col-lg-4 col-md-6 my-3">
+            <div class="card-columns">
+                <div class="card h-100">
+                    
+                    <div class="card-body bg-transparent p-4 shadow-sm">
+                        <a href="/post/2016-04-17-course-review-git-key-user/" class="primary-font card-title">
+                            <h5 class="card-title bg-transparent" title="Course review: Git key user">Course review: Git key …</h5>
+                        </a>
+                        <div class="card-text secondary-font">
+                            <p><div dir="ltr" style="text-align: left;" trbidi="on">Last month I followed a course about Git. The name of the course was "Git key user" and it was organized by <a href="http://tmcporch.com/">TMC</a>.<br /><br />Obviously Git is a tool that you learn by doing, and indeed the lesson of the day was the following: "Do not afraid to experiment".<br /><br />In general Git behaves as a <a href="http://www.jayway.com/2013/03/03/git-is-a-purely-functional-data-structure/">purely functional data …</a></div></p>
+                        </div>
+                    </div>
+                    <div class="mt-auto post-footer bg-transparent py-3">
+                        <span class="float-start bg-transparent">Apr 17, 2016</span>
+                        <a href="/post/2016-04-17-course-review-git-key-user/" class="float-end btn btn-outline-info btn-sm">Read</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-lg-4 col-md-6 my-3">
+            <div class="card-columns">
+                <div class="card h-100">
+                    
+                    <div class="card-body bg-transparent p-4 shadow-sm">
+                        <a href="/post/2015-11-24-book-review-seven-databases-in-seven/" class="primary-font card-title">
+                            <h5 class="card-title bg-transparent" title="Book review: Seven Databases in Seven Weeks">Book review: Seven …</h5>
+                        </a>
+                        <div class="card-text secondary-font">
+                            <p><div dir="ltr" style="text-align: left;" trbidi="on"><div class="description markdown collapsible" style="display: block;">                <br /><div class="separator" style="clear: both; text-align: center;"><a href="http://3.bp.blogspot.com/-2EpVD--5rCA/VlR2jm1W2II/AAAAAAAAAKY/L8DEgKZl4Dk/s1600/rwdata_xlargecover.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="200" src="http://3.bp.blogspot.com/-2EpVD--5rCA/VlR2jm1W2II/AAAAAAAAAKY/L8DEgKZl4Dk/s200/rwdata_xlargecover.jpg" width="166" /></a></div><br />That's a really nice book. From the seven databases  that are covered I was familiar with PostgreSQL and only briefly with  Neo4j. So the book gave me the chance to explore some more databases and  find out about their strengths and weaknesses. In the following  paragraphs I'll …</div></div></p>
+                        </div>
+                    </div>
+                    <div class="mt-auto post-footer bg-transparent py-3">
+                        <span class="float-start bg-transparent">Nov 24, 2015</span>
+                        <a href="/post/2015-11-24-book-review-seven-databases-in-seven/" class="float-end btn btn-outline-info btn-sm">Read</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-lg-4 col-md-6 my-3">
+            <div class="card-columns">
+                <div class="card h-100">
+                    
+                    <div class="card-body bg-transparent p-4 shadow-sm">
+                        <a href="/post/2015-11-20-joy-of-coding-2015-review/" class="primary-font card-title">
+                            <h5 class="card-title bg-transparent" title="Joy Of Coding 2015 Review">Joy Of Coding 2015 Review</h5>
+                        </a>
+                        <div class="card-text secondary-font">
+                            <p><div dir="ltr" style="text-align: left;" trbidi="on">Like <a href="http://sakiskasampalis.blogspot.nl/2014/03/joy-of-coding-2014-my-impressions.html">last year</a>, Joy of Coding 2015 was a great conference. This year the conference took place during May, for once again in Rotterdam. The organisation was similar to that of last year: A few common talks, but also parallel talks and workshops.<br /><div><br /></div><div>The conference this year started with a keynote by …</div></div></p>
+                        </div>
+                    </div>
+                    <div class="mt-auto post-footer bg-transparent py-3">
+                        <span class="float-start bg-transparent">Nov 20, 2015</span>
+                        <a href="/post/2015-11-20-joy-of-coding-2015-review/" class="float-end btn btn-outline-info btn-sm">Read</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-lg-4 col-md-6 my-3">
+            <div class="card-columns">
+                <div class="card h-100">
+                    
+                    <div class="card-body bg-transparent p-4 shadow-sm">
+                        <a href="/post/2015-11-09-book-review-pragmatic-guide-to/" class="primary-font card-title">
+                            <h5 class="card-title bg-transparent" title="Book review: Pragmatic Guide to JavaScript">Book review: Pragmatic …</h5>
+                        </a>
+                        <div class="card-text secondary-font">
+                            <p><div dir="ltr" style="text-align: left;" trbidi="on"><div class="description markdown collapsible">                <div class="separator" style="clear: both; text-align: center;"><a href="http://2.bp.blogspot.com/-c6J5_vJHboc/VkB_haMGIvI/AAAAAAAAAKA/2Q5WiYw-ljk/s1600/41D%252BipxJ7tL._SX331_BO1%252C204%252C203%252C200_.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="320" src="http://2.bp.blogspot.com/-c6J5_vJHboc/VkB_haMGIvI/AAAAAAAAAKA/2Q5WiYw-ljk/s320/41D%252BipxJ7tL._SX331_BO1%252C204%252C203%252C200_.jpg" width="213" /></a></div><br />This was my first JavaScript book and I consider it a  good overview covering the pros and cons of the language. The author  gives good advice regarding which features of pure JavaScript are fine  to use and for which features a framework should be preferred to avoid  browser …</div></div></p>
+                        </div>
+                    </div>
+                    <div class="mt-auto post-footer bg-transparent py-3">
+                        <span class="float-start bg-transparent">Nov 9, 2015</span>
+                        <a href="/post/2015-11-09-book-review-pragmatic-guide-to/" class="float-end btn btn-outline-info btn-sm">Read</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-lg-4 col-md-6 my-3">
+            <div class="card-columns">
+                <div class="card h-100">
+                    
+                    <div class="card-body bg-transparent p-4 shadow-sm">
+                        <a href="/post/2015-03-15-playing-with-microcontrollers/" class="primary-font card-title">
+                            <h5 class="card-title bg-transparent" title="Playing with microcontrollers">Playing with …</h5>
+                        </a>
+                        <div class="card-text secondary-font">
+                            <p><div dir="ltr" style="text-align: left;" trbidi="on">The last training course that I followed was about programming microcontrollers. The course was given by Leon van Snippenberg, who has very good expertise in microcontrollers.<br /><br />For the practical part of the course we used the Microchip dsPIC33F, a 16-bit architecture 40 MHZ microcontroller (system on …</div></p>
+                        </div>
+                    </div>
+                    <div class="mt-auto post-footer bg-transparent py-3">
+                        <span class="float-start bg-transparent">Mar 15, 2015</span>
+                        <a href="/post/2015-03-15-playing-with-microcontrollers/" class="float-end btn btn-outline-info btn-sm">Read</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-lg-4 col-md-6 my-3">
+            <div class="card-columns">
+                <div class="card h-100">
+                    
+                    <div class="card-body bg-transparent p-4 shadow-sm">
+                        <a href="/post/2015-02-02-on-writing-book/" class="primary-font card-title">
+                            <h5 class="card-title bg-transparent" title="On writing a book">On writing a book</h5>
+                        </a>
+                        <div class="card-text secondary-font">
+                            <p><div dir="ltr" style="text-align: left;" trbidi="on">After <a href="http://sakiskasampalis.blogspot.nl/2013/11/my-first-book-review.html">reviewing</a> <a href="http://sakiskasampalis.blogspot.nl/2014/05/being-technical-reviewer-again.html">two</a> books about Python, people from Packt asked me if I was willing to write a Python book. I'm glad to see that my first book, <a href="https://www.packtpub.com/application-development/mastering-python-design-patterns">Mastering Python Design Patterns</a> is published!<br /><br />As I expected, writing a book is much tougher than reviewing one. Especially if you have a full-time job, like …</div></p>
+                        </div>
+                    </div>
+                    <div class="mt-auto post-footer bg-transparent py-3">
+                        <span class="float-start bg-transparent">Feb 2, 2015</span>
+                        <a href="/post/2015-02-02-on-writing-book/" class="float-end btn btn-outline-info btn-sm">Read</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-lg-4 col-md-6 my-3">
+            <div class="card-columns">
+                <div class="card h-100">
+                    
+                    <div class="card-body bg-transparent p-4 shadow-sm">
+                        <a href="/post/2015-01-14-course-review-sql-performance/" class="primary-font card-title">
+                            <h5 class="card-title bg-transparent" title="Course review: SQL Performance">Course review: SQL …</h5>
+                        </a>
+                        <div class="card-text secondary-font">
+                            <p><div dir="ltr" style="text-align: left;" trbidi="on"><b>Update:</b> Markus was kind enough to comment on my review. Regarding the "minimise the number of tables to limit joins" he said:<br /><blockquote class="tr_bq"><span style="font-family: Helvetica; font-size: 12px;">it is often the best approach to store some attribute redundant (e.g.&nbsp;</span><span style="font-family: Helvetica;"><span style="font-size: 12px;">normalised&nbsp;as before plus wherever needed). Maintenance of this&nbsp;</span></span><span style="font-family: Helvetica; font-size: 12px;">redundancy should be …</span></span></span></blockquote></div></p>
+                        </div>
+                    </div>
+                    <div class="mt-auto post-footer bg-transparent py-3">
+                        <span class="float-start bg-transparent">Jan 14, 2015</span>
+                        <a href="/post/2015-01-14-course-review-sql-performance/" class="float-end btn btn-outline-info btn-sm">Read</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-lg-4 col-md-6 my-3">
+            <div class="card-columns">
+                <div class="card h-100">
+                    
+                    <div class="card-body bg-transparent p-4 shadow-sm">
+                        <a href="/post/2014-11-16-course-review-language-engineering-with/" class="primary-font card-title">
+                            <h5 class="card-title bg-transparent" title="Course review: Language Engineering with MPS">Course review: Language …</h5>
+                        </a>
+                        <div class="card-text secondary-font">
+                            <p><div dir="ltr" style="text-align: left;" trbidi="on">Last week I followed a two-day course called "Language Engineering with MPS". The course was given by <a href="http://voelter.de/">Markus Voelter</a>.<br /><br /><a href="https://www.jetbrains.com/mps/">MPS</a> is a free software (using the Apache 2.0 license) framework built on top of Intellij IDEA. Both MPS and Intellij IDEA are actively developed by JetBrains. MPS can be used for …</div></p>
+                        </div>
+                    </div>
+                    <div class="mt-auto post-footer bg-transparent py-3">
+                        <span class="float-start bg-transparent">Nov 16, 2014</span>
+                        <a href="/post/2014-11-16-course-review-language-engineering-with/" class="float-end btn btn-outline-info btn-sm">Read</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-lg-4 col-md-6 my-3">
+            <div class="card-columns">
+                <div class="card h-100">
+                    
+                    <div class="card-body bg-transparent p-4 shadow-sm">
+                        <a href="/post/2014-11-08-two-less-common-tricks-for-improving/" class="primary-font card-title">
+                            <h5 class="card-title bg-transparent" title="Two less common tricks for improving unexplained slow MySQL queries">Two less common tricks …</h5>
+                        </a>
+                        <div class="card-text secondary-font">
+                            <p><div dir="ltr" style="text-align: left;" trbidi="on"><div dir="ltr" style="text-align: left;" trbidi="on"><div dir="ltr" style="text-align: left;" trbidi="on">Recently I faced an SQL performance issue. What I wanted to do was rather common: Apply the (set) difference operation on two tables.<br /><br />In relational algebra, the difference operation applied on two tables <span style="font-family: &quot;Courier New&quot;,Courier,monospace;">A</span> and <span style="font-family: &quot;Courier New&quot;,Courier,monospace;">B</span> gives as a result a new table <span style="font-family: &quot;Courier New&quot;,Courier,monospace;">C</span> that contains all the elements that are in table <span style="font-family: &quot;Courier New&quot;,Courier,monospace;">A</span> but …</div></div></div></p>
+                        </div>
+                    </div>
+                    <div class="mt-auto post-footer bg-transparent py-3">
+                        <span class="float-start bg-transparent">Nov 8, 2014</span>
+                        <a href="/post/2014-11-08-two-less-common-tricks-for-improving/" class="float-end btn btn-outline-info btn-sm">Read</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-lg-4 col-md-6 my-3">
+            <div class="card-columns">
+                <div class="card h-100">
+                    
+                    <div class="card-body bg-transparent p-4 shadow-sm">
+                        <a href="/post/2014-09-29-book-review-sql-antipatterns/" class="primary-font card-title">
+                            <h5 class="card-title bg-transparent" title="Book review: SQL Antipatterns">Book review: SQL …</h5>
+                        </a>
+                        <div class="card-text secondary-font">
+                            <p><div dir="ltr" style="text-align: left;" trbidi="on"><div class="description markdown collapsible">                In <a href="https://pragprog.com/book/bksqla/sql-antipatterns">SQL Antipatterns</a>, Bill Karwin does a great job in explaining how to  make efficient use of the relational model, instead of abusing it like  it's usually done. Many developers abuse relational databases using  antipatterns such as ID required, entity-attribute-value, index …</div></div></p>
+                        </div>
+                    </div>
+                    <div class="mt-auto post-footer bg-transparent py-3">
+                        <span class="float-start bg-transparent">Sep 29, 2014</span>
+                        <a href="/post/2014-09-29-book-review-sql-antipatterns/" class="float-end btn btn-outline-info btn-sm">Read</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="row justify-content-center">
+            <div class="col-auto m-3">
+                
+    <ul class="pagination pagination-default">
+      <li class="page-item">
+        <a href="/post/" aria-label="First" class="page-link" role="button"><span aria-hidden="true">&laquo;&laquo;</span></a>
+      </li>
+      <li class="page-item">
+        <a href="/post/page/2/" aria-label="Previous" class="page-link" role="button"><span aria-hidden="true">&laquo;</span></a>
+      </li>
+      <li class="page-item">
+        <a href="/post/" aria-label="Page 1" class="page-link" role="button">1</a>
+      </li>
+      <li class="page-item">
+        <a href="/post/page/2/" aria-label="Page 2" class="page-link" role="button">2</a>
+      </li>
+      <li class="page-item active">
+        <a aria-current="page" aria-label="Page 3" class="page-link" role="button">3</a>
+      </li>
+      <li class="page-item">
+        <a href="/post/page/4/" aria-label="Page 4" class="page-link" role="button">4</a>
+      </li>
+      <li class="page-item">
+        <a href="/post/page/5/" aria-label="Page 5" class="page-link" role="button">5</a>
+      </li>
+      <li class="page-item">
+        <a href="/post/page/4/" aria-label="Next" class="page-link" role="button"><span aria-hidden="true">&raquo;</span></a>
+      </li>
+      <li class="page-item">
+        <a href="/post/page/6/" aria-label="Last" class="page-link" role="button"><span aria-hidden="true">&raquo;&raquo;</span></a>
+      </li>
+    </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+  </div><footer>
+    
+ 
+
+<div class="text-center pt-2">
+    
+
+    
+
+    
+
+    
+
+    
+</div><div class="container py-4">
+    <div class="row justify-content-center">
+        <div class="col-md-4 text-center">
+            
+                <div class="pb-2">
+                    <a href="http://localhost:1313/" title="Sakis Kasampalis - Personal homepage">
+                        <img alt="Footer logo" src="/images/lambda.png"
+                            height="40px" width="40px">
+                    </a>
+                </div>
+            
+            &copy; 2024  All rights reserved
+            <div class="text-secondary">
+                Made with
+                <span class="text-danger">
+                    &#10084;
+                </span>
+                and
+                <a href="https://github.com/gurusabarish/hugo-profile" target="_blank"
+                    title="Designed and developed by gurusabarish">
+                    Hugo Profile
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+</footer><script src="/bootstrap-5/js/bootstrap.bundle.min.js"></script>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+    var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+        return new bootstrap.Tooltip(tooltipTriggerEl)
+    })
+
+</script>
+
+
+    <script src="/js/search.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+  <section id="search-content" class="py-2">
+    <div class="container" id="search-results"></div>
+  </section>
+</body>
+
+</html>

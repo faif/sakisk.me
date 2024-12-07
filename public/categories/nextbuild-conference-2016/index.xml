@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nextbuild Conference 2016 on Sakis Kasampalis - Personal homepage</title>
+    <link>http://localhost:1313/categories/nextbuild-conference-2016/</link>
+    <description>Recent content in Nextbuild Conference 2016 on Sakis Kasampalis - Personal homepage</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 03 Jul 2016 20:10:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/nextbuild-conference-2016/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>And the second conference of the year was... NextBuild</title>
+      <link>http://localhost:1313/blog/2016-07-03-and-second-conference-of-year-was-nextbuild/</link>
+      <pubDate>Sun, 03 Jul 2016 20:10:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/2016-07-03-and-second-conference-of-year-was-nextbuild/</guid>
+      <description>&lt;p&gt;It&amp;rsquo;s sad that there are no good programming conferences in the South of the Netherlands and especially around the Eindhoven&#xA;area which is considered very innovative and has a strong university. Fortunately, &lt;a href=&#34;http://nextbuild.nl&#34;&gt;NextBuild&lt;/a&gt; is an exception.&lt;/p&gt;&#xA;&lt;p&gt;2016 was the second year of the NextBuild conference. I missed the first one so I can&amp;rsquo;t comment about it, but I can say a few&#xA;things about the 2016 version. First of all it&amp;rsquo;s important to stress that this is a free (gratis) one day conference, which is&#xA;not the usual case when it comes to conferences (&lt;a href=&#34;%7B%7Bsite.url%7D%7D/2016/05/21/and-first-conference-of-year-was-dutch.html&#34;&gt;Dutch Clojure Days&lt;/a&gt; was another good exception). And even though NextBuild is free,&#xA;we were offered free coffee, juice, cookies, sandwiches, and beers. Not bad&amp;hellip;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

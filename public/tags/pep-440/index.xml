@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pep-440 on Sakis Kasampalis - Personal homepage</title>
+    <link>http://localhost:1313/tags/pep-440/</link>
+    <description>Recent content in Pep-440 on Sakis Kasampalis - Personal homepage</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 02 Nov 2018 22:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/pep-440/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Wheels says no...</title>
+      <link>http://localhost:1313/blog/2018-11-02-wheels-pep/</link>
+      <pubDate>Fri, 02 Nov 2018 22:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/2018-11-02-wheels-pep/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/assets/computer-says-no.jpeg&#34; alt=&#34;Computer says no&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;After porting one of our libraries at work in Python 3, I wanted to publish it as a package. The tool that we are using to distribute packages is&#xA;&lt;a href=&#34;https://pythonwheels.com&#34;&gt;wheels&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Unfortunately, wheels was refusing to create the package. It was reporting an error similar to the following: &lt;code&gt;wheel.cli.WheelError: &amp;quot;Bad wheel  filename mypackage-latest-cp36-cp36m-linux_x86_64.whl&amp;quot;&lt;/code&gt;.&lt;/p&gt;&#xA;&lt;p&gt;After searching online without any luck, I found a GitHub issue mentioning &lt;a href=&#34;https://www.python.org/dev/peps/pep-0440/&#34;&gt;PEP 440&lt;/a&gt;. Well, it turns out&#xA;that the &amp;ldquo;latest&amp;rdquo; part of the package name is not very PEP 440 compliant&amp;hellip; So wheels was right to complain. And all I had to do was modify the&#xA;name to make it compliant. The PEP document has many &lt;a href=&#34;https://www.python.org/dev/peps/pep-0440/#examples-of-compliant-version-schemes&#34;&gt;examples&lt;/a&gt; of&#xA;compliant schemes, so if you are facing a similar error pick any scheme that fits you.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

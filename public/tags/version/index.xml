@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Version on Sakis Kasampalis - Personal homepage</title>
+    <link>http://localhost:1313/tags/version/</link>
+    <description>Recent content in Version on Sakis Kasampalis - Personal homepage</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 23 Sep 2018 20:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/version/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Read a version from an external file in a dockerfile</title>
+      <link>http://localhost:1313/blog/2018-09-23-docker-env/</link>
+      <pubDate>Sun, 23 Sep 2018 20:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/2018-09-23-docker-env/</guid>
+      <description>&lt;p&gt;I wanted to do a rather simple thing in a dockerfile: read a value from an external file and use it in a &lt;code&gt;RUN&lt;/code&gt; command.&#xA;Doing all this inside the dockerfile was a requirement, so I couldn&amp;rsquo;t pass the version while building the image using &lt;code&gt;build-args&lt;/code&gt; or a similar solution.&lt;/p&gt;&#xA;&lt;p&gt;There&amp;rsquo;s nothing hard about achieving this, as long as you keep something in mind: Docker creates intermediate containers&#xA;for a lot of things, including &lt;code&gt;RUN&lt;/code&gt; commands. So that means that everything needs to be done in the same &lt;code&gt;RUN&lt;/code&gt; pipeline.&#xA;The following example shows how we can read a version from an external file and export a variable that we can use (in the&#xA;same pipeline).&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

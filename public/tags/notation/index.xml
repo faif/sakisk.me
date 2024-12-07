@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Notation on Sakis Kasampalis - Personal homepage</title>
+    <link>http://localhost:1313/tags/notation/</link>
+    <description>Recent content in Notation on Sakis Kasampalis - Personal homepage</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 11 Sep 2021 13:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/notation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Let&#39;s plant some UML</title>
+      <link>http://localhost:1313/blog/2021-09-11-plantuml/</link>
+      <pubDate>Sat, 11 Sep 2021 13:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/2021-09-11-plantuml/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/assets/uml.png&#34; alt=&#34;UML class diagram&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Are you using UML? The Unified Modeling language is a very useful notation, especially when it comes to explaining the structure and behavior of object-oriented systems. It is language-independent and offers a wide range of models/diagrams that cover the different aspects (static, dynamic, threading, etc.) of a system.&lt;/p&gt;&#xA;&lt;p&gt;I like UML but I was never happy with the tooling around it. My biggest objection is that most of the UML tools use binary formats for storing the models, which makes version-controlling and collaborating for creating them impossible. That is against the nature of modern software development, which should be incremental and based on a team effort. Another thing that I don&amp;rsquo;t like is spending time on the layout of those models (e.g. rearranging boxes because they are not readable). I&amp;rsquo;d rather have the tool take care of this automatically, and only if I&amp;rsquo;m picky about something, e.g. the position of a specific box, to do it myself.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

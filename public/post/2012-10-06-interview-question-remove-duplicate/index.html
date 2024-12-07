@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html>
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta http-equiv="Accept-CH" content="DPR, Viewport-Width, Width">
+<link rel="icon" href=/images/lambda.png type="image/gif">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload"
+      as="style"
+      href="https://fonts.googleapis.com/css2?family=Alata&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+>
+<link rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Alata&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      media="print" onload="this.media='all'" />
+<noscript>
+  <link
+          href="https://fonts.googleapis.com/css2?family=Alata&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+          rel="stylesheet">
+</noscript>
+
+
+<link rel="stylesheet" href="/css/font.css" media="all">
+
+
+
+<meta property="og:url" content="http://localhost:1313/post/2012-10-06-interview-question-remove-duplicate/">
+  <meta property="og:site_name" content="Sakis Kasampalis - Personal homepage">
+  <meta property="og:title" content="Interview question: Remove duplicate characters">
+  <meta property="og:description" content="Let&#39;s assume that we are asked to solve the following problem in a programming interview: &#34;Write a function that removes all duplicate characters from a string&#34;. Piece of cake, you might think. Surely they are not asking us to write a Web Browser but there must be a reason for that.
+Test firstThe interview&#39;s time is limited. But this doesn&#39;t mean that we should start writing whatever implementation comes on to mind directly. Initially we should at least show to the interviewer that we are familiar with techniques such as Test Driven Development (TDD). The test cases are useful even if the interviewer is not interested in seeing unit tests. So let&#39;s write them down. We should make sure that our function:
+Doesn&#39;t fail with empty strings (so &#34;&#34; is valid input)Returns a string of length = 1 as is (for example &#34;a&#34; is returned as &#34;a&#34;)Returns a string of length = 2 with two same characters as a string with a single character (for example &#34;aa&#34; is returned as &#34;a&#34;)Removes all the duplicate characters (for example &#34;anakonda&#34; becomes either &#34;ankod&#34; or &#34;konda&#34; depending on which indexes of duplicate characters we choose to remove ; I&#39;ll initially use the second case and later switch to the first one)Returns a string with no duplicate characters as is (for example &#34;the&#34; is returned as &#34;the&#34;) It&#39;s fine if we forget some test cases, we can extend them later. Now, let&#39;s assume that the interviewer insists on actually implementing the tests. I&#39;ll use python, because writing unit tests in python is straightforward -- and I obviously like the language ;)
+First we need a stub version of the function. Our function, called remDupl will accept a string as input and return a copy of the input string without duplicate characters.
+Now we are ready to write our test.
+Our test is already useful. We can make sure that it fails and then write the main logic of our function until it passes the test.
+Our test fails, as expectedThe naive implementationSo far so good. It&#39;s time to start implementing our function. Since the time is against us, the first step is to follow a naive approach. Although the first implementation might not be the most efficient and clean, it&#39;s important to get something working. If there&#39;s enough time we can improve it later. If there&#39;s no time for writing an improved version, we can still discuss with the interviewer the pros and cons of our naive implementation.
+First of all, does our function behave as expected?
+Test result of the naive implementation
+Looks good :)
+Improving the codeWhat&#39;s the time complexity of our algorithm? It&#39;s O(n), since we have to iterate through the whole string. Even if it&#39;s hard to improve the time complexity, we can do better by writing our code in more idiomatic python. Python offers a set data structure which looks like a good candidate since all items in a set are unique by definition. But unfortunately the items of a set have no particular order therefore we cannot simply create a set out of our input string. We need a trick to preserve ordering. Combining the set with a generator expression and converting it to a string gives the expected result.
+Nice, let&#39;s test our changes.
+The test fails, only the first occurrence of a character goes into the set Hmmm, there&#39;s something going wrong here. We need to update our test case, since the new code keeps only the first occurrence of each character (thus &#34;anakonda&#34; becomes &#34;ankod&#34; instead of &#34;konda&#34; that used to be when replace was used).
+Now that we updated the test case, our code should pass the tests. Let&#39;s verify.
+The new code passes all the testsAnd we are done!
+Idio(ma)tic?The new version of our function is more compact and pythonic, but does it really perform better that the first version? Since both algorithms are O(n), the details are in the data structures and one way to find that out is by using a profiler. So let&#39;s see what&#39;s the performance when executing each version of our function with 600.000 strings as input.
+Profiling shows that the naive implementation performs betterThe second version is a backward step regarding performance. Profiling shows that the generator expression and the join function have the biggest negative impact. Although list comprehensions and generator expressions are the power of python and are optimized for performance, in this particular case the fact that we actually need an ordered string as the output result does not help.
+Referenceswikipedia. Test Driven Developmentpython.org. ProfilersMark Pilgrim. Dive Into Python 3">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="post">
+    <meta property="article:published_time" content="2012-10-06T22:36:00+00:00">
+    <meta property="article:modified_time" content="2012-10-06T22:36:00+00:00">
+    <meta property="article:tag" content="Interview">
+    <meta property="article:tag" content="Question">
+    <meta property="article:tag" content="Programming">
+    <meta property="article:tag" content="Python">
+    <meta property="article:tag" content="Approach">
+    <meta property="article:tag" content="Tdd">
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Interview question: Remove duplicate characters">
+  <meta name="twitter:description" content="Let&#39;s assume that we are asked to solve the following problem in a programming interview: &#34;Write a function that removes all duplicate characters from a string&#34;. Piece of cake, you might think. Surely they are not asking us to write a Web Browser but there must be a reason for that.
+Test firstThe interview&#39;s time is limited. But this doesn&#39;t mean that we should start writing whatever implementation comes on to mind directly. Initially we should at least show to the interviewer that we are familiar with techniques such as Test Driven Development (TDD). The test cases are useful even if the interviewer is not interested in seeing unit tests. So let&#39;s write them down. We should make sure that our function:
+Doesn&#39;t fail with empty strings (so &#34;&#34; is valid input)Returns a string of length = 1 as is (for example &#34;a&#34; is returned as &#34;a&#34;)Returns a string of length = 2 with two same characters as a string with a single character (for example &#34;aa&#34; is returned as &#34;a&#34;)Removes all the duplicate characters (for example &#34;anakonda&#34; becomes either &#34;ankod&#34; or &#34;konda&#34; depending on which indexes of duplicate characters we choose to remove ; I&#39;ll initially use the second case and later switch to the first one)Returns a string with no duplicate characters as is (for example &#34;the&#34; is returned as &#34;the&#34;) It&#39;s fine if we forget some test cases, we can extend them later. Now, let&#39;s assume that the interviewer insists on actually implementing the tests. I&#39;ll use python, because writing unit tests in python is straightforward -- and I obviously like the language ;)
+First we need a stub version of the function. Our function, called remDupl will accept a string as input and return a copy of the input string without duplicate characters.
+Now we are ready to write our test.
+Our test is already useful. We can make sure that it fails and then write the main logic of our function until it passes the test.
+Our test fails, as expectedThe naive implementationSo far so good. It&#39;s time to start implementing our function. Since the time is against us, the first step is to follow a naive approach. Although the first implementation might not be the most efficient and clean, it&#39;s important to get something working. If there&#39;s enough time we can improve it later. If there&#39;s no time for writing an improved version, we can still discuss with the interviewer the pros and cons of our naive implementation.
+First of all, does our function behave as expected?
+Test result of the naive implementation
+Looks good :)
+Improving the codeWhat&#39;s the time complexity of our algorithm? It&#39;s O(n), since we have to iterate through the whole string. Even if it&#39;s hard to improve the time complexity, we can do better by writing our code in more idiomatic python. Python offers a set data structure which looks like a good candidate since all items in a set are unique by definition. But unfortunately the items of a set have no particular order therefore we cannot simply create a set out of our input string. We need a trick to preserve ordering. Combining the set with a generator expression and converting it to a string gives the expected result.
+Nice, let&#39;s test our changes.
+The test fails, only the first occurrence of a character goes into the set Hmmm, there&#39;s something going wrong here. We need to update our test case, since the new code keeps only the first occurrence of each character (thus &#34;anakonda&#34; becomes &#34;ankod&#34; instead of &#34;konda&#34; that used to be when replace was used).
+Now that we updated the test case, our code should pass the tests. Let&#39;s verify.
+The new code passes all the testsAnd we are done!
+Idio(ma)tic?The new version of our function is more compact and pythonic, but does it really perform better that the first version? Since both algorithms are O(n), the details are in the data structures and one way to find that out is by using a profiler. So let&#39;s see what&#39;s the performance when executing each version of our function with 600.000 strings as input.
+Profiling shows that the naive implementation performs betterThe second version is a backward step regarding performance. Profiling shows that the generator expression and the join function have the biggest negative impact. Although list comprehensions and generator expressions are the power of python and are optimized for performance, in this particular case the fact that we actually need an ordered string as the output result does not help.
+Referenceswikipedia. Test Driven Developmentpython.org. ProfilersMark Pilgrim. Dive Into Python 3">
+
+
+<link rel="stylesheet" href="/bootstrap-5/css/bootstrap.min.css" media="all"><link rel="stylesheet" href="/css/header.css" media="all">
+<link rel="stylesheet" href="/css/footer.css" media="all">
+
+
+<link rel="stylesheet" href="/css/theme.css" media="all">
+
+<style>
+    :root {
+        --text-color: #343a40;
+        --text-secondary-color: #6c757d;
+        --text-link-color: #007bff;
+        --background-color: #eaedf0;
+        --secondary-background-color: #64ffda1a;
+        --primary-color: #007bff;
+        --secondary-color: #f8f9fa;
+
+         
+        --text-color-dark: #e4e6eb;
+        --text-secondary-color-dark: #b0b3b8;
+        --text-link-color-dark: #ffffff;
+        --background-color-dark: #18191a;
+        --secondary-background-color-dark: #212529;
+        --primary-color-dark: #ffffff;
+        --secondary-color-dark: #212529;
+    }
+    body {
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        text-align: left;
+    }
+
+    html {
+        background-color: var(--background-color) !important;
+    }
+
+    body::-webkit-scrollbar {
+        height: 0px;
+        width: 8px;
+        background-color: var(--background-color);
+    }
+
+    ::-webkit-scrollbar-track {
+        border-radius: 1rem;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        border-radius: 1rem;
+        background: #b0b0b0;
+        outline: 1px solid var(--background-color);
+    }
+
+    #search-content::-webkit-scrollbar {
+        width: .5em;
+        height: .1em;
+        background-color: var(--background-color);
+    }
+</style>
+
+
+
+<meta name="description" content="">
+<link rel="stylesheet" href="/css/single.css">
+
+
+<script defer src="/fontawesome-6/all-6.4.2.js"></script>
+
+
+  
+  
+
+  <title>
+Interview question: Remove duplicate characters | Sakis Kasampalis - Personal homepage
+
+  </title>
+</head>
+
+<body class="light">
+  
+  
+<script>
+    let localStorageValue = localStorage.getItem("pref-theme");
+    let mediaQuery = window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+    switch (localStorageValue) {
+        case "dark":
+            document.body.classList.add('dark');
+            break;
+        case "light":
+            document.body.classList.remove('dark');
+            break;
+        default:
+            if (mediaQuery) {
+                document.body.classList.add('dark');
+            }
+            break;
+    }
+</script>
+
+
+
+
+<script>
+    var prevScrollPos = window.pageYOffset;
+    window.addEventListener("scroll", function showHeaderOnScroll() {
+        let profileHeaderElem = document.getElementById("profileHeader");
+        let currentScrollPos = window.pageYOffset;
+        let resetHeaderStyle = false;
+        let showNavBarOnScrollUp =  true ;
+        let showNavBar = showNavBarOnScrollUp ? prevScrollPos > currentScrollPos : currentScrollPos > 0;
+        if (showNavBar) {
+            profileHeaderElem.classList.add("showHeaderOnTop");
+        } else {
+            resetHeaderStyle = true;
+        }
+        if(currentScrollPos === 0) {
+            resetHeaderStyle = true;
+        }
+        if(resetHeaderStyle) {
+            profileHeaderElem.classList.remove("showHeaderOnTop");
+        }
+        prevScrollPos = currentScrollPos;
+    });
+</script>
+
+
+
+<header id="profileHeader">
+    <nav class="pt-3 navbar navbar-expand-lg animate">
+        <div class="container-fluid mx-xs-2 mx-sm-5 mx-md-5 mx-lg-5">
+            
+            <a class="navbar-brand primary-font text-wrap" href="/">
+                
+                <img src="/images/lambda.png" width="30" height="30"
+                    class="d-inline-block align-top">
+                
+                
+            </a>
+
+            
+                <div>
+                    <input id="search" autocomplete="off" class="form-control mr-sm-2 d-none d-md-block" placeholder='Ctrl &#43; k to Search...'
+                        aria-label="Search" oninput="searchOnChange(event)">
+                </div>
+            
+
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
+                aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                <svg aria-hidden="true" height="24" viewBox="0 0 16 16" version="1.1" width="24" data-view-component="true">
+                    <path fill-rule="evenodd" d="M1 2.75A.75.75 0 011.75 2h12.5a.75.75 0 110 1.5H1.75A.75.75 0 011 2.75zm0 5A.75.75 0 011.75 7h12.5a.75.75 0 110 1.5H1.75A.75.75 0 011 7.75zM1.75 12a.75.75 0 100 1.5h12.5a.75.75 0 100-1.5H1.75z"></path>
+                </svg>
+            </button>
+
+            
+            <div class="collapse navbar-collapse text-wrap primary-font" id="navbarContent">
+                <ul class="navbar-nav ms-auto text-center">
+                    
+                        <li class="nav-item navbar-text d-block d-md-none">
+                            <div class="nav-link">
+                                <input id="search" autocomplete="off" class="form-control mr-sm-2" placeholder='Ctrl &#43; k to Search...' aria-label="Search" oninput="searchOnChange(event)">
+                            </div>
+                        </li>
+                    
+
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="/#about" aria-label="about">
+                            About
+                        </a>
+                    </li>
+                    
+
+                    
+
+                    
+
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="/#projects"
+                            aria-label="projects">
+                            Portfolio
+                        </a>
+                    </li>
+                    
+
+                    
+
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="/#contact"
+                            aria-label="contact">
+                            Contact
+                        </a>
+                    </li>
+                    
+
+                    
+
+                    
+                    
+                    
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="/blog" title="Blog posts">
+                            
+                            Blog
+                        </a>
+                    </li>
+                    
+                    
+
+                    
+                    <li class="nav-item navbar-text">
+                        
+                        <div class="text-center">
+                            <button id="theme-toggle">
+                                <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                                </svg>
+                                <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <circle cx="12" cy="12" r="5"></circle>
+                                    <line x1="12" y1="1" x2="12" y2="3"></line>
+                                    <line x1="12" y1="21" x2="12" y2="23"></line>
+                                    <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                                    <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                                    <line x1="1" y1="12" x2="3" y2="12"></line>
+                                    <line x1="21" y1="12" x2="23" y2="12"></line>
+                                    <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                                    <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                                </svg>
+                            </button>
+                        </div>
+                    </li>
+                    
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+</header>
+<div id="content">
+<section id="single">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-sm-12 col-md-12 col-lg-9">
+        <div class="pr-lg-4">
+          <div class="title mb-5">
+            <h1 class="text-center mb-4">Interview question: Remove duplicate characters</h1>
+            <div class="text-center">
+              
+                Sakis Kasampallis
+                <small>|</small>
+              
+              Oct 6, 2012
+
+              
+              <span id="readingTime">
+                min read
+              </span>
+              
+            </div>
+          </div>
+          
+          <article class="page-content  p-2">
+          
+<div dir="ltr" style="text-align: left;" trbidi="on">Let's assume that we are asked to solve the following problem in a programming interview: "Write a function that removes all duplicate characters from a string". Piece of cake, you might think. Surely they are not asking us to write a Web Browser but there must be a reason for that.<br /><br /><h3 style="text-align: left;">Test first</h3>The interview's time is limited. But this doesn't mean that we should start writing whatever implementation comes on to mind directly. Initially we should at least show to the interviewer that we are familiar with techniques such as <a href="https://en.wikipedia.org/wiki/Test-driven_development">Test Driven Development</a> (TDD). The test cases are useful even if the interviewer is not interested in seeing unit tests. So let's write them down. We should make sure that our function:<br /><ul style="text-align: left;"><li>Doesn't fail with empty strings (so "" is valid input)</li><li>Returns a string of length = 1 as is (for example "a" is returned as "a")</li><li>Returns a string of length = 2 with two same characters as a string with a single character (for example "aa" is returned as "a")</li><li>Removes all the duplicate characters (for example "anakonda" becomes either "ankod" or "konda" depending on which indexes of duplicate characters we choose to remove ; I'll initially use the second case and later switch to the first one)</li><li>Returns a string with no duplicate characters as is (for example "the" is returned as "the") </li></ul>It's fine if we forget some test cases, we can extend them later. Now, let's assume that the interviewer insists on actually implementing the tests. I'll use python, because writing unit tests in python is straightforward -- and I obviously like the language ;)<br /><br />First we need a stub version of the function. Our function, called <span style="font-family: &quot;Courier New&quot;,Courier,monospace;">remDupl</span> will accept a string as input and return a copy of the input string without duplicate characters.<br /><br /><script src="https://gist.github.com/3829456.js?file=strutils.py"></script>Now we are ready to write our test.<br /><br /><script src="https://gist.github.com/3829456.js?file=testremdupl.py"></script> Our test is already useful. We can make sure that it fails and then write the main logic of our function until it passes the test.<br /><br /><div class="separator" style="clear: both; text-align: center;"></div><div class="separator" style="clear: both; text-align: center;"></div><div class="separator" style="clear: both; text-align: center;"></div><div class="separator" style="clear: both; text-align: center;"></div><div class="separator" style="clear: both; text-align: center;"></div><div class="separator" style="clear: both; text-align: center;"></div><div class="separator" style="clear: both; text-align: center;"></div><div class="separator" style="clear: both; text-align: center;"></div><div class="separator" style="clear: both; text-align: center;"></div><div class="separator" style="clear: both; text-align: center;"></div><table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="http://3.bp.blogspot.com/-N1SisjXQnTM/UG3wDaLwrCI/AAAAAAAAADQ/wkRhaXQTmlo/s1600/test.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" height="195" src="http://3.bp.blogspot.com/-N1SisjXQnTM/UG3wDaLwrCI/AAAAAAAAADQ/wkRhaXQTmlo/s400/test.png" width="400" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">Our test fails, as expected</td></tr></tbody></table><h3 style="text-align: left;">The naive implementation</h3><div style="text-align: left;">So far so good. It's time to start implementing our function. Since the time is against us, the first step is to follow a naive approach. Although the first implementation might not be the most efficient and clean, it's important to get something working. If there's enough time we can improve it later. If there's no time for writing an improved version, we can still discuss with the interviewer the pros and cons of our naive implementation.<br /><br /></div><script src="https://gist.github.com/3829456.js?file=strutils2.py"></script> First of all, does our function behave as expected?<br /><br /><table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="http://1.bp.blogspot.com/-IBesi5_D_Jw/UG8-y2KonEI/AAAAAAAAADg/LW41d-h7YpU/s1600/testrem.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" height="90" src="http://1.bp.blogspot.com/-IBesi5_D_Jw/UG8-y2KonEI/AAAAAAAAADg/LW41d-h7YpU/s400/testrem.png" width="400" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">Test result of the naive implementation</td><td class="tr-caption" style="text-align: center;"><br /></td></tr></tbody></table>Looks good :)<br /><br /><h3 style="text-align: left;">Improving the code</h3>What's the time complexity of our algorithm? It's O(n), since we have to  iterate through the whole string. Even if it's hard to improve the time  complexity, we can do better by writing our code in more idiomatic  python. Python offers a set data structure which looks like a good candidate since all items in a set are unique by definition. But unfortunately the items of a set have no particular order therefore we cannot simply create a set out of our input string. We need a trick to preserve ordering. Combining the set with a generator expression and converting it to a string gives the expected result.<br /><div class="separator" style="clear: both; text-align: center;"><a href="http://3.bp.blogspot.com/-96nQz1pLT6o/UHBqXh02YEI/AAAAAAAAAEA/s_062Zt0k80/s1600/ankod.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><br /></a></div><script src="https://gist.github.com/3829456.js?file=strutils3.py"></script> Nice, let's test our changes.<br /><br /><table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="http://3.bp.blogspot.com/-96nQz1pLT6o/UHBqXh02YEI/AAAAAAAAAEA/s_062Zt0k80/s1600/ankod.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" height="203" src="http://3.bp.blogspot.com/-96nQz1pLT6o/UHBqXh02YEI/AAAAAAAAAEA/s_062Zt0k80/s400/ankod.png" width="400" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">The test fails, only the first occurrence of a character goes into the set</td></tr></tbody></table><a href="http://3.bp.blogspot.com/-96nQz1pLT6o/UHBqXh02YEI/AAAAAAAAAEA/s_062Zt0k80/s1600/ankod.png" style="margin-left: 1em; margin-right: 1em;"></a> <br /><br /><div class="separator" style="clear: both; text-align: center;"></div>Hmmm, there's something going wrong here. We need to update our test case, since the new code keeps only the first occurrence of each character (thus "anakonda" becomes "ankod" instead of "konda" that used to be when <span style="font-family: &quot;Courier New&quot;,Courier,monospace;">replace</span> was used).<br /><br /><script src="https://gist.github.com/3829456.js?file=testremdupl2.py"></script> Now that we updated the test case, our code should pass the tests. Let's verify.<br /><br /><table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="http://3.bp.blogspot.com/-ej7FZrKWicI/UHBux3SE3JI/AAAAAAAAAEQ/KAPCu1OfUyg/s1600/pass.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" height="88" src="http://3.bp.blogspot.com/-ej7FZrKWicI/UHBux3SE3JI/AAAAAAAAAEQ/KAPCu1OfUyg/s400/pass.png" width="400" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">The new code passes all the tests</td></tr></tbody></table>And we are done!<br /><br /><h3 style="text-align: left;">Idio(ma)tic?</h3>The new version of our function is more compact and pythonic, but does it really perform better that the first version? Since both algorithms are O(n), the details are in the data structures and one way to find that out is by using a <a href="http://docs.python.org/library/profile.html">profiler</a>. So let's see what's the performance when executing each version of our function with 600.000 strings as input.<br /><br /><table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="http://4.bp.blogspot.com/-k30NiP2nIZI/UHCLfmXZB_I/AAAAAAAAAEo/F_ABZnaCXCA/s1600/profile.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" height="223" src="http://4.bp.blogspot.com/-k30NiP2nIZI/UHCLfmXZB_I/AAAAAAAAAEo/F_ABZnaCXCA/s400/profile.png" width="400" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">Profiling shows that the naive implementation performs better</td></tr></tbody></table>The second version is a backward step regarding performance. Profiling shows that the generator expression and the join function have the biggest negative impact. Although list comprehensions and generator expressions are the power of python and are optimized for performance, in this particular case the fact that we actually need an ordered string as the output result does not help.<br /><br /><h3 style="text-align: left;">References</h3><ul style="text-align: left;"><li><i>wikipedia.</i> <a href="https://en.wikipedia.org/wiki/Test-driven_development">Test Driven Development</a></li><li><i>python.org. </i><a href="http://docs.python.org/library/profile.html">Profilers</a></li><li><i>Mark Pilgrim. </i><a href="http://getpython3.com/diveintopython3/">Dive Into Python 3</a></li></ul></div>
+          </article>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-12 col-lg-3">
+        <div id="stickySideBar" class="sticky-sidebar">
+          
+          <aside class="toc">
+              <h5>
+                Table Of Contents
+              </h5>
+              <div class="toc-content">
+                
+              </div>
+          </aside>
+          
+
+          
+          <aside class="tags">
+            <h5>Tags</h5>
+            <ul class="tags-ul list-unstyled list-inline">
+              
+              <li class="list-inline-item"><a href="http://localhost:1313/tags/interview"
+                target="_blank"
+              >interview</a></li>
+              
+              <li class="list-inline-item"><a href="http://localhost:1313/tags/question"
+                target="_blank"
+              >question</a></li>
+              
+              <li class="list-inline-item"><a href="http://localhost:1313/tags/programming"
+                target="_blank"
+              >programming</a></li>
+              
+              <li class="list-inline-item"><a href="http://localhost:1313/tags/python"
+                target="_blank"
+              >python</a></li>
+              
+              <li class="list-inline-item"><a href="http://localhost:1313/tags/approach"
+                target="_blank"
+              >approach</a></li>
+              
+              <li class="list-inline-item"><a href="http://localhost:1313/tags/tdd"
+                target="_blank"
+              >tdd</a></li>
+              
+            </ul>
+          </aside>
+          
+
+          
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12 col-md-12 col-lg-9 p-4">
+        
+      </div>
+    </div>
+  </div>
+  <button class="p-2 px-3" onclick="topFunction()" id="topScroll">
+    <i class="fas fa-angle-up"></i>
+  </button>
+</section>
+
+
+<div class="progress">
+  <div id="scroll-progress-bar" class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+</div>
+<Script src="/js/scrollProgressBar.js"></script>
+
+
+<script>
+  var topScroll = document.getElementById("topScroll");
+  window.onscroll = function() {scrollFunction()};
+
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      topScroll.style.display = "block";
+    } else {
+      topScroll.style.display = "none";
+    }
+  }
+
+  function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+
+  
+  let stickySideBarElem = document.getElementById("stickySideBar");
+  let stickyNavBar =  true ;
+  if(stickyNavBar) {
+    let headerElem = document.getElementById("profileHeader");
+    let headerHeight = headerElem.offsetHeight + 15;
+    stickySideBarElem.style.top = headerHeight + "px";
+  } else {
+    stickySideBarElem.style.top = "50px";
+  }
+</script>
+
+
+<script src="/js/readingTime.js"></script>
+
+
+
+  </div><footer>
+    
+ 
+
+<div class="text-center pt-2">
+    
+
+    
+
+    
+
+    
+
+    
+</div><div class="container py-4">
+    <div class="row justify-content-center">
+        <div class="col-md-4 text-center">
+            
+                <div class="pb-2">
+                    <a href="http://localhost:1313/" title="Sakis Kasampalis - Personal homepage">
+                        <img alt="Footer logo" src="/images/lambda.png"
+                            height="40px" width="40px">
+                    </a>
+                </div>
+            
+            &copy; 2024  All rights reserved
+            <div class="text-secondary">
+                Made with
+                <span class="text-danger">
+                    &#10084;
+                </span>
+                and
+                <a href="https://github.com/gurusabarish/hugo-profile" target="_blank"
+                    title="Designed and developed by gurusabarish">
+                    Hugo Profile
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+</footer><script src="/bootstrap-5/js/bootstrap.bundle.min.js"></script>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+    var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+        return new bootstrap.Tooltip(tooltipTriggerEl)
+    })
+
+</script>
+
+
+    <script src="/js/search.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+  <section id="search-content" class="py-2">
+    <div class="container" id="search-results"></div>
+  </section>
+</body>
+
+</html>

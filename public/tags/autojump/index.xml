@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Autojump on Sakis Kasampalis - Personal homepage</title>
+    <link>http://localhost:1313/tags/autojump/</link>
+    <description>Recent content in Autojump on Sakis Kasampalis - Personal homepage</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 10 Feb 2018 17:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/autojump/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Type less, do more...</title>
+      <link>http://localhost:1313/blog/2018-02-10-keystrokes/</link>
+      <pubDate>Sat, 10 Feb 2018 17:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/2018-02-10-keystrokes/</guid>
+      <description>&lt;p&gt;If you are dealing a lot with the terminal you probably use the &lt;code&gt;cd&lt;/code&gt; command very often. &lt;code&gt;cd here&lt;/code&gt;, &lt;code&gt;cd there&lt;/code&gt;, &lt;code&gt;cd ..&lt;/code&gt;, etc. What if I told you that you can avoid typing the &lt;code&gt;cd&lt;/code&gt; command completely? That can save you a lot of keystrokes which is good because it:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Makes you more productive&lt;/li&gt;&#xA;&lt;li&gt;Helps you avoid &lt;abbr title=&#34;Repetitive Strain Injury&#34;&gt;RSI&lt;/abbr&gt; problems, such as the infamous &lt;abbr title=&#34;Carpal Tunnel Syndrome&#34;&gt;CTS&lt;/abbr&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;The first tool that I want to show you is &lt;a href=&#34;https://github.com/wting/autojump&#34;&gt;autojump&lt;/a&gt;. Once installed, autojump (abbreviated by the command &lt;code&gt;j&lt;/code&gt;) maintains its own database to help you navigate to a directory without the need to remember:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
