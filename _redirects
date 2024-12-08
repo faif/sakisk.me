@@ -1,2 +1,2 @@
-https://blog.sakisk.me/ https://sakisk.me/blog/ 301!
+https://blog.sakisk.me/* https://sakisk.me/blog/:splat 301!
 
