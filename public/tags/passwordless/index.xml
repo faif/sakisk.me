@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Passwordless on Sakis Kasampalis - Personal homepage</title>
-    <link>https://sakisk.me/tags/passwordless/</link>
+    <link>http://localhost:1313/tags/passwordless/</link>
     <description>Recent content in Passwordless on Sakis Kasampalis - Personal homepage</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 02 Jan 2022 10:00:00 +0000</lastBuildDate>
-    <atom:link href="https://sakisk.me/tags/passwordless/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/passwordless/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>When in trouble, ssh -vvvvvv :)</title>
-      <link>https://sakisk.me/blog/2022-01-02-when-in-trouble-ssh/</link>
+      <link>http://localhost:1313/blog/2022-01-02-when-in-trouble-ssh/</link>
       <pubDate>Sun, 02 Jan 2022 10:00:00 +0000</pubDate>
-      <guid>https://sakisk.me/blog/2022-01-02-when-in-trouble-ssh/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://sakisk.me/assets/tar.png&#34; alt=&#34;xkcd tar&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;I was configuring a new server and what&amp;rsquo;s the first thing that we want to setup when doing that? Passwordless ssh of course.&lt;/p&gt;&#xA;&lt;p&gt;So after following all required steps, I tried to connect. And it failed (still required a password)… So what do we do in that case?&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Ensure that the key was copied to the remote machine (e.g. by &lt;code&gt;ssh-copy-id&lt;/code&gt;). Yep, looks good.&lt;/li&gt;&#xA;&lt;li&gt;Check all related dir and file permissions of both local and remote computers (&lt;code&gt;.ssh&lt;/code&gt; and its contents). All good.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;So what the heck is wrong? Let&amp;rsquo;s run ssh in (max) verbosity using &lt;code&gt;ssh -vvv&lt;/code&gt; (3 v is the max, adding more v is just for fun):&lt;/p&gt;</description>
+      <guid>http://localhost:1313/blog/2022-01-02-when-in-trouble-ssh/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/assets/tar.png&#34; alt=&#34;xkcd tar&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;I was configuring a new server and what&amp;rsquo;s the first thing that we want to setup when doing that? Passwordless ssh of course.&lt;/p&gt;&#xA;&lt;p&gt;So after following all required steps, I tried to connect. And it failed (still required a password)… So what do we do in that case?&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Ensure that the key was copied to the remote machine (e.g. by &lt;code&gt;ssh-copy-id&lt;/code&gt;). Yep, looks good.&lt;/li&gt;&#xA;&lt;li&gt;Check all related dir and file permissions of both local and remote computers (&lt;code&gt;.ssh&lt;/code&gt; and its contents). All good.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;So what the heck is wrong? Let&amp;rsquo;s run ssh in (max) verbosity using &lt;code&gt;ssh -vvv&lt;/code&gt; (3 v is the max, adding more v is just for fun):&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

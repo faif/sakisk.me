@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Assertion on Sakis Kasampalis - Personal homepage</title>
-    <link>https://sakisk.me/tags/assertion/</link>
+    <link>http://localhost:1313/tags/assertion/</link>
     <description>Recent content in Assertion on Sakis Kasampalis - Personal homepage</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 12 May 2011 18:30:00 +0000</lastBuildDate>
-    <atom:link href="https://sakisk.me/tags/assertion/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/assertion/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Beware of Q_ASSERT</title>
-      <link>https://sakisk.me/blog/2011-05-12-beware-of-qassert/</link>
+      <link>http://localhost:1313/blog/2011-05-12-beware-of-qassert/</link>
       <pubDate>Thu, 12 May 2011 18:30:00 +0000</pubDate>
-      <guid>https://sakisk.me/blog/2011-05-12-beware-of-qassert/</guid>
+      <guid>http://localhost:1313/blog/2011-05-12-beware-of-qassert/</guid>
       <description>&lt;div dir=&#34;ltr&#34; style=&#34;text-align: left;&#34; trbidi=&#34;on&#34;&gt;I really like the concept of inline assertions. Assertions might be  rude, since they kick you out of a program whenever they fail, but by  using them you can make sure that your code gives you the expected  results. You might argue that Unit Testing is a better approach. I won&#39;t  say no, but I believe that unit testing is slower to implement and not  necessary in all cases.&lt;br /&gt;&lt;br /&gt;Anyway this is not where I want to focus. If you are coding in QT, you might be aware of &lt;code&gt;Q_ASSERT&lt;/code&gt;. Like other features (&lt;code&gt;QString&lt;/code&gt;, &lt;code&gt;QFile&lt;/code&gt;,  etc.), QT provides its own facility for writing code assertions. So  that&#39;s another replacement of a standard facility, right? Well, not  exactly... What I wasn&#39;t aware of, is that &lt;code&gt;Q_ASSERT&lt;/code&gt;  statements are completely ignored when the application is executing in  release mode. They are only taken into account in debug mode. I was  using a statement like &lt;code&gt;Q_ASSERT(doThat())&lt;/code&gt; in my code, which was causing a hard to track logical error (since &lt;code&gt;doThat()&lt;/code&gt; was never executed in release mode). Luckily, after a couple of hours a colleague of mine discovered the bug.&lt;br /&gt;&lt;br /&gt;My mistake: I wrongly assumed that &lt;code&gt;Q_ASSERT&lt;/code&gt; acts like the classic &lt;code&gt;assert&lt;/code&gt;, which is only ignored in a C++/C program if a special macro (like &lt;code&gt;NDEBUG&lt;/code&gt;) is defined. What I actually wanted was my assertions to be checked in both modes, which is done by using the standard &lt;code&gt;assert&lt;/code&gt; facility.&lt;br /&gt;&lt;br /&gt;So are you using &lt;code&gt;Q_ASSERT&lt;/code&gt;? That&#39;s fine. Just be aware that &lt;code&gt;Q_ASSERT&lt;/code&gt; and &lt;code&gt;assert&lt;/code&gt; behave differently.&lt;br /&gt;&lt;br /&gt;Happy coding.&lt;/div&gt;</description>
     </item>
   </channel>

@@ -2,1410 +2,1410 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Sakis Kasampalis - Personal homepage</title>
-    <link>https://sakisk.me/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on Sakis Kasampalis - Personal homepage</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 29 Dec 2022 20:30:00 +0000</lastBuildDate>
-    <atom:link href="https://sakisk.me/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>AWS</title>
-      <link>https://sakisk.me/tags/aws/</link>
+      <link>http://localhost:1313/tags/aws/</link>
       <pubDate>Thu, 29 Dec 2022 20:30:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/aws/</guid>
+      <guid>http://localhost:1313/tags/aws/</guid>
       <description></description>
     </item>
     <item>
       <title>Cloud</title>
-      <link>https://sakisk.me/tags/cloud/</link>
+      <link>http://localhost:1313/tags/cloud/</link>
       <pubDate>Thu, 29 Dec 2022 20:30:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/cloud/</guid>
+      <guid>http://localhost:1313/tags/cloud/</guid>
       <description></description>
     </item>
     <item>
       <title>IAC</title>
-      <link>https://sakisk.me/tags/iac/</link>
+      <link>http://localhost:1313/tags/iac/</link>
       <pubDate>Thu, 29 Dec 2022 20:30:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/iac/</guid>
+      <guid>http://localhost:1313/tags/iac/</guid>
       <description></description>
     </item>
     <item>
       <title>Terraform</title>
-      <link>https://sakisk.me/tags/terraform/</link>
+      <link>http://localhost:1313/tags/terraform/</link>
       <pubDate>Thu, 29 Dec 2022 20:30:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/terraform/</guid>
+      <guid>http://localhost:1313/tags/terraform/</guid>
       <description></description>
     </item>
     <item>
       <title>Dd-Wrt</title>
-      <link>https://sakisk.me/tags/dd-wrt/</link>
+      <link>http://localhost:1313/tags/dd-wrt/</link>
       <pubDate>Wed, 09 Nov 2022 19:30:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/dd-wrt/</guid>
+      <guid>http://localhost:1313/tags/dd-wrt/</guid>
       <description></description>
     </item>
     <item>
       <title>Fiber</title>
-      <link>https://sakisk.me/tags/fiber/</link>
+      <link>http://localhost:1313/tags/fiber/</link>
       <pubDate>Wed, 09 Nov 2022 19:30:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/fiber/</guid>
+      <guid>http://localhost:1313/tags/fiber/</guid>
       <description></description>
     </item>
     <item>
       <title>Internet</title>
-      <link>https://sakisk.me/tags/internet/</link>
+      <link>http://localhost:1313/tags/internet/</link>
       <pubDate>Wed, 09 Nov 2022 19:30:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/internet/</guid>
+      <guid>http://localhost:1313/tags/internet/</guid>
       <description></description>
     </item>
     <item>
       <title>Router</title>
-      <link>https://sakisk.me/tags/router/</link>
+      <link>http://localhost:1313/tags/router/</link>
       <pubDate>Wed, 09 Nov 2022 19:30:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/router/</guid>
+      <guid>http://localhost:1313/tags/router/</guid>
       <description></description>
     </item>
     <item>
       <title>Clojure</title>
-      <link>https://sakisk.me/tags/clojure/</link>
+      <link>http://localhost:1313/tags/clojure/</link>
       <pubDate>Fri, 29 Jul 2022 19:00:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/clojure/</guid>
+      <guid>http://localhost:1313/tags/clojure/</guid>
       <description></description>
     </item>
     <item>
       <title>Functional Programming</title>
-      <link>https://sakisk.me/tags/functional-programming/</link>
+      <link>http://localhost:1313/tags/functional-programming/</link>
       <pubDate>Fri, 29 Jul 2022 19:00:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/functional-programming/</guid>
+      <guid>http://localhost:1313/tags/functional-programming/</guid>
       <description></description>
     </item>
     <item>
       <title>Map</title>
-      <link>https://sakisk.me/tags/map/</link>
+      <link>http://localhost:1313/tags/map/</link>
       <pubDate>Fri, 29 Jul 2022 19:00:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/map/</guid>
+      <guid>http://localhost:1313/tags/map/</guid>
       <description></description>
     </item>
     <item>
       <title>Side Effect</title>
-      <link>https://sakisk.me/tags/side-effect/</link>
+      <link>http://localhost:1313/tags/side-effect/</link>
       <pubDate>Fri, 29 Jul 2022 19:00:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/side-effect/</guid>
+      <guid>http://localhost:1313/tags/side-effect/</guid>
       <description></description>
     </item>
     <item>
       <title>Access</title>
-      <link>https://sakisk.me/tags/access/</link>
+      <link>http://localhost:1313/tags/access/</link>
       <pubDate>Thu, 26 May 2022 19:00:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/access/</guid>
+      <guid>http://localhost:1313/tags/access/</guid>
       <description></description>
     </item>
     <item>
       <title>Aw</title>
-      <link>https://sakisk.me/tags/aw/</link>
+      <link>http://localhost:1313/tags/aw/</link>
       <pubDate>Thu, 26 May 2022 19:00:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/aw/</guid>
+      <guid>http://localhost:1313/tags/aw/</guid>
       <description></description>
     </item>
     <item>
       <title>Iam</title>
-      <link>https://sakisk.me/tags/iam/</link>
+      <link>http://localhost:1313/tags/iam/</link>
       <pubDate>Thu, 26 May 2022 19:00:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/iam/</guid>
+      <guid>http://localhost:1313/tags/iam/</guid>
       <description></description>
     </item>
     <item>
       <title>Policy</title>
-      <link>https://sakisk.me/tags/policy/</link>
+      <link>http://localhost:1313/tags/policy/</link>
       <pubDate>Thu, 26 May 2022 19:00:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/policy/</guid>
+      <guid>http://localhost:1313/tags/policy/</guid>
       <description></description>
     </item>
     <item>
       <title>S3</title>
-      <link>https://sakisk.me/tags/s3/</link>
+      <link>http://localhost:1313/tags/s3/</link>
       <pubDate>Thu, 26 May 2022 19:00:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/s3/</guid>
+      <guid>http://localhost:1313/tags/s3/</guid>
       <description></description>
     </item>
     <item>
       <title>Dsa</title>
-      <link>https://sakisk.me/tags/dsa/</link>
+      <link>http://localhost:1313/tags/dsa/</link>
       <pubDate>Sun, 02 Jan 2022 10:00:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/dsa/</guid>
+      <guid>http://localhost:1313/tags/dsa/</guid>
       <description></description>
     </item>
     <item>
       <title>Key</title>
-      <link>https://sakisk.me/tags/key/</link>
+      <link>http://localhost:1313/tags/key/</link>
       <pubDate>Sun, 02 Jan 2022 10:00:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/key/</guid>
+      <guid>http://localhost:1313/tags/key/</guid>
       <description></description>
     </item>
     <item>
       <title>Passwordless</title>
-      <link>https://sakisk.me/tags/passwordless/</link>
+      <link>http://localhost:1313/tags/passwordless/</link>
       <pubDate>Sun, 02 Jan 2022 10:00:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/passwordless/</guid>
+      <guid>http://localhost:1313/tags/passwordless/</guid>
       <description></description>
     </item>
     <item>
       <title>Rsa</title>
-      <link>https://sakisk.me/tags/rsa/</link>
+      <link>http://localhost:1313/tags/rsa/</link>
       <pubDate>Sun, 02 Jan 2022 10:00:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/rsa/</guid>
+      <guid>http://localhost:1313/tags/rsa/</guid>
       <description></description>
     </item>
     <item>
       <title>Ssh</title>
-      <link>https://sakisk.me/tags/ssh/</link>
+      <link>http://localhost:1313/tags/ssh/</link>
       <pubDate>Sun, 02 Jan 2022 10:00:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/ssh/</guid>
+      <guid>http://localhost:1313/tags/ssh/</guid>
       <description></description>
     </item>
     <item>
       <title>Design</title>
-      <link>https://sakisk.me/tags/design/</link>
+      <link>http://localhost:1313/tags/design/</link>
       <pubDate>Sat, 11 Sep 2021 13:00:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/design/</guid>
+      <guid>http://localhost:1313/tags/design/</guid>
       <description></description>
     </item>
     <item>
       <title>Notation</title>
-      <link>https://sakisk.me/tags/notation/</link>
+      <link>http://localhost:1313/tags/notation/</link>
       <pubDate>Sat, 11 Sep 2021 13:00:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/notation/</guid>
+      <guid>http://localhost:1313/tags/notation/</guid>
       <description></description>
     </item>
     <item>
       <title>Programming</title>
-      <link>https://sakisk.me/tags/programming/</link>
+      <link>http://localhost:1313/tags/programming/</link>
       <pubDate>Sat, 11 Sep 2021 13:00:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/programming/</guid>
+      <guid>http://localhost:1313/tags/programming/</guid>
       <description></description>
     </item>
     <item>
       <title>Uml</title>
-      <link>https://sakisk.me/tags/uml/</link>
+      <link>http://localhost:1313/tags/uml/</link>
       <pubDate>Sat, 11 Sep 2021 13:00:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/uml/</guid>
+      <guid>http://localhost:1313/tags/uml/</guid>
       <description></description>
     </item>
     <item>
       <title>Language</title>
-      <link>https://sakisk.me/tags/language/</link>
+      <link>http://localhost:1313/tags/language/</link>
       <pubDate>Mon, 21 Jun 2021 17:40:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/language/</guid>
+      <guid>http://localhost:1313/tags/language/</guid>
       <description></description>
     </item>
     <item>
       <title>Real</title>
-      <link>https://sakisk.me/tags/real/</link>
+      <link>http://localhost:1313/tags/real/</link>
       <pubDate>Mon, 21 Jun 2021 17:40:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/real/</guid>
+      <guid>http://localhost:1313/tags/real/</guid>
       <description></description>
     </item>
     <item>
       <title>C&#43;&#43;</title>
-      <link>https://sakisk.me/tags/c&#43;&#43;/</link>
+      <link>http://localhost:1313/tags/c&#43;&#43;/</link>
       <pubDate>Wed, 19 Aug 2020 20:00:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/c&#43;&#43;/</guid>
+      <guid>http://localhost:1313/tags/c&#43;&#43;/</guid>
       <description></description>
     </item>
     <item>
       <title>Exception Handling</title>
-      <link>https://sakisk.me/tags/exception-handling/</link>
+      <link>http://localhost:1313/tags/exception-handling/</link>
       <pubDate>Wed, 19 Aug 2020 20:00:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/exception-handling/</guid>
+      <guid>http://localhost:1313/tags/exception-handling/</guid>
       <description></description>
     </item>
     <item>
       <title>Bash</title>
-      <link>https://sakisk.me/tags/bash/</link>
+      <link>http://localhost:1313/tags/bash/</link>
       <pubDate>Wed, 10 Apr 2019 13:00:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/bash/</guid>
+      <guid>http://localhost:1313/tags/bash/</guid>
       <description></description>
     </item>
     <item>
       <title>Command Line</title>
-      <link>https://sakisk.me/tags/command-line/</link>
+      <link>http://localhost:1313/tags/command-line/</link>
       <pubDate>Wed, 10 Apr 2019 13:00:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/command-line/</guid>
+      <guid>http://localhost:1313/tags/command-line/</guid>
       <description></description>
     </item>
     <item>
       <title>Pep-440</title>
-      <link>https://sakisk.me/tags/pep-440/</link>
+      <link>http://localhost:1313/tags/pep-440/</link>
       <pubDate>Fri, 02 Nov 2018 22:00:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/pep-440/</guid>
+      <guid>http://localhost:1313/tags/pep-440/</guid>
       <description></description>
     </item>
     <item>
       <title>Python</title>
-      <link>https://sakisk.me/tags/python/</link>
+      <link>http://localhost:1313/tags/python/</link>
       <pubDate>Fri, 02 Nov 2018 22:00:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/python/</guid>
+      <guid>http://localhost:1313/tags/python/</guid>
       <description></description>
     </item>
     <item>
       <title>Wheels</title>
-      <link>https://sakisk.me/tags/wheels/</link>
+      <link>http://localhost:1313/tags/wheels/</link>
       <pubDate>Fri, 02 Nov 2018 22:00:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/wheels/</guid>
+      <guid>http://localhost:1313/tags/wheels/</guid>
       <description></description>
     </item>
     <item>
       <title>Docker</title>
-      <link>https://sakisk.me/tags/docker/</link>
+      <link>http://localhost:1313/tags/docker/</link>
       <pubDate>Sun, 23 Sep 2018 20:00:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/docker/</guid>
+      <guid>http://localhost:1313/tags/docker/</guid>
       <description></description>
     </item>
     <item>
       <title>Export</title>
-      <link>https://sakisk.me/tags/export/</link>
+      <link>http://localhost:1313/tags/export/</link>
       <pubDate>Sun, 23 Sep 2018 20:00:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/export/</guid>
+      <guid>http://localhost:1313/tags/export/</guid>
       <description></description>
     </item>
     <item>
       <title>Variable</title>
-      <link>https://sakisk.me/tags/variable/</link>
+      <link>http://localhost:1313/tags/variable/</link>
       <pubDate>Sun, 23 Sep 2018 20:00:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/variable/</guid>
+      <guid>http://localhost:1313/tags/variable/</guid>
       <description></description>
     </item>
     <item>
       <title>Version</title>
-      <link>https://sakisk.me/tags/version/</link>
+      <link>http://localhost:1313/tags/version/</link>
       <pubDate>Sun, 23 Sep 2018 20:00:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/version/</guid>
+      <guid>http://localhost:1313/tags/version/</guid>
       <description></description>
     </item>
     <item>
       <title>Autojump</title>
-      <link>https://sakisk.me/tags/autojump/</link>
+      <link>http://localhost:1313/tags/autojump/</link>
       <pubDate>Sat, 10 Feb 2018 17:00:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/autojump/</guid>
+      <guid>http://localhost:1313/tags/autojump/</guid>
       <description></description>
     </item>
     <item>
       <title>Productivity</title>
-      <link>https://sakisk.me/tags/productivity/</link>
+      <link>http://localhost:1313/tags/productivity/</link>
       <pubDate>Sat, 10 Feb 2018 17:00:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/productivity/</guid>
+      <guid>http://localhost:1313/tags/productivity/</guid>
       <description></description>
     </item>
     <item>
       <title>Typing</title>
-      <link>https://sakisk.me/tags/typing/</link>
+      <link>http://localhost:1313/tags/typing/</link>
       <pubDate>Sat, 10 Feb 2018 17:00:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/typing/</guid>
+      <guid>http://localhost:1313/tags/typing/</guid>
       <description></description>
     </item>
     <item>
       <title>Adafruit</title>
-      <link>https://sakisk.me/tags/adafruit/</link>
+      <link>http://localhost:1313/tags/adafruit/</link>
       <pubDate>Tue, 11 Jul 2017 19:20:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/adafruit/</guid>
+      <guid>http://localhost:1313/tags/adafruit/</guid>
       <description></description>
     </item>
     <item>
       <title>Iot</title>
-      <link>https://sakisk.me/tags/iot/</link>
+      <link>http://localhost:1313/tags/iot/</link>
       <pubDate>Tue, 11 Jul 2017 19:20:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/iot/</guid>
+      <guid>http://localhost:1313/tags/iot/</guid>
       <description></description>
     </item>
     <item>
       <title>Micropython</title>
-      <link>https://sakisk.me/tags/micropython/</link>
+      <link>http://localhost:1313/tags/micropython/</link>
       <pubDate>Tue, 11 Jul 2017 19:20:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/micropython/</guid>
+      <guid>http://localhost:1313/tags/micropython/</guid>
       <description></description>
     </item>
     <item>
       <title>Pycom</title>
-      <link>https://sakisk.me/tags/pycom/</link>
+      <link>http://localhost:1313/tags/pycom/</link>
       <pubDate>Tue, 11 Jul 2017 19:20:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/pycom/</guid>
+      <guid>http://localhost:1313/tags/pycom/</guid>
       <description></description>
     </item>
     <item>
       <title>Host Key Verification Failed</title>
-      <link>https://sakisk.me/tags/host-key-verification-failed/</link>
+      <link>http://localhost:1313/tags/host-key-verification-failed/</link>
       <pubDate>Wed, 24 May 2017 19:50:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/host-key-verification-failed/</guid>
+      <guid>http://localhost:1313/tags/host-key-verification-failed/</guid>
       <description></description>
     </item>
     <item>
       <title>Nodejs</title>
-      <link>https://sakisk.me/tags/nodejs/</link>
+      <link>http://localhost:1313/tags/nodejs/</link>
       <pubDate>Wed, 24 May 2017 19:50:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/nodejs/</guid>
+      <guid>http://localhost:1313/tags/nodejs/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem</title>
-      <link>https://sakisk.me/tags/problem/</link>
+      <link>http://localhost:1313/tags/problem/</link>
       <pubDate>Wed, 24 May 2017 19:50:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/problem/</guid>
+      <guid>http://localhost:1313/tags/problem/</guid>
       <description></description>
     </item>
     <item>
       <title>Sftp</title>
-      <link>https://sakisk.me/tags/sftp/</link>
+      <link>http://localhost:1313/tags/sftp/</link>
       <pubDate>Wed, 24 May 2017 19:50:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/sftp/</guid>
+      <guid>http://localhost:1313/tags/sftp/</guid>
       <description></description>
     </item>
     <item>
       <title>Javascript</title>
-      <link>https://sakisk.me/tags/javascript/</link>
+      <link>http://localhost:1313/tags/javascript/</link>
       <pubDate>Sat, 15 Oct 2016 14:58:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/javascript/</guid>
+      <guid>http://localhost:1313/tags/javascript/</guid>
       <description></description>
     </item>
     <item>
       <title>Manning</title>
-      <link>https://sakisk.me/tags/manning/</link>
+      <link>http://localhost:1313/tags/manning/</link>
       <pubDate>Sat, 15 Oct 2016 14:58:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/manning/</guid>
+      <guid>http://localhost:1313/tags/manning/</guid>
       <description></description>
     </item>
     <item>
       <title>Mongodb</title>
-      <link>https://sakisk.me/tags/mongodb/</link>
+      <link>http://localhost:1313/tags/mongodb/</link>
       <pubDate>Sat, 15 Oct 2016 14:58:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/mongodb/</guid>
+      <guid>http://localhost:1313/tags/mongodb/</guid>
       <description></description>
     </item>
     <item>
       <title>Single Page Application</title>
-      <link>https://sakisk.me/tags/single-page-application/</link>
+      <link>http://localhost:1313/tags/single-page-application/</link>
       <pubDate>Sat, 15 Oct 2016 14:58:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/single-page-application/</guid>
+      <guid>http://localhost:1313/tags/single-page-application/</guid>
       <description></description>
     </item>
     <item>
       <title>Android</title>
-      <link>https://sakisk.me/tags/android/</link>
+      <link>http://localhost:1313/tags/android/</link>
       <pubDate>Thu, 28 Jul 2016 20:38:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/android/</guid>
+      <guid>http://localhost:1313/tags/android/</guid>
       <description></description>
     </item>
     <item>
       <title>Gist</title>
-      <link>https://sakisk.me/tags/gist/</link>
+      <link>http://localhost:1313/tags/gist/</link>
       <pubDate>Thu, 28 Jul 2016 20:38:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/gist/</guid>
+      <guid>http://localhost:1313/tags/gist/</guid>
       <description></description>
     </item>
     <item>
       <title>Github</title>
-      <link>https://sakisk.me/tags/github/</link>
+      <link>http://localhost:1313/tags/github/</link>
       <pubDate>Thu, 28 Jul 2016 20:38:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/github/</guid>
+      <guid>http://localhost:1313/tags/github/</guid>
       <description></description>
     </item>
     <item>
       <title>Ios</title>
-      <link>https://sakisk.me/tags/ios/</link>
+      <link>http://localhost:1313/tags/ios/</link>
       <pubDate>Thu, 28 Jul 2016 20:38:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/ios/</guid>
+      <guid>http://localhost:1313/tags/ios/</guid>
       <description></description>
     </item>
     <item>
       <title>Java</title>
-      <link>https://sakisk.me/tags/java/</link>
+      <link>http://localhost:1313/tags/java/</link>
       <pubDate>Thu, 28 Jul 2016 20:38:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/java/</guid>
+      <guid>http://localhost:1313/tags/java/</guid>
       <description></description>
     </item>
     <item>
       <title>Objective-C</title>
-      <link>https://sakisk.me/tags/objective-c/</link>
+      <link>http://localhost:1313/tags/objective-c/</link>
       <pubDate>Thu, 28 Jul 2016 20:38:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/objective-c/</guid>
+      <guid>http://localhost:1313/tags/objective-c/</guid>
       <description></description>
     </item>
     <item>
       <title>Swift</title>
-      <link>https://sakisk.me/tags/swift/</link>
+      <link>http://localhost:1313/tags/swift/</link>
       <pubDate>Thu, 28 Jul 2016 20:38:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/swift/</guid>
+      <guid>http://localhost:1313/tags/swift/</guid>
       <description></description>
     </item>
     <item>
       <title>Walkthrough</title>
-      <link>https://sakisk.me/tags/walkthrough/</link>
+      <link>http://localhost:1313/tags/walkthrough/</link>
       <pubDate>Thu, 28 Jul 2016 20:38:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/walkthrough/</guid>
+      <guid>http://localhost:1313/tags/walkthrough/</guid>
       <description></description>
     </item>
     <item>
       <title>Book</title>
-      <link>https://sakisk.me/tags/book/</link>
+      <link>http://localhost:1313/tags/book/</link>
       <pubDate>Sat, 23 Jul 2016 22:30:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/book/</guid>
+      <guid>http://localhost:1313/tags/book/</guid>
       <description></description>
     </item>
     <item>
       <title>Git</title>
-      <link>https://sakisk.me/tags/git/</link>
+      <link>http://localhost:1313/tags/git/</link>
       <pubDate>Sat, 23 Jul 2016 22:30:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/git/</guid>
+      <guid>http://localhost:1313/tags/git/</guid>
       <description></description>
     </item>
     <item>
       <title>Guide</title>
-      <link>https://sakisk.me/tags/guide/</link>
+      <link>http://localhost:1313/tags/guide/</link>
       <pubDate>Sat, 23 Jul 2016 22:30:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/guide/</guid>
+      <guid>http://localhost:1313/tags/guide/</guid>
       <description></description>
     </item>
     <item>
       <title>Pragmatic</title>
-      <link>https://sakisk.me/tags/pragmatic/</link>
+      <link>http://localhost:1313/tags/pragmatic/</link>
       <pubDate>Sat, 23 Jul 2016 22:30:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/pragmatic/</guid>
+      <guid>http://localhost:1313/tags/pragmatic/</guid>
       <description></description>
     </item>
     <item>
       <title>Review</title>
-      <link>https://sakisk.me/tags/review/</link>
+      <link>http://localhost:1313/tags/review/</link>
       <pubDate>Sat, 23 Jul 2016 22:30:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/review/</guid>
+      <guid>http://localhost:1313/tags/review/</guid>
       <description></description>
     </item>
     <item>
       <title>Keynote</title>
-      <link>https://sakisk.me/tags/keynote/</link>
+      <link>http://localhost:1313/tags/keynote/</link>
       <pubDate>Wed, 06 Jul 2016 10:38:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/keynote/</guid>
+      <guid>http://localhost:1313/tags/keynote/</guid>
       <description></description>
     </item>
     <item>
       <title>Programming Language</title>
-      <link>https://sakisk.me/tags/programming-language/</link>
+      <link>http://localhost:1313/tags/programming-language/</link>
       <pubDate>Wed, 06 Jul 2016 10:38:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/programming-language/</guid>
+      <guid>http://localhost:1313/tags/programming-language/</guid>
       <description></description>
     </item>
     <item>
       <title>Uncle Bob</title>
-      <link>https://sakisk.me/tags/uncle-bob/</link>
+      <link>http://localhost:1313/tags/uncle-bob/</link>
       <pubDate>Wed, 06 Jul 2016 10:38:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/uncle-bob/</guid>
+      <guid>http://localhost:1313/tags/uncle-bob/</guid>
       <description></description>
     </item>
     <item>
       <title>2016</title>
-      <link>https://sakisk.me/tags/2016/</link>
+      <link>http://localhost:1313/tags/2016/</link>
       <pubDate>Sun, 03 Jul 2016 20:10:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/2016/</guid>
+      <guid>http://localhost:1313/tags/2016/</guid>
       <description></description>
     </item>
     <item>
       <title>Conference</title>
-      <link>https://sakisk.me/tags/conference/</link>
+      <link>http://localhost:1313/tags/conference/</link>
       <pubDate>Sun, 03 Jul 2016 20:10:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/conference/</guid>
+      <guid>http://localhost:1313/tags/conference/</guid>
       <description></description>
     </item>
     <item>
       <title>Eindhoven</title>
-      <link>https://sakisk.me/tags/eindhoven/</link>
+      <link>http://localhost:1313/tags/eindhoven/</link>
       <pubDate>Sun, 03 Jul 2016 20:10:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/eindhoven/</guid>
+      <guid>http://localhost:1313/tags/eindhoven/</guid>
       <description></description>
     </item>
     <item>
       <title>Nextbuild</title>
-      <link>https://sakisk.me/tags/nextbuild/</link>
+      <link>http://localhost:1313/tags/nextbuild/</link>
       <pubDate>Sun, 03 Jul 2016 20:10:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/nextbuild/</guid>
+      <guid>http://localhost:1313/tags/nextbuild/</guid>
       <description></description>
     </item>
     <item>
       <title>Days</title>
-      <link>https://sakisk.me/tags/days/</link>
+      <link>http://localhost:1313/tags/days/</link>
       <pubDate>Sat, 21 May 2016 22:46:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/days/</guid>
+      <guid>http://localhost:1313/tags/days/</guid>
       <description></description>
     </item>
     <item>
       <title>Dutch</title>
-      <link>https://sakisk.me/tags/dutch/</link>
+      <link>http://localhost:1313/tags/dutch/</link>
       <pubDate>Sat, 21 May 2016 22:46:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/dutch/</guid>
+      <guid>http://localhost:1313/tags/dutch/</guid>
       <description></description>
     </item>
     <item>
       <title>Course</title>
-      <link>https://sakisk.me/tags/course/</link>
+      <link>http://localhost:1313/tags/course/</link>
       <pubDate>Sun, 17 Apr 2016 21:23:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/course/</guid>
+      <guid>http://localhost:1313/tags/course/</guid>
       <description></description>
     </item>
     <item>
       <title>Couchdb</title>
-      <link>https://sakisk.me/tags/couchdb/</link>
+      <link>http://localhost:1313/tags/couchdb/</link>
       <pubDate>Tue, 24 Nov 2015 15:48:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/couchdb/</guid>
+      <guid>http://localhost:1313/tags/couchdb/</guid>
       <description></description>
     </item>
     <item>
       <title>Databases</title>
-      <link>https://sakisk.me/tags/databases/</link>
+      <link>http://localhost:1313/tags/databases/</link>
       <pubDate>Tue, 24 Nov 2015 15:48:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/databases/</guid>
+      <guid>http://localhost:1313/tags/databases/</guid>
       <description></description>
     </item>
     <item>
       <title>Hbase</title>
-      <link>https://sakisk.me/tags/hbase/</link>
+      <link>http://localhost:1313/tags/hbase/</link>
       <pubDate>Tue, 24 Nov 2015 15:48:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/hbase/</guid>
+      <guid>http://localhost:1313/tags/hbase/</guid>
       <description></description>
     </item>
     <item>
       <title>Neo4j</title>
-      <link>https://sakisk.me/tags/neo4j/</link>
+      <link>http://localhost:1313/tags/neo4j/</link>
       <pubDate>Tue, 24 Nov 2015 15:48:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/neo4j/</guid>
+      <guid>http://localhost:1313/tags/neo4j/</guid>
       <description></description>
     </item>
     <item>
       <title>Postgresql</title>
-      <link>https://sakisk.me/tags/postgresql/</link>
+      <link>http://localhost:1313/tags/postgresql/</link>
       <pubDate>Tue, 24 Nov 2015 15:48:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/postgresql/</guid>
+      <guid>http://localhost:1313/tags/postgresql/</guid>
       <description></description>
     </item>
     <item>
       <title>Redis</title>
-      <link>https://sakisk.me/tags/redis/</link>
+      <link>http://localhost:1313/tags/redis/</link>
       <pubDate>Tue, 24 Nov 2015 15:48:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/redis/</guid>
+      <guid>http://localhost:1313/tags/redis/</guid>
       <description></description>
     </item>
     <item>
       <title>Riak</title>
-      <link>https://sakisk.me/tags/riak/</link>
+      <link>http://localhost:1313/tags/riak/</link>
       <pubDate>Tue, 24 Nov 2015 15:48:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/riak/</guid>
+      <guid>http://localhost:1313/tags/riak/</guid>
       <description></description>
     </item>
     <item>
       <title>Seven</title>
-      <link>https://sakisk.me/tags/seven/</link>
+      <link>http://localhost:1313/tags/seven/</link>
       <pubDate>Tue, 24 Nov 2015 15:48:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/seven/</guid>
+      <guid>http://localhost:1313/tags/seven/</guid>
       <description></description>
     </item>
     <item>
       <title>Weeks</title>
-      <link>https://sakisk.me/tags/weeks/</link>
+      <link>http://localhost:1313/tags/weeks/</link>
       <pubDate>Tue, 24 Nov 2015 15:48:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/weeks/</guid>
+      <guid>http://localhost:1313/tags/weeks/</guid>
       <description></description>
     </item>
     <item>
       <title>2015</title>
-      <link>https://sakisk.me/tags/2015/</link>
+      <link>http://localhost:1313/tags/2015/</link>
       <pubDate>Fri, 20 Nov 2015 19:42:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/2015/</guid>
+      <guid>http://localhost:1313/tags/2015/</guid>
       <description></description>
     </item>
     <item>
       <title>Joy of Coding</title>
-      <link>https://sakisk.me/tags/joy-of-coding/</link>
+      <link>http://localhost:1313/tags/joy-of-coding/</link>
       <pubDate>Fri, 20 Nov 2015 19:42:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/joy-of-coding/</guid>
+      <guid>http://localhost:1313/tags/joy-of-coding/</guid>
       <description></description>
     </item>
     <item>
       <title>Arm</title>
-      <link>https://sakisk.me/tags/arm/</link>
+      <link>http://localhost:1313/tags/arm/</link>
       <pubDate>Sun, 15 Mar 2015 18:35:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/arm/</guid>
+      <guid>http://localhost:1313/tags/arm/</guid>
       <description></description>
     </item>
     <item>
       <title>Embedded System</title>
-      <link>https://sakisk.me/tags/embedded-system/</link>
+      <link>http://localhost:1313/tags/embedded-system/</link>
       <pubDate>Sun, 15 Mar 2015 18:35:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/embedded-system/</guid>
+      <guid>http://localhost:1313/tags/embedded-system/</guid>
       <description></description>
     </item>
     <item>
       <title>LPC1768</title>
-      <link>https://sakisk.me/tags/lpc1768/</link>
+      <link>http://localhost:1313/tags/lpc1768/</link>
       <pubDate>Sun, 15 Mar 2015 18:35:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/lpc1768/</guid>
+      <guid>http://localhost:1313/tags/lpc1768/</guid>
       <description></description>
     </item>
     <item>
       <title>Mbed</title>
-      <link>https://sakisk.me/tags/mbed/</link>
+      <link>http://localhost:1313/tags/mbed/</link>
       <pubDate>Sun, 15 Mar 2015 18:35:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/mbed/</guid>
+      <guid>http://localhost:1313/tags/mbed/</guid>
       <description></description>
     </item>
     <item>
       <title>Microcontroller</title>
-      <link>https://sakisk.me/tags/microcontroller/</link>
+      <link>http://localhost:1313/tags/microcontroller/</link>
       <pubDate>Sun, 15 Mar 2015 18:35:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/microcontroller/</guid>
+      <guid>http://localhost:1313/tags/microcontroller/</guid>
       <description></description>
     </item>
     <item>
       <title>Author</title>
-      <link>https://sakisk.me/tags/author/</link>
+      <link>http://localhost:1313/tags/author/</link>
       <pubDate>Mon, 02 Feb 2015 20:08:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/author/</guid>
+      <guid>http://localhost:1313/tags/author/</guid>
       <description></description>
     </item>
     <item>
       <title>Design Patterns</title>
-      <link>https://sakisk.me/tags/design-patterns/</link>
+      <link>http://localhost:1313/tags/design-patterns/</link>
       <pubDate>Mon, 02 Feb 2015 20:08:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/design-patterns/</guid>
+      <guid>http://localhost:1313/tags/design-patterns/</guid>
       <description></description>
     </item>
     <item>
       <title>First</title>
-      <link>https://sakisk.me/tags/first/</link>
+      <link>http://localhost:1313/tags/first/</link>
       <pubDate>Mon, 02 Feb 2015 20:08:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/first/</guid>
+      <guid>http://localhost:1313/tags/first/</guid>
       <description></description>
     </item>
     <item>
       <title>Impressions</title>
-      <link>https://sakisk.me/tags/impressions/</link>
+      <link>http://localhost:1313/tags/impressions/</link>
       <pubDate>Mon, 02 Feb 2015 20:08:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/impressions/</guid>
+      <guid>http://localhost:1313/tags/impressions/</guid>
       <description></description>
     </item>
     <item>
       <title>Packt</title>
-      <link>https://sakisk.me/tags/packt/</link>
+      <link>http://localhost:1313/tags/packt/</link>
       <pubDate>Mon, 02 Feb 2015 20:08:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/packt/</guid>
+      <guid>http://localhost:1313/tags/packt/</guid>
       <description></description>
     </item>
     <item>
       <title>Writing</title>
-      <link>https://sakisk.me/tags/writing/</link>
+      <link>http://localhost:1313/tags/writing/</link>
       <pubDate>Mon, 02 Feb 2015 20:08:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/writing/</guid>
+      <guid>http://localhost:1313/tags/writing/</guid>
       <description></description>
     </item>
     <item>
       <title>MySQL</title>
-      <link>https://sakisk.me/tags/mysql/</link>
+      <link>http://localhost:1313/tags/mysql/</link>
       <pubDate>Wed, 14 Jan 2015 21:30:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/mysql/</guid>
+      <guid>http://localhost:1313/tags/mysql/</guid>
       <description></description>
     </item>
     <item>
       <title>Performance</title>
-      <link>https://sakisk.me/tags/performance/</link>
+      <link>http://localhost:1313/tags/performance/</link>
       <pubDate>Wed, 14 Jan 2015 21:30:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/performance/</guid>
+      <guid>http://localhost:1313/tags/performance/</guid>
       <description></description>
     </item>
     <item>
       <title>Sql</title>
-      <link>https://sakisk.me/tags/sql/</link>
+      <link>http://localhost:1313/tags/sql/</link>
       <pubDate>Wed, 14 Jan 2015 21:30:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/sql/</guid>
+      <guid>http://localhost:1313/tags/sql/</guid>
       <description></description>
     </item>
     <item>
       <title>Domain-Specific Language</title>
-      <link>https://sakisk.me/tags/domain-specific-language/</link>
+      <link>http://localhost:1313/tags/domain-specific-language/</link>
       <pubDate>Sun, 16 Nov 2014 20:00:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/domain-specific-language/</guid>
+      <guid>http://localhost:1313/tags/domain-specific-language/</guid>
       <description></description>
     </item>
     <item>
       <title>Dsl</title>
-      <link>https://sakisk.me/tags/dsl/</link>
+      <link>http://localhost:1313/tags/dsl/</link>
       <pubDate>Sun, 16 Nov 2014 20:00:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/dsl/</guid>
+      <guid>http://localhost:1313/tags/dsl/</guid>
       <description></description>
     </item>
     <item>
       <title>Engineering</title>
-      <link>https://sakisk.me/tags/engineering/</link>
+      <link>http://localhost:1313/tags/engineering/</link>
       <pubDate>Sun, 16 Nov 2014 20:00:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/engineering/</guid>
+      <guid>http://localhost:1313/tags/engineering/</guid>
       <description></description>
     </item>
     <item>
       <title>Implementation</title>
-      <link>https://sakisk.me/tags/implementation/</link>
+      <link>http://localhost:1313/tags/implementation/</link>
       <pubDate>Sun, 16 Nov 2014 20:00:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/implementation/</guid>
+      <guid>http://localhost:1313/tags/implementation/</guid>
       <description></description>
     </item>
     <item>
       <title>MPS</title>
-      <link>https://sakisk.me/tags/mps/</link>
+      <link>http://localhost:1313/tags/mps/</link>
       <pubDate>Sun, 16 Nov 2014 20:00:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/mps/</guid>
+      <guid>http://localhost:1313/tags/mps/</guid>
       <description></description>
     </item>
     <item>
       <title>Improvement</title>
-      <link>https://sakisk.me/tags/improvement/</link>
+      <link>http://localhost:1313/tags/improvement/</link>
       <pubDate>Sat, 08 Nov 2014 22:26:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/improvement/</guid>
+      <guid>http://localhost:1313/tags/improvement/</guid>
       <description></description>
     </item>
     <item>
       <title>Join</title>
-      <link>https://sakisk.me/tags/join/</link>
+      <link>http://localhost:1313/tags/join/</link>
       <pubDate>Sat, 08 Nov 2014 22:26:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/join/</guid>
+      <guid>http://localhost:1313/tags/join/</guid>
       <description></description>
     </item>
     <item>
       <title>Query</title>
-      <link>https://sakisk.me/tags/query/</link>
+      <link>http://localhost:1313/tags/query/</link>
       <pubDate>Sat, 08 Nov 2014 22:26:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/query/</guid>
+      <guid>http://localhost:1313/tags/query/</guid>
       <description></description>
     </item>
     <item>
       <title>Antipatterns</title>
-      <link>https://sakisk.me/tags/antipatterns/</link>
+      <link>http://localhost:1313/tags/antipatterns/</link>
       <pubDate>Mon, 29 Sep 2014 15:52:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/antipatterns/</guid>
+      <guid>http://localhost:1313/tags/antipatterns/</guid>
       <description></description>
     </item>
     <item>
       <title>Bill Karwin</title>
-      <link>https://sakisk.me/tags/bill-karwin/</link>
+      <link>http://localhost:1313/tags/bill-karwin/</link>
       <pubDate>Mon, 29 Sep 2014 15:52:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/bill-karwin/</guid>
+      <guid>http://localhost:1313/tags/bill-karwin/</guid>
       <description></description>
     </item>
     <item>
       <title>Model</title>
-      <link>https://sakisk.me/tags/model/</link>
+      <link>http://localhost:1313/tags/model/</link>
       <pubDate>Mon, 29 Sep 2014 15:52:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/model/</guid>
+      <guid>http://localhost:1313/tags/model/</guid>
       <description></description>
     </item>
     <item>
       <title>Relational</title>
-      <link>https://sakisk.me/tags/relational/</link>
+      <link>http://localhost:1313/tags/relational/</link>
       <pubDate>Mon, 29 Sep 2014 15:52:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/relational/</guid>
+      <guid>http://localhost:1313/tags/relational/</guid>
       <description></description>
     </item>
     <item>
       <title>Object-Oriented</title>
-      <link>https://sakisk.me/tags/object-oriented/</link>
+      <link>http://localhost:1313/tags/object-oriented/</link>
       <pubDate>Sun, 04 May 2014 12:53:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/object-oriented/</guid>
+      <guid>http://localhost:1313/tags/object-oriented/</guid>
       <description></description>
     </item>
     <item>
       <title>Oop</title>
-      <link>https://sakisk.me/tags/oop/</link>
+      <link>http://localhost:1313/tags/oop/</link>
       <pubDate>Sun, 04 May 2014 12:53:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/oop/</guid>
+      <guid>http://localhost:1313/tags/oop/</guid>
       <description></description>
     </item>
     <item>
       <title>Technical</title>
-      <link>https://sakisk.me/tags/technical/</link>
+      <link>http://localhost:1313/tags/technical/</link>
       <pubDate>Sun, 04 May 2014 12:53:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/technical/</guid>
+      <guid>http://localhost:1313/tags/technical/</guid>
       <description></description>
     </item>
     <item>
       <title>Alias</title>
-      <link>https://sakisk.me/tags/alias/</link>
+      <link>http://localhost:1313/tags/alias/</link>
       <pubDate>Sat, 19 Apr 2014 16:13:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/alias/</guid>
+      <guid>http://localhost:1313/tags/alias/</guid>
       <description></description>
     </item>
     <item>
       <title>Error</title>
-      <link>https://sakisk.me/tags/error/</link>
+      <link>http://localhost:1313/tags/error/</link>
       <pubDate>Sat, 19 Apr 2014 16:13:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/error/</guid>
+      <guid>http://localhost:1313/tags/error/</guid>
       <description></description>
     </item>
     <item>
       <title>Scripting</title>
-      <link>https://sakisk.me/tags/scripting/</link>
+      <link>http://localhost:1313/tags/scripting/</link>
       <pubDate>Sat, 19 Apr 2014 16:13:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/scripting/</guid>
+      <guid>http://localhost:1313/tags/scripting/</guid>
       <description></description>
     </item>
     <item>
       <title>Shell</title>
-      <link>https://sakisk.me/tags/shell/</link>
+      <link>http://localhost:1313/tags/shell/</link>
       <pubDate>Sat, 19 Apr 2014 16:13:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/shell/</guid>
+      <guid>http://localhost:1313/tags/shell/</guid>
       <description></description>
     </item>
     <item>
       <title>Shellscript</title>
-      <link>https://sakisk.me/tags/shellscript/</link>
+      <link>http://localhost:1313/tags/shellscript/</link>
       <pubDate>Sat, 19 Apr 2014 16:13:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/shellscript/</guid>
+      <guid>http://localhost:1313/tags/shellscript/</guid>
       <description></description>
     </item>
     <item>
       <title>2014</title>
-      <link>https://sakisk.me/tags/2014/</link>
+      <link>http://localhost:1313/tags/2014/</link>
       <pubDate>Sat, 08 Mar 2014 15:49:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/2014/</guid>
+      <guid>http://localhost:1313/tags/2014/</guid>
       <description></description>
     </item>
     <item>
       <title>Rotterdam</title>
-      <link>https://sakisk.me/tags/rotterdam/</link>
+      <link>http://localhost:1313/tags/rotterdam/</link>
       <pubDate>Sat, 08 Mar 2014 15:49:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/rotterdam/</guid>
+      <guid>http://localhost:1313/tags/rotterdam/</guid>
       <description></description>
     </item>
     <item>
       <title>Software Engineering</title>
-      <link>https://sakisk.me/tags/software-engineering/</link>
+      <link>http://localhost:1313/tags/software-engineering/</link>
       <pubDate>Sat, 08 Mar 2014 15:49:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/software-engineering/</guid>
+      <guid>http://localhost:1313/tags/software-engineering/</guid>
       <description></description>
     </item>
     <item>
       <title>Communication</title>
-      <link>https://sakisk.me/tags/communication/</link>
+      <link>http://localhost:1313/tags/communication/</link>
       <pubDate>Sun, 28 Jul 2013 20:52:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/communication/</guid>
+      <guid>http://localhost:1313/tags/communication/</guid>
       <description></description>
     </item>
     <item>
       <title>USB</title>
-      <link>https://sakisk.me/tags/usb/</link>
+      <link>http://localhost:1313/tags/usb/</link>
       <pubDate>Sun, 28 Jul 2013 20:52:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/usb/</guid>
+      <guid>http://localhost:1313/tags/usb/</guid>
       <description></description>
     </item>
     <item>
       <title>Voltmeter</title>
-      <link>https://sakisk.me/tags/voltmeter/</link>
+      <link>http://localhost:1313/tags/voltmeter/</link>
       <pubDate>Sun, 28 Jul 2013 20:52:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/voltmeter/</guid>
+      <guid>http://localhost:1313/tags/voltmeter/</guid>
       <description></description>
     </item>
     <item>
       <title>Numerical</title>
-      <link>https://sakisk.me/tags/numerical/</link>
+      <link>http://localhost:1313/tags/numerical/</link>
       <pubDate>Sat, 15 Jun 2013 03:43:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/numerical/</guid>
+      <guid>http://localhost:1313/tags/numerical/</guid>
       <description></description>
     </item>
     <item>
       <title>Ruby</title>
-      <link>https://sakisk.me/tags/ruby/</link>
+      <link>http://localhost:1313/tags/ruby/</link>
       <pubDate>Sat, 15 Jun 2013 03:43:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/ruby/</guid>
+      <guid>http://localhost:1313/tags/ruby/</guid>
       <description></description>
     </item>
     <item>
       <title>Sorting</title>
-      <link>https://sakisk.me/tags/sorting/</link>
+      <link>http://localhost:1313/tags/sorting/</link>
       <pubDate>Sat, 15 Jun 2013 03:43:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/sorting/</guid>
+      <guid>http://localhost:1313/tags/sorting/</guid>
       <description></description>
     </item>
     <item>
       <title>String</title>
-      <link>https://sakisk.me/tags/string/</link>
+      <link>http://localhost:1313/tags/string/</link>
       <pubDate>Sat, 15 Jun 2013 03:43:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/string/</guid>
+      <guid>http://localhost:1313/tags/string/</guid>
       <description></description>
     </item>
     <item>
       <title>Emacs</title>
-      <link>https://sakisk.me/tags/emacs/</link>
+      <link>http://localhost:1313/tags/emacs/</link>
       <pubDate>Sat, 23 Mar 2013 19:40:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/emacs/</guid>
+      <guid>http://localhost:1313/tags/emacs/</guid>
       <description></description>
     </item>
     <item>
       <title>GNU</title>
-      <link>https://sakisk.me/tags/gnu/</link>
+      <link>http://localhost:1313/tags/gnu/</link>
       <pubDate>Sat, 23 Mar 2013 19:40:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/gnu/</guid>
+      <guid>http://localhost:1313/tags/gnu/</guid>
       <description></description>
     </item>
     <item>
       <title>Algorithms</title>
-      <link>https://sakisk.me/tags/algorithms/</link>
+      <link>http://localhost:1313/tags/algorithms/</link>
       <pubDate>Fri, 04 Jan 2013 21:40:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/algorithms/</guid>
+      <guid>http://localhost:1313/tags/algorithms/</guid>
       <description></description>
     </item>
     <item>
       <title>Data Structures</title>
-      <link>https://sakisk.me/tags/data-structures/</link>
+      <link>http://localhost:1313/tags/data-structures/</link>
       <pubDate>Fri, 04 Jan 2013 21:40:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/data-structures/</guid>
+      <guid>http://localhost:1313/tags/data-structures/</guid>
       <description></description>
     </item>
     <item>
       <title>Queue</title>
-      <link>https://sakisk.me/tags/queue/</link>
+      <link>http://localhost:1313/tags/queue/</link>
       <pubDate>Fri, 04 Jan 2013 21:40:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/queue/</guid>
+      <guid>http://localhost:1313/tags/queue/</guid>
       <description></description>
     </item>
     <item>
       <title>Approach</title>
-      <link>https://sakisk.me/tags/approach/</link>
+      <link>http://localhost:1313/tags/approach/</link>
       <pubDate>Sat, 06 Oct 2012 22:36:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/approach/</guid>
+      <guid>http://localhost:1313/tags/approach/</guid>
       <description></description>
     </item>
     <item>
       <title>Interview</title>
-      <link>https://sakisk.me/tags/interview/</link>
+      <link>http://localhost:1313/tags/interview/</link>
       <pubDate>Sat, 06 Oct 2012 22:36:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/interview/</guid>
+      <guid>http://localhost:1313/tags/interview/</guid>
       <description></description>
     </item>
     <item>
       <title>Question</title>
-      <link>https://sakisk.me/tags/question/</link>
+      <link>http://localhost:1313/tags/question/</link>
       <pubDate>Sat, 06 Oct 2012 22:36:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/question/</guid>
+      <guid>http://localhost:1313/tags/question/</guid>
       <description></description>
     </item>
     <item>
       <title>Tdd</title>
-      <link>https://sakisk.me/tags/tdd/</link>
+      <link>http://localhost:1313/tags/tdd/</link>
       <pubDate>Sat, 06 Oct 2012 22:36:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/tdd/</guid>
+      <guid>http://localhost:1313/tags/tdd/</guid>
       <description></description>
     </item>
     <item>
       <title>Stack</title>
-      <link>https://sakisk.me/tags/stack/</link>
+      <link>http://localhost:1313/tags/stack/</link>
       <pubDate>Sun, 23 Sep 2012 20:59:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/stack/</guid>
+      <guid>http://localhost:1313/tags/stack/</guid>
       <description></description>
     </item>
     <item>
       <title>Bug</title>
-      <link>https://sakisk.me/tags/bug/</link>
+      <link>http://localhost:1313/tags/bug/</link>
       <pubDate>Wed, 18 Jul 2012 21:48:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/bug/</guid>
+      <guid>http://localhost:1313/tags/bug/</guid>
       <description></description>
     </item>
     <item>
       <title>Pattern</title>
-      <link>https://sakisk.me/tags/pattern/</link>
+      <link>http://localhost:1313/tags/pattern/</link>
       <pubDate>Wed, 18 Jul 2012 21:48:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/pattern/</guid>
+      <guid>http://localhost:1313/tags/pattern/</guid>
       <description></description>
     </item>
     <item>
       <title>Podcast</title>
-      <link>https://sakisk.me/tags/podcast/</link>
+      <link>http://localhost:1313/tags/podcast/</link>
       <pubDate>Wed, 18 Jul 2012 21:48:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/podcast/</guid>
+      <guid>http://localhost:1313/tags/podcast/</guid>
       <description></description>
     </item>
     <item>
       <title>Space</title>
-      <link>https://sakisk.me/tags/space/</link>
+      <link>http://localhost:1313/tags/space/</link>
       <pubDate>Wed, 18 Jul 2012 21:48:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/space/</guid>
+      <guid>http://localhost:1313/tags/space/</guid>
       <description></description>
     </item>
     <item>
       <title>API</title>
-      <link>https://sakisk.me/tags/api/</link>
+      <link>http://localhost:1313/tags/api/</link>
       <pubDate>Thu, 12 Jul 2012 20:29:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/api/</guid>
+      <guid>http://localhost:1313/tags/api/</guid>
       <description></description>
     </item>
     <item>
       <title>Building</title>
-      <link>https://sakisk.me/tags/building/</link>
+      <link>http://localhost:1313/tags/building/</link>
       <pubDate>Thu, 12 Jul 2012 20:29:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/building/</guid>
+      <guid>http://localhost:1313/tags/building/</guid>
       <description></description>
     </item>
     <item>
       <title>Platform</title>
-      <link>https://sakisk.me/tags/platform/</link>
+      <link>http://localhost:1313/tags/platform/</link>
       <pubDate>Thu, 12 Jul 2012 20:29:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/platform/</guid>
+      <guid>http://localhost:1313/tags/platform/</guid>
       <description></description>
     </item>
     <item>
       <title>Concurrency</title>
-      <link>https://sakisk.me/tags/concurrency/</link>
+      <link>http://localhost:1313/tags/concurrency/</link>
       <pubDate>Thu, 05 Jul 2012 21:38:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/concurrency/</guid>
+      <guid>http://localhost:1313/tags/concurrency/</guid>
       <description></description>
     </item>
     <item>
       <title>Erlang</title>
-      <link>https://sakisk.me/tags/erlang/</link>
+      <link>http://localhost:1313/tags/erlang/</link>
       <pubDate>Thu, 05 Jul 2012 21:38:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/erlang/</guid>
+      <guid>http://localhost:1313/tags/erlang/</guid>
       <description></description>
     </item>
     <item>
       <title>Paradigm</title>
-      <link>https://sakisk.me/tags/paradigm/</link>
+      <link>http://localhost:1313/tags/paradigm/</link>
       <pubDate>Thu, 05 Jul 2012 21:38:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/paradigm/</guid>
+      <guid>http://localhost:1313/tags/paradigm/</guid>
       <description></description>
     </item>
     <item>
       <title>Career</title>
-      <link>https://sakisk.me/tags/career/</link>
+      <link>http://localhost:1313/tags/career/</link>
       <pubDate>Sun, 03 Jun 2012 17:29:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/career/</guid>
+      <guid>http://localhost:1313/tags/career/</guid>
       <description></description>
     </item>
     <item>
       <title>Employer</title>
-      <link>https://sakisk.me/tags/employer/</link>
+      <link>http://localhost:1313/tags/employer/</link>
       <pubDate>Sun, 03 Jun 2012 17:29:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/employer/</guid>
+      <guid>http://localhost:1313/tags/employer/</guid>
       <description></description>
     </item>
     <item>
       <title>Evaluation</title>
-      <link>https://sakisk.me/tags/evaluation/</link>
+      <link>http://localhost:1313/tags/evaluation/</link>
       <pubDate>Sun, 03 Jun 2012 17:29:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/evaluation/</guid>
+      <guid>http://localhost:1313/tags/evaluation/</guid>
       <description></description>
     </item>
     <item>
       <title>Questions</title>
-      <link>https://sakisk.me/tags/questions/</link>
+      <link>http://localhost:1313/tags/questions/</link>
       <pubDate>Sun, 03 Jun 2012 17:29:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/questions/</guid>
+      <guid>http://localhost:1313/tags/questions/</guid>
       <description></description>
     </item>
     <item>
       <title>C</title>
-      <link>https://sakisk.me/tags/c/</link>
+      <link>http://localhost:1313/tags/c/</link>
       <pubDate>Sun, 29 Jan 2012 20:00:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/c/</guid>
+      <guid>http://localhost:1313/tags/c/</guid>
       <description></description>
     </item>
     <item>
       <title>Chmod</title>
-      <link>https://sakisk.me/tags/chmod/</link>
+      <link>http://localhost:1313/tags/chmod/</link>
       <pubDate>Sun, 29 Jan 2012 20:00:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/chmod/</guid>
+      <guid>http://localhost:1313/tags/chmod/</guid>
       <description></description>
     </item>
     <item>
       <title>Introduction</title>
-      <link>https://sakisk.me/tags/introduction/</link>
+      <link>http://localhost:1313/tags/introduction/</link>
       <pubDate>Sun, 29 Jan 2012 20:00:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/introduction/</guid>
+      <guid>http://localhost:1313/tags/introduction/</guid>
       <description></description>
     </item>
     <item>
       <title>Operating System</title>
-      <link>https://sakisk.me/tags/operating-system/</link>
+      <link>http://localhost:1313/tags/operating-system/</link>
       <pubDate>Sun, 29 Jan 2012 20:00:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/operating-system/</guid>
+      <guid>http://localhost:1313/tags/operating-system/</guid>
       <description></description>
     </item>
     <item>
       <title>Plan9</title>
-      <link>https://sakisk.me/tags/plan9/</link>
+      <link>http://localhost:1313/tags/plan9/</link>
       <pubDate>Sun, 29 Jan 2012 20:00:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/plan9/</guid>
+      <guid>http://localhost:1313/tags/plan9/</guid>
       <description></description>
     </item>
     <item>
       <title>Cigarette</title>
-      <link>https://sakisk.me/tags/cigarette/</link>
+      <link>http://localhost:1313/tags/cigarette/</link>
       <pubDate>Sun, 18 Dec 2011 20:30:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/cigarette/</guid>
+      <guid>http://localhost:1313/tags/cigarette/</guid>
       <description></description>
     </item>
     <item>
       <title>GRUB</title>
-      <link>https://sakisk.me/tags/grub/</link>
+      <link>http://localhost:1313/tags/grub/</link>
       <pubDate>Sun, 18 Dec 2011 20:30:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/grub/</guid>
+      <guid>http://localhost:1313/tags/grub/</guid>
       <description></description>
     </item>
     <item>
       <title>Machine</title>
-      <link>https://sakisk.me/tags/machine/</link>
+      <link>http://localhost:1313/tags/machine/</link>
       <pubDate>Sun, 18 Dec 2011 20:30:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/machine/</guid>
+      <guid>http://localhost:1313/tags/machine/</guid>
       <description></description>
     </item>
     <item>
       <title>Debian</title>
-      <link>https://sakisk.me/tags/debian/</link>
+      <link>http://localhost:1313/tags/debian/</link>
       <pubDate>Thu, 25 Aug 2011 13:30:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/debian/</guid>
+      <guid>http://localhost:1313/tags/debian/</guid>
       <description></description>
     </item>
     <item>
       <title>Fix</title>
-      <link>https://sakisk.me/tags/fix/</link>
+      <link>http://localhost:1313/tags/fix/</link>
       <pubDate>Thu, 25 Aug 2011 13:30:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/fix/</guid>
+      <guid>http://localhost:1313/tags/fix/</guid>
       <description></description>
     </item>
     <item>
       <title>Gcc</title>
-      <link>https://sakisk.me/tags/gcc/</link>
+      <link>http://localhost:1313/tags/gcc/</link>
       <pubDate>Thu, 25 Aug 2011 13:30:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/gcc/</guid>
+      <guid>http://localhost:1313/tags/gcc/</guid>
       <description></description>
     </item>
     <item>
       <title>GNU/Linux</title>
-      <link>https://sakisk.me/tags/gnu/linux/</link>
+      <link>http://localhost:1313/tags/gnu/linux/</link>
       <pubDate>Thu, 25 Aug 2011 13:30:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/gnu/linux/</guid>
+      <guid>http://localhost:1313/tags/gnu/linux/</guid>
       <description></description>
     </item>
     <item>
       <title>Wheezy</title>
-      <link>https://sakisk.me/tags/wheezy/</link>
+      <link>http://localhost:1313/tags/wheezy/</link>
       <pubDate>Thu, 25 Aug 2011 13:30:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/wheezy/</guid>
+      <guid>http://localhost:1313/tags/wheezy/</guid>
       <description></description>
     </item>
     <item>
       <title>Fun</title>
-      <link>https://sakisk.me/tags/fun/</link>
+      <link>http://localhost:1313/tags/fun/</link>
       <pubDate>Fri, 05 Aug 2011 22:00:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/fun/</guid>
+      <guid>http://localhost:1313/tags/fun/</guid>
       <description></description>
     </item>
     <item>
       <title>Job</title>
-      <link>https://sakisk.me/tags/job/</link>
+      <link>http://localhost:1313/tags/job/</link>
       <pubDate>Fri, 05 Aug 2011 22:00:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/job/</guid>
+      <guid>http://localhost:1313/tags/job/</guid>
       <description></description>
     </item>
     <item>
       <title>LinkedIn</title>
-      <link>https://sakisk.me/tags/linkedin/</link>
+      <link>http://localhost:1313/tags/linkedin/</link>
       <pubDate>Fri, 05 Aug 2011 22:00:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/linkedin/</guid>
+      <guid>http://localhost:1313/tags/linkedin/</guid>
       <description></description>
     </item>
     <item>
       <title>Post</title>
-      <link>https://sakisk.me/tags/post/</link>
+      <link>http://localhost:1313/tags/post/</link>
       <pubDate>Fri, 05 Aug 2011 22:00:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/post/</guid>
+      <guid>http://localhost:1313/tags/post/</guid>
       <description></description>
     </item>
     <item>
       <title>Lenny</title>
-      <link>https://sakisk.me/tags/lenny/</link>
+      <link>http://localhost:1313/tags/lenny/</link>
       <pubDate>Sun, 31 Jul 2011 00:30:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/lenny/</guid>
+      <guid>http://localhost:1313/tags/lenny/</guid>
       <description></description>
     </item>
     <item>
       <title>Squeeze</title>
-      <link>https://sakisk.me/tags/squeeze/</link>
+      <link>http://localhost:1313/tags/squeeze/</link>
       <pubDate>Sun, 31 Jul 2011 00:30:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/squeeze/</guid>
+      <guid>http://localhost:1313/tags/squeeze/</guid>
       <description></description>
     </item>
     <item>
       <title>Upgrade</title>
-      <link>https://sakisk.me/tags/upgrade/</link>
+      <link>http://localhost:1313/tags/upgrade/</link>
       <pubDate>Sun, 31 Jul 2011 00:30:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/upgrade/</guid>
+      <guid>http://localhost:1313/tags/upgrade/</guid>
       <description></description>
     </item>
     <item>
       <title>Electronics</title>
-      <link>https://sakisk.me/tags/electronics/</link>
+      <link>http://localhost:1313/tags/electronics/</link>
       <pubDate>Wed, 01 Jun 2011 16:30:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/electronics/</guid>
+      <guid>http://localhost:1313/tags/electronics/</guid>
       <description></description>
     </item>
     <item>
       <title>Hackerspace</title>
-      <link>https://sakisk.me/tags/hackerspace/</link>
+      <link>http://localhost:1313/tags/hackerspace/</link>
       <pubDate>Wed, 01 Jun 2011 16:30:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/hackerspace/</guid>
+      <guid>http://localhost:1313/tags/hackerspace/</guid>
       <description></description>
     </item>
     <item>
       <title>Hacking</title>
-      <link>https://sakisk.me/tags/hacking/</link>
+      <link>http://localhost:1313/tags/hacking/</link>
       <pubDate>Wed, 01 Jun 2011 16:30:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/hacking/</guid>
+      <guid>http://localhost:1313/tags/hacking/</guid>
       <description></description>
     </item>
     <item>
       <title>Hardware</title>
-      <link>https://sakisk.me/tags/hardware/</link>
+      <link>http://localhost:1313/tags/hardware/</link>
       <pubDate>Wed, 01 Jun 2011 16:30:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/hardware/</guid>
+      <guid>http://localhost:1313/tags/hardware/</guid>
       <description></description>
     </item>
     <item>
       <title>Thessaloniki</title>
-      <link>https://sakisk.me/tags/thessaloniki/</link>
+      <link>http://localhost:1313/tags/thessaloniki/</link>
       <pubDate>Wed, 01 Jun 2011 16:30:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/thessaloniki/</guid>
+      <guid>http://localhost:1313/tags/thessaloniki/</guid>
       <description></description>
     </item>
     <item>
       <title>Code</title>
-      <link>https://sakisk.me/tags/code/</link>
+      <link>http://localhost:1313/tags/code/</link>
       <pubDate>Sat, 21 May 2011 19:31:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/code/</guid>
+      <guid>http://localhost:1313/tags/code/</guid>
       <description></description>
     </item>
     <item>
       <title>Login</title>
-      <link>https://sakisk.me/tags/login/</link>
+      <link>http://localhost:1313/tags/login/</link>
       <pubDate>Sat, 21 May 2011 19:31:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/login/</guid>
+      <guid>http://localhost:1313/tags/login/</guid>
       <description></description>
     </item>
     <item>
       <title>Snippet</title>
-      <link>https://sakisk.me/tags/snippet/</link>
+      <link>http://localhost:1313/tags/snippet/</link>
       <pubDate>Sat, 21 May 2011 19:31:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/snippet/</guid>
+      <guid>http://localhost:1313/tags/snippet/</guid>
       <description></description>
     </item>
     <item>
       <title>Web</title>
-      <link>https://sakisk.me/tags/web/</link>
+      <link>http://localhost:1313/tags/web/</link>
       <pubDate>Sat, 21 May 2011 19:31:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/web/</guid>
+      <guid>http://localhost:1313/tags/web/</guid>
       <description></description>
     </item>
     <item>
       <title>Yahoo</title>
-      <link>https://sakisk.me/tags/yahoo/</link>
+      <link>http://localhost:1313/tags/yahoo/</link>
       <pubDate>Sat, 21 May 2011 19:31:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/yahoo/</guid>
+      <guid>http://localhost:1313/tags/yahoo/</guid>
       <description></description>
     </item>
     <item>
       <title>Connections</title>
-      <link>https://sakisk.me/tags/connections/</link>
+      <link>http://localhost:1313/tags/connections/</link>
       <pubDate>Sat, 14 May 2011 14:30:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/connections/</guid>
+      <guid>http://localhost:1313/tags/connections/</guid>
       <description></description>
     </item>
     <item>
       <title>Assertion</title>
-      <link>https://sakisk.me/tags/assertion/</link>
+      <link>http://localhost:1313/tags/assertion/</link>
       <pubDate>Thu, 12 May 2011 18:30:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/assertion/</guid>
+      <guid>http://localhost:1313/tags/assertion/</guid>
       <description></description>
     </item>
     <item>
       <title>Q_ASSERT</title>
-      <link>https://sakisk.me/tags/q_assert/</link>
+      <link>http://localhost:1313/tags/q_assert/</link>
       <pubDate>Thu, 12 May 2011 18:30:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/q_assert/</guid>
+      <guid>http://localhost:1313/tags/q_assert/</guid>
       <description></description>
     </item>
     <item>
       <title>QT</title>
-      <link>https://sakisk.me/tags/qt/</link>
+      <link>http://localhost:1313/tags/qt/</link>
       <pubDate>Thu, 12 May 2011 18:30:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/qt/</guid>
+      <guid>http://localhost:1313/tags/qt/</guid>
       <description></description>
     </item>
     <item>
       <title>Module</title>
-      <link>https://sakisk.me/tags/module/</link>
+      <link>http://localhost:1313/tags/module/</link>
       <pubDate>Sun, 08 May 2011 21:30:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/module/</guid>
+      <guid>http://localhost:1313/tags/module/</guid>
       <description></description>
     </item>
     <item>
       <title>Profiling</title>
-      <link>https://sakisk.me/tags/profiling/</link>
+      <link>http://localhost:1313/tags/profiling/</link>
       <pubDate>Sun, 08 May 2011 21:30:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/profiling/</guid>
+      <guid>http://localhost:1313/tags/profiling/</guid>
       <description></description>
     </item>
     <item>
       <title>Timeit</title>
-      <link>https://sakisk.me/tags/timeit/</link>
+      <link>http://localhost:1313/tags/timeit/</link>
       <pubDate>Sun, 08 May 2011 21:30:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/timeit/</guid>
+      <guid>http://localhost:1313/tags/timeit/</guid>
       <description></description>
     </item>
     <item>
       <title>Free</title>
-      <link>https://sakisk.me/tags/free/</link>
+      <link>http://localhost:1313/tags/free/</link>
       <pubDate>Thu, 28 Apr 2011 10:00:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/free/</guid>
+      <guid>http://localhost:1313/tags/free/</guid>
       <description></description>
     </item>
     <item>
       <title>Freeasinfreedom.eu</title>
-      <link>https://sakisk.me/tags/freeasinfreedom.eu/</link>
+      <link>http://localhost:1313/tags/freeasinfreedom.eu/</link>
       <pubDate>Thu, 28 Apr 2011 10:00:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/freeasinfreedom.eu/</guid>
+      <guid>http://localhost:1313/tags/freeasinfreedom.eu/</guid>
       <description></description>
     </item>
     <item>
       <title>Hosting</title>
-      <link>https://sakisk.me/tags/hosting/</link>
+      <link>http://localhost:1313/tags/hosting/</link>
       <pubDate>Thu, 28 Apr 2011 10:00:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/hosting/</guid>
+      <guid>http://localhost:1313/tags/hosting/</guid>
       <description></description>
     </item>
     <item>
       <title>Migration</title>
-      <link>https://sakisk.me/tags/migration/</link>
+      <link>http://localhost:1313/tags/migration/</link>
       <pubDate>Thu, 28 Apr 2011 10:00:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/migration/</guid>
+      <guid>http://localhost:1313/tags/migration/</guid>
       <description></description>
     </item>
     <item>
       <title>Objectis</title>
-      <link>https://sakisk.me/tags/objectis/</link>
+      <link>http://localhost:1313/tags/objectis/</link>
       <pubDate>Thu, 28 Apr 2011 10:00:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/objectis/</guid>
+      <guid>http://localhost:1313/tags/objectis/</guid>
       <description></description>
     </item>
     <item>
       <title>Plone</title>
-      <link>https://sakisk.me/tags/plone/</link>
+      <link>http://localhost:1313/tags/plone/</link>
       <pubDate>Thu, 28 Apr 2011 10:00:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/plone/</guid>
+      <guid>http://localhost:1313/tags/plone/</guid>
       <description></description>
     </item>
     <item>
       <title>Zope</title>
-      <link>https://sakisk.me/tags/zope/</link>
+      <link>http://localhost:1313/tags/zope/</link>
       <pubDate>Thu, 28 Apr 2011 10:00:00 +0000</pubDate>
-      <guid>https://sakisk.me/tags/zope/</guid>
+      <guid>http://localhost:1313/tags/zope/</guid>
       <description></description>
     </item>
   </channel>

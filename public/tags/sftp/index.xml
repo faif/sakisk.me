@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Sftp on Sakis Kasampalis - Personal homepage</title>
-    <link>https://sakisk.me/tags/sftp/</link>
+    <link>http://localhost:1313/tags/sftp/</link>
     <description>Recent content in Sftp on Sakis Kasampalis - Personal homepage</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 24 May 2017 19:50:00 +0000</lastBuildDate>
-    <atom:link href="https://sakisk.me/tags/sftp/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/sftp/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>SFTP: How to fix the &#34;Host key verification failed&#34; problem</title>
-      <link>https://sakisk.me/blog/2017-05-24-host-verification-key-failed/</link>
+      <link>http://localhost:1313/blog/2017-05-24-host-verification-key-failed/</link>
       <pubDate>Wed, 24 May 2017 19:50:00 +0000</pubDate>
-      <guid>https://sakisk.me/blog/2017-05-24-host-verification-key-failed/</guid>
+      <guid>http://localhost:1313/blog/2017-05-24-host-verification-key-failed/</guid>
       <description>&lt;p&gt;I&amp;rsquo;m busy with a Node.js project at work. The project requires SFTP support and for that we decided to use the &lt;a href=&#34;https://www.npmjs.com/package/ftps&#34;&gt;ftps&lt;/a&gt; module. Although I was able&#xA;to connect to the SFTP server using &lt;code&gt;lftp&lt;/code&gt; and FileZilla without any problems, the Node.js project was failing. By checking the logs of the project I noticed that the cause was the infamous &amp;ldquo;Host key verification failed&amp;rdquo; problem.&lt;/p&gt;&#xA;&lt;p&gt;Since SFTP uses SSH, it requires an initial key exchange between the client (in this case, my computer) and the server. Apparently the ftps Node&#xA;module cannot deal with this key exchange. One solution is to force this procedure using the classic &lt;code&gt;ssh&lt;/code&gt; command. Even if the SFTP server is&#xA;configured not to allow remote shell connections (usually it connects to &lt;code&gt;nologin&lt;/code&gt; or &lt;code&gt;false&lt;/code&gt;), it will do the job.&lt;/p&gt;</description>
     </item>
   </channel>

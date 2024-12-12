@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Joy of Coding 2014 - My impressions on Sakis Kasampalis - Personal homepage</title>
-    <link>https://sakisk.me/blog/2014-03-08-joy-of-coding-2014-my-impressions/</link>
+    <link>http://localhost:1313/blog/2014-03-08-joy-of-coding-2014-my-impressions/</link>
     <description>Recent content in Joy of Coding 2014 - My impressions on Sakis Kasampalis - Personal homepage</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate></lastBuildDate>
-    <atom:link href="https://sakisk.me/blog/2014-03-08-joy-of-coding-2014-my-impressions/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/blog/2014-03-08-joy-of-coding-2014-my-impressions/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

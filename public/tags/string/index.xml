@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>String on Sakis Kasampalis - Personal homepage</title>
-    <link>https://sakisk.me/tags/string/</link>
+    <link>http://localhost:1313/tags/string/</link>
     <description>Recent content in String on Sakis Kasampalis - Personal homepage</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 15 Jun 2013 03:43:00 +0000</lastBuildDate>
-    <atom:link href="https://sakisk.me/tags/string/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/string/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Numerical string sorting in Ruby</title>
-      <link>https://sakisk.me/blog/2013-06-15-numeric-string-sorting-in-ruby/</link>
+      <link>http://localhost:1313/blog/2013-06-15-numeric-string-sorting-in-ruby/</link>
       <pubDate>Sat, 15 Jun 2013 03:43:00 +0000</pubDate>
-      <guid>https://sakisk.me/blog/2013-06-15-numeric-string-sorting-in-ruby/</guid>
+      <guid>http://localhost:1313/blog/2013-06-15-numeric-string-sorting-in-ruby/</guid>
       <description>The problem: You have an unsorted array of strings (product codes, area codes, etc.) containing both letters and numbers (for example &#39;A28&#39;, &#39;A3&#39;, &#39;A1&#39;, etc.) and you want to sort them numerically (that is, &#39;A1&#39;, &#39;A2&#39;, ..., &#39;An&#39;). Ruby offers a &lt;span style=&#34;font-family: &amp;quot;Courier New&amp;quot;,Courier,monospace;&#34;&gt;sort&lt;/span&gt; method, so let&#39;s see what it does...&lt;br /&gt;&lt;br /&gt;&lt;script src=&#34;https://gist.github.com/faif/5786178.js?file=sort.rb&#34;&gt;&lt;/script&gt; Nope, that&#39;s not what I want. But no worries, &lt;a href=&#34;http://ruby-doc.org/core-1.8.6/Enumerable.html&#34;&gt;enumerable&lt;/a&gt; is here to help me. Enumerable is a great mixin inspired by functional programming. Functional programming relies heavily on data transformations: The input is a data structure, we transform the data of the structure by applying one or more functions, and the output is a new data structure. In this particular example the input is an unsorted array of strings, I want to apply a function that will change their order, and the output will be a new array with the strings sorted numerically.&lt;br /&gt;&lt;br /&gt;What is the data transformation in this case? A string is a data structure that can be treated as an array in most programming languages, and ruby is not an exception. Therefore the problem can be solved by using as a sorting key the numeric part of a string and treating that key as a number.&lt;br /&gt;&lt;br /&gt;&lt;script src=&#34;https://gist.github.com/faif/5786178.js?file=sort_by.rb&#34;&gt;&lt;/script&gt; And we are done :)</description>
     </item>
   </channel>

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Plone on Sakis Kasampalis - Personal homepage</title>
-    <link>https://sakisk.me/tags/plone/</link>
+    <link>http://localhost:1313/tags/plone/</link>
     <description>Recent content in Plone on Sakis Kasampalis - Personal homepage</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 28 Apr 2011 10:00:00 +0000</lastBuildDate>
-    <atom:link href="https://sakisk.me/tags/plone/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/plone/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Back to basics...</title>
-      <link>https://sakisk.me/blog/2011-04-28-back-to-basics/</link>
+      <link>http://localhost:1313/blog/2011-04-28-back-to-basics/</link>
       <pubDate>Thu, 28 Apr 2011 10:00:00 +0000</pubDate>
-      <guid>https://sakisk.me/blog/2011-04-28-back-to-basics/</guid>
+      <guid>http://localhost:1313/blog/2011-04-28-back-to-basics/</guid>
       <description>&lt;div dir=&#34;ltr&#34; style=&#34;text-align: left;&#34; trbidi=&#34;on&#34;&gt;&lt;div class=&#34;plain&#34; id=&#34;parent-fieldname-text&#34; style=&#34;text-align: left;&#34;&gt;&lt;div class=&#34;documentDescription&#34;&gt;&lt;/div&gt;&lt;h4 style=&#34;text-align: left;&#34;&gt; &lt;/h4&gt;&lt;h4 style=&#34;text-align: left;&#34;&gt;&lt;span class=&#34;&#34; id=&#34;parent-fieldname-description&#34;&gt;            How I ended up with a clean Plone instance on objectis&lt;/span&gt;&lt;/h4&gt;&lt;h4 style=&#34;text-align: left;&#34;&gt; &lt;/h4&gt;&lt;div class=&#34;documentDescription&#34;&gt;&lt;/div&gt;What can I say? It is my faith to develop my homepage from scratch once every while...&lt;br /&gt;&lt;br /&gt;When I decided to migrate from Drupal to Plone, dtek (a company where  I used to work in the past) has kindly offered me some space and hosted  my Plone site for free. Unfortunately they can&#39;t host my homepage  anymore. While looking for hosting providers, I found out that it is  expensive to host Plone/Zope sites, in contrast for example to PHP/MySQL  sites.&lt;br /&gt;&lt;br /&gt;Thankfully Pilot Systems is kind enough to provide free Plone hosting  services through the objectis service. I really appreciate that.  Unfortunately, there are some limitations to the free package, the  biggest of them being the lack of support for restoring Plone websites  of size &amp;gt; 10MB. The backup of my former homepage (freeasinfreedom.eu) is  ~25MB thus I cannot restore it using the quick importer of Zope.&lt;br /&gt;&lt;br /&gt;So&amp;nbsp; here I am, with a clean Plone instance that I have to develop from scratch step by step. Better than nothing, isn&#39;t it?&lt;/div&gt;&lt;/div&gt;</description>
     </item>
   </channel>

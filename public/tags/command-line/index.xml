@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Command Line on Sakis Kasampalis - Personal homepage</title>
-    <link>https://sakisk.me/tags/command-line/</link>
+    <link>http://localhost:1313/tags/command-line/</link>
     <description>Recent content in Command Line on Sakis Kasampalis - Personal homepage</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 10 Apr 2019 13:00:00 +0000</lastBuildDate>
-    <atom:link href="https://sakisk.me/tags/command-line/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/command-line/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Everyday command line: Quoting, splitting, and removing newlines</title>
-      <link>https://sakisk.me/blog/2019-04-10-everyday/</link>
+      <link>http://localhost:1313/blog/2019-04-10-everyday/</link>
       <pubDate>Wed, 10 Apr 2019 13:00:00 +0000</pubDate>
-      <guid>https://sakisk.me/blog/2019-04-10-everyday/</guid>
+      <guid>http://localhost:1313/blog/2019-04-10-everyday/</guid>
       <description>&lt;p&gt;Welcome to the new (infinite) series &amp;ldquo;Everyday command line&amp;rdquo;, in which I&amp;rsquo;ll cover use cases where the command line still shines compared to your favorite file manager, IDE, editor, and the like :)&lt;/p&gt;&#xA;&lt;p&gt;At times, I receive emails with lists of items that need to be modified using code. Let&amp;rsquo;s assume that a colleague sends us a list of 200 object IDs. I&amp;rsquo;ll include only 5 here for brevity:&lt;/p&gt;&#xA;&lt;p&gt;| 29045  |&#xA;| 14874  |&#xA;| 33457  |&#xA;| 21094  |&#xA;| 36842  |&#xA;| &amp;hellip;    |&lt;/p&gt;</description>
     </item>
   </channel>

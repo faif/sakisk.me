@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Walkthrough on Sakis Kasampalis - Personal homepage</title>
-    <link>https://sakisk.me/tags/walkthrough/</link>
+    <link>http://localhost:1313/tags/walkthrough/</link>
     <description>Recent content in Walkthrough on Sakis Kasampalis - Personal homepage</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 28 Jul 2016 20:38:00 +0000</lastBuildDate>
-    <atom:link href="https://sakisk.me/tags/walkthrough/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/walkthrough/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Exploring Swift</title>
-      <link>https://sakisk.me/blog/2016-07-28-swift-walkthrough/</link>
+      <link>http://localhost:1313/blog/2016-07-28-swift-walkthrough/</link>
       <pubDate>Thu, 28 Jul 2016 20:38:00 +0000</pubDate>
-      <guid>https://sakisk.me/blog/2016-07-28-swift-walkthrough/</guid>
+      <guid>http://localhost:1313/blog/2016-07-28-swift-walkthrough/</guid>
       <description>&lt;p&gt;Before the release of &lt;a href=&#34;https://swift.org&#34;&gt;Swift&lt;/a&gt; I had no interest in doing mobile development. The reason&#xA;was that I&amp;rsquo;m not a big fan of Objective-C (the only official iOS language before Swift was&#xA;released) and Java (the official Android language). I know that there are workarounds for using&#xA;other languages but when it comes to mobile development I prefer using the oficially supported tooling.&lt;/p&gt;&#xA;&lt;p&gt;Although I am a programming language enthusiast Objective-C never got me excited. And after having worked&#xA;with (or at least explored) languages that are more pragmatic and functional (for example Python, Scala,&#xA;and Clojure) my feelings for Java are similar. Both Objective-C and Java are too verbose and not pragmatic&#xA;enough for doing modern development.&lt;/p&gt;</description>
     </item>
   </channel>

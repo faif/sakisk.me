@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Micropython on Sakis Kasampalis - Personal homepage</title>
-    <link>https://sakisk.me/tags/micropython/</link>
+    <link>http://localhost:1313/tags/micropython/</link>
     <description>Recent content in Micropython on Sakis Kasampalis - Personal homepage</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 11 Jul 2017 19:20:00 +0000</lastBuildDate>
-    <atom:link href="https://sakisk.me/tags/micropython/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/micropython/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Sending MQTT data to Adafruit IO using a Pycom board</title>
-      <link>https://sakisk.me/blog/2017-07-11-mqtt-adafruit/</link>
+      <link>http://localhost:1313/blog/2017-07-11-mqtt-adafruit/</link>
       <pubDate>Tue, 11 Jul 2017 19:20:00 +0000</pubDate>
-      <guid>https://sakisk.me/blog/2017-07-11-mqtt-adafruit/</guid>
-      <description>&lt;p&gt;In this tutorial I&amp;rsquo;ll show you how to send MQTT data to &lt;a href=&#34;https://io.adafruit.com&#34;&gt;Adafruit IO&lt;/a&gt;. The hardware that I&amp;rsquo;m using is a &lt;a href=&#34;https://www.pycom.io/product/lopy/&#34;&gt;LoPy&lt;/a&gt; (only its WiFi interface) and an analog temperature sensor &lt;a href=&#34;https://www.adafruit.com/product/165&#34;&gt;TMP36&lt;/a&gt;. The circuit is rather simple:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://sakisk.me/assets/tmp36.png&#34; alt=&#34;Electronic circuit&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;The capacitor between the A/D pin and the ground is used to eliminate noise, but you can skip that if you don&amp;rsquo;t care. For the same reason (increasing the measurement accuracy) I&amp;rsquo;m averaging 100 sample A/D measurements. Measuring only once works too, but it&amp;rsquo;s less accurate.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/blog/2017-07-11-mqtt-adafruit/</guid>
+      <description>&lt;p&gt;In this tutorial I&amp;rsquo;ll show you how to send MQTT data to &lt;a href=&#34;https://io.adafruit.com&#34;&gt;Adafruit IO&lt;/a&gt;. The hardware that I&amp;rsquo;m using is a &lt;a href=&#34;https://www.pycom.io/product/lopy/&#34;&gt;LoPy&lt;/a&gt; (only its WiFi interface) and an analog temperature sensor &lt;a href=&#34;https://www.adafruit.com/product/165&#34;&gt;TMP36&lt;/a&gt;. The circuit is rather simple:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/assets/tmp36.png&#34; alt=&#34;Electronic circuit&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;The capacitor between the A/D pin and the ground is used to eliminate noise, but you can skip that if you don&amp;rsquo;t care. For the same reason (increasing the measurement accuracy) I&amp;rsquo;m averaging 100 sample A/D measurements. Measuring only once works too, but it&amp;rsquo;s less accurate.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

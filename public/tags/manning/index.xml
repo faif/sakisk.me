@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Manning on Sakis Kasampalis - Personal homepage</title>
-    <link>https://sakisk.me/tags/manning/</link>
+    <link>http://localhost:1313/tags/manning/</link>
     <description>Recent content in Manning on Sakis Kasampalis - Personal homepage</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 15 Oct 2016 14:58:00 +0000</lastBuildDate>
-    <atom:link href="https://sakisk.me/tags/manning/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/manning/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Book review: Single Page Web Applications</title>
-      <link>https://sakisk.me/blog/2016-10-15-book-review-spa/</link>
+      <link>http://localhost:1313/blog/2016-10-15-book-review-spa/</link>
       <pubDate>Sat, 15 Oct 2016 14:58:00 +0000</pubDate>
-      <guid>https://sakisk.me/blog/2016-10-15-book-review-spa/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://sakisk.me/assets/spa.jpg&#34; alt=&#34;Book cover&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;I decided to read &lt;a href=&#34;https://www.manning.com/books/single-page-web-applications&#34;&gt;this book&lt;/a&gt; because I wanted to learn about the architecture&#xA;and implementation of a Single Page Application (SPA). And it turned out to be&#xA;a good choice.&lt;/p&gt;&#xA;&lt;p&gt;What I particularly liked about the book is that it begins from scratch and&#xA;shows how to implement a SPA without relying on heavy frameworks. Whenever a&#xA;library is used, it is done with a purpose (clearly explained by the authors).&lt;/p&gt;</description>
+      <guid>http://localhost:1313/blog/2016-10-15-book-review-spa/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/assets/spa.jpg&#34; alt=&#34;Book cover&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;I decided to read &lt;a href=&#34;https://www.manning.com/books/single-page-web-applications&#34;&gt;this book&lt;/a&gt; because I wanted to learn about the architecture&#xA;and implementation of a Single Page Application (SPA). And it turned out to be&#xA;a good choice.&lt;/p&gt;&#xA;&lt;p&gt;What I particularly liked about the book is that it begins from scratch and&#xA;shows how to implement a SPA without relying on heavy frameworks. Whenever a&#xA;library is used, it is done with a purpose (clearly explained by the authors).&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

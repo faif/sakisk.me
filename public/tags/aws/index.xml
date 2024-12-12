@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>AWS on Sakis Kasampalis - Personal homepage</title>
-    <link>https://sakisk.me/tags/aws/</link>
+    <link>http://localhost:1313/tags/aws/</link>
     <description>Recent content in AWS on Sakis Kasampalis - Personal homepage</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 29 Dec 2022 20:30:00 +0000</lastBuildDate>
-    <atom:link href="https://sakisk.me/tags/aws/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/aws/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Dirty clouds</title>
-      <link>https://sakisk.me/blog/2022-12-29-dirty-clouds/</link>
+      <link>http://localhost:1313/blog/2022-12-29-dirty-clouds/</link>
       <pubDate>Thu, 29 Dec 2022 20:30:00 +0000</pubDate>
-      <guid>https://sakisk.me/blog/2022-12-29-dirty-clouds/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://sakisk.me/assets/cloud.png&#34; alt=&#34;Cloud and Linux&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Ideally, all resources of a cloud environment should be handled by Infrastructure As Code (&lt;abbr title=&#34;Infrastructure As Code&#34;&gt;IAC&lt;/abbr&gt;). At work, we are using Terraform to do this. But as usual, the ideal situation is never what happens in practice. So, it is not uncommon for people to change things directly on the cloud environment: in our case, using the AWS console.&lt;/p&gt;&#xA;&lt;p&gt;If the resource that is &amp;ldquo;dirty&amp;rdquo; is already tracked in source code, it is usually fine. When trying to deploy, Terraform will report the difference, so that gives us the chance to update the code and fix the dirty change issue. Note: Always inspect carefully the recommended Terraform action(s) before deploying, because a dirty change has often unwanted effects. A concrete example is when a user makes a relational database change directly on the cloud environment, like increasing the size of a connection pool. As soon as you try to deploy using IAC, Terraform suggests to drop and create the database again. That&amp;rsquo;s the last thing that we want for a database, because all existing data will be lost! The proper action in this case is to modify the code so that the connection pool size number matches the one of the cloud environment.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/blog/2022-12-29-dirty-clouds/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/assets/cloud.png&#34; alt=&#34;Cloud and Linux&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Ideally, all resources of a cloud environment should be handled by Infrastructure As Code (&lt;abbr title=&#34;Infrastructure As Code&#34;&gt;IAC&lt;/abbr&gt;). At work, we are using Terraform to do this. But as usual, the ideal situation is never what happens in practice. So, it is not uncommon for people to change things directly on the cloud environment: in our case, using the AWS console.&lt;/p&gt;&#xA;&lt;p&gt;If the resource that is &amp;ldquo;dirty&amp;rdquo; is already tracked in source code, it is usually fine. When trying to deploy, Terraform will report the difference, so that gives us the chance to update the code and fix the dirty change issue. Note: Always inspect carefully the recommended Terraform action(s) before deploying, because a dirty change has often unwanted effects. A concrete example is when a user makes a relational database change directly on the cloud environment, like increasing the size of a connection pool. As soon as you try to deploy using IAC, Terraform suggests to drop and create the database again. That&amp;rsquo;s the last thing that we want for a database, because all existing data will be lost! The proper action in this case is to modify the code so that the connection pool size number matches the one of the cloud environment.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

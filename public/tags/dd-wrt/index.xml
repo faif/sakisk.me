@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Dd-Wrt on Sakis Kasampalis - Personal homepage</title>
-    <link>https://sakisk.me/tags/dd-wrt/</link>
+    <link>http://localhost:1313/tags/dd-wrt/</link>
     <description>Recent content in Dd-Wrt on Sakis Kasampalis - Personal homepage</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 09 Nov 2022 19:30:00 +0000</lastBuildDate>
-    <atom:link href="https://sakisk.me/tags/dd-wrt/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/dd-wrt/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Bye bye Experia Box (V10)</title>
-      <link>https://sakisk.me/blog/2022-11-09-bye-experia/</link>
+      <link>http://localhost:1313/blog/2022-11-09-bye-experia/</link>
       <pubDate>Wed, 09 Nov 2022 19:30:00 +0000</pubDate>
-      <guid>https://sakisk.me/blog/2022-11-09-bye-experia/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://sakisk.me/assets/experia.jpeg&#34; alt=&#34;WAN settings&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;This is something that I wanted to do for years, and it finally happened. I got rid of the Experia Box.&lt;/p&gt;&#xA;&lt;p&gt;You know the story. You switched to a fiber Internet connection. Is there anything better? I love it!&lt;/p&gt;&#xA;&lt;p&gt;And then comes your &amp;ldquo;generous&amp;rdquo; &lt;abbr title=&#34;Internet Service Provider&#34;&gt;ISP&lt;/abbr&gt;. They gave you the Experia Box, in my case V10 (ZTE H369A). A crappy device with poor WiFi connectivity and insecure protocols, limited configuration options, and no firmware upgrade possibilities.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/blog/2022-11-09-bye-experia/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/assets/experia.jpeg&#34; alt=&#34;WAN settings&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;This is something that I wanted to do for years, and it finally happened. I got rid of the Experia Box.&lt;/p&gt;&#xA;&lt;p&gt;You know the story. You switched to a fiber Internet connection. Is there anything better? I love it!&lt;/p&gt;&#xA;&lt;p&gt;And then comes your &amp;ldquo;generous&amp;rdquo; &lt;abbr title=&#34;Internet Service Provider&#34;&gt;ISP&lt;/abbr&gt;. They gave you the Experia Box, in my case V10 (ZTE H369A). A crappy device with poor WiFi connectivity and insecure protocols, limited configuration options, and no firmware upgrade possibilities.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

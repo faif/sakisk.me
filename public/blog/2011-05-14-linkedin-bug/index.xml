@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>LinkedIn bug? on Sakis Kasampalis - Personal homepage</title>
-    <link>https://sakisk.me/blog/2011-05-14-linkedin-bug/</link>
+    <link>http://localhost:1313/blog/2011-05-14-linkedin-bug/</link>
     <description>Recent content in LinkedIn bug? on Sakis Kasampalis - Personal homepage</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate></lastBuildDate>
-    <atom:link href="https://sakisk.me/blog/2011-05-14-linkedin-bug/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/blog/2011-05-14-linkedin-bug/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

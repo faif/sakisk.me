@@ -2,784 +2,784 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://sakisk.me/tags/aws/</loc>
+    <loc>http://localhost:1313/tags/aws/</loc>
     <lastmod>2022-12-29T20:30:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/blog/</loc>
+    <loc>http://localhost:1313/blog/</loc>
     <lastmod>2022-12-29T20:30:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/cloud/</loc>
+    <loc>http://localhost:1313/tags/cloud/</loc>
     <lastmod>2022-12-29T20:30:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/blog/2022-12-29-dirty-clouds/</loc>
+    <loc>http://localhost:1313/blog/2022-12-29-dirty-clouds/</loc>
     <lastmod>2022-12-29T20:30:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/iac/</loc>
+    <loc>http://localhost:1313/tags/iac/</loc>
     <lastmod>2022-12-29T20:30:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/</loc>
+    <loc>http://localhost:1313/</loc>
     <lastmod>2022-12-29T20:30:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2022-12-29T20:30:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/terraform/</loc>
+    <loc>http://localhost:1313/tags/terraform/</loc>
     <lastmod>2022-12-29T20:30:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/blog/2022-11-09-bye-experia/</loc>
+    <loc>http://localhost:1313/blog/2022-11-09-bye-experia/</loc>
     <lastmod>2022-11-09T19:30:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/dd-wrt/</loc>
+    <loc>http://localhost:1313/tags/dd-wrt/</loc>
     <lastmod>2022-11-09T19:30:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/fiber/</loc>
+    <loc>http://localhost:1313/tags/fiber/</loc>
     <lastmod>2022-11-09T19:30:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/internet/</loc>
+    <loc>http://localhost:1313/tags/internet/</loc>
     <lastmod>2022-11-09T19:30:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/router/</loc>
+    <loc>http://localhost:1313/tags/router/</loc>
     <lastmod>2022-11-09T19:30:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/clojure/</loc>
+    <loc>http://localhost:1313/tags/clojure/</loc>
     <lastmod>2022-07-29T19:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/functional-programming/</loc>
+    <loc>http://localhost:1313/tags/functional-programming/</loc>
     <lastmod>2022-07-29T19:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/map/</loc>
+    <loc>http://localhost:1313/tags/map/</loc>
     <lastmod>2022-07-29T19:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/blog/2022-07-29-map-no-side-effects/</loc>
+    <loc>http://localhost:1313/blog/2022-07-29-map-no-side-effects/</loc>
     <lastmod>2022-07-29T19:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/side-effect/</loc>
+    <loc>http://localhost:1313/tags/side-effect/</loc>
     <lastmod>2022-07-29T19:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/access/</loc>
+    <loc>http://localhost:1313/tags/access/</loc>
     <lastmod>2022-05-26T19:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/aw/</loc>
+    <loc>http://localhost:1313/tags/aw/</loc>
     <lastmod>2022-05-26T19:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/iam/</loc>
+    <loc>http://localhost:1313/tags/iam/</loc>
     <lastmod>2022-05-26T19:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/blog/2022-05-26-no-s3-public/</loc>
+    <loc>http://localhost:1313/blog/2022-05-26-no-s3-public/</loc>
     <lastmod>2022-05-26T19:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/policy/</loc>
+    <loc>http://localhost:1313/tags/policy/</loc>
     <lastmod>2022-05-26T19:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/s3/</loc>
+    <loc>http://localhost:1313/tags/s3/</loc>
     <lastmod>2022-05-26T19:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/dsa/</loc>
+    <loc>http://localhost:1313/tags/dsa/</loc>
     <lastmod>2022-01-02T10:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/key/</loc>
+    <loc>http://localhost:1313/tags/key/</loc>
     <lastmod>2022-01-02T10:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/passwordless/</loc>
+    <loc>http://localhost:1313/tags/passwordless/</loc>
     <lastmod>2022-01-02T10:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/rsa/</loc>
+    <loc>http://localhost:1313/tags/rsa/</loc>
     <lastmod>2022-01-02T10:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/ssh/</loc>
+    <loc>http://localhost:1313/tags/ssh/</loc>
     <lastmod>2022-01-02T10:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/blog/2022-01-02-when-in-trouble-ssh/</loc>
+    <loc>http://localhost:1313/blog/2022-01-02-when-in-trouble-ssh/</loc>
     <lastmod>2022-01-02T10:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/design/</loc>
+    <loc>http://localhost:1313/tags/design/</loc>
     <lastmod>2021-09-11T13:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/blog/2021-09-11-plantuml/</loc>
+    <loc>http://localhost:1313/blog/2021-09-11-plantuml/</loc>
     <lastmod>2021-09-11T13:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/notation/</loc>
+    <loc>http://localhost:1313/tags/notation/</loc>
     <lastmod>2021-09-11T13:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/programming/</loc>
+    <loc>http://localhost:1313/tags/programming/</loc>
     <lastmod>2021-09-11T13:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/uml/</loc>
+    <loc>http://localhost:1313/tags/uml/</loc>
     <lastmod>2021-09-11T13:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/blog/2021-06-21-real-languages/</loc>
+    <loc>http://localhost:1313/blog/2021-06-21-real-languages/</loc>
     <lastmod>2021-06-21T17:40:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/language/</loc>
+    <loc>http://localhost:1313/tags/language/</loc>
     <lastmod>2021-06-21T17:40:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/real/</loc>
+    <loc>http://localhost:1313/tags/real/</loc>
     <lastmod>2021-06-21T17:40:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/c&#43;&#43;/</loc>
+    <loc>http://localhost:1313/tags/c&#43;&#43;/</loc>
     <lastmod>2020-08-19T20:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/exception-handling/</loc>
+    <loc>http://localhost:1313/tags/exception-handling/</loc>
     <lastmod>2020-08-19T20:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/blog/2020-08-19-one-catch/</loc>
+    <loc>http://localhost:1313/blog/2020-08-19-one-catch/</loc>
     <lastmod>2020-08-19T20:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/bash/</loc>
+    <loc>http://localhost:1313/tags/bash/</loc>
     <lastmod>2019-04-10T13:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/command-line/</loc>
+    <loc>http://localhost:1313/tags/command-line/</loc>
     <lastmod>2019-04-10T13:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/blog/2019-04-10-everyday/</loc>
+    <loc>http://localhost:1313/blog/2019-04-10-everyday/</loc>
     <lastmod>2019-04-10T13:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/pep-440/</loc>
+    <loc>http://localhost:1313/tags/pep-440/</loc>
     <lastmod>2018-11-02T22:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/python/</loc>
+    <loc>http://localhost:1313/tags/python/</loc>
     <lastmod>2018-11-02T22:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/wheels/</loc>
+    <loc>http://localhost:1313/tags/wheels/</loc>
     <lastmod>2018-11-02T22:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/blog/2018-11-02-wheels-pep/</loc>
+    <loc>http://localhost:1313/blog/2018-11-02-wheels-pep/</loc>
     <lastmod>2018-11-02T22:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/docker/</loc>
+    <loc>http://localhost:1313/tags/docker/</loc>
     <lastmod>2018-09-23T20:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/export/</loc>
+    <loc>http://localhost:1313/tags/export/</loc>
     <lastmod>2018-09-23T20:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/blog/2018-09-23-docker-env/</loc>
+    <loc>http://localhost:1313/blog/2018-09-23-docker-env/</loc>
     <lastmod>2018-09-23T20:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/variable/</loc>
+    <loc>http://localhost:1313/tags/variable/</loc>
     <lastmod>2018-09-23T20:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/version/</loc>
+    <loc>http://localhost:1313/tags/version/</loc>
     <lastmod>2018-09-23T20:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/autojump/</loc>
+    <loc>http://localhost:1313/tags/autojump/</loc>
     <lastmod>2018-02-10T17:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/productivity/</loc>
+    <loc>http://localhost:1313/tags/productivity/</loc>
     <lastmod>2018-02-10T17:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/blog/2018-02-10-keystrokes/</loc>
+    <loc>http://localhost:1313/blog/2018-02-10-keystrokes/</loc>
     <lastmod>2018-02-10T17:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/typing/</loc>
+    <loc>http://localhost:1313/tags/typing/</loc>
     <lastmod>2018-02-10T17:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/adafruit/</loc>
+    <loc>http://localhost:1313/tags/adafruit/</loc>
     <lastmod>2017-07-11T19:20:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/iot/</loc>
+    <loc>http://localhost:1313/tags/iot/</loc>
     <lastmod>2017-07-11T19:20:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/micropython/</loc>
+    <loc>http://localhost:1313/tags/micropython/</loc>
     <lastmod>2017-07-11T19:20:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/pycom/</loc>
+    <loc>http://localhost:1313/tags/pycom/</loc>
     <lastmod>2017-07-11T19:20:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/blog/2017-07-11-mqtt-adafruit/</loc>
+    <loc>http://localhost:1313/blog/2017-07-11-mqtt-adafruit/</loc>
     <lastmod>2017-07-11T19:20:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/host-key-verification-failed/</loc>
+    <loc>http://localhost:1313/tags/host-key-verification-failed/</loc>
     <lastmod>2017-05-24T19:50:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/nodejs/</loc>
+    <loc>http://localhost:1313/tags/nodejs/</loc>
     <lastmod>2017-05-24T19:50:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/problem/</loc>
+    <loc>http://localhost:1313/tags/problem/</loc>
     <lastmod>2017-05-24T19:50:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/sftp/</loc>
+    <loc>http://localhost:1313/tags/sftp/</loc>
     <lastmod>2017-05-24T19:50:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/blog/2017-05-24-host-verification-key-failed/</loc>
+    <loc>http://localhost:1313/blog/2017-05-24-host-verification-key-failed/</loc>
     <lastmod>2017-05-24T19:50:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/blog/2016-10-15-book-review-spa/</loc>
+    <loc>http://localhost:1313/blog/2016-10-15-book-review-spa/</loc>
     <lastmod>2016-10-15T14:58:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/javascript/</loc>
+    <loc>http://localhost:1313/tags/javascript/</loc>
     <lastmod>2016-10-15T14:58:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/manning/</loc>
+    <loc>http://localhost:1313/tags/manning/</loc>
     <lastmod>2016-10-15T14:58:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/mongodb/</loc>
+    <loc>http://localhost:1313/tags/mongodb/</loc>
     <lastmod>2016-10-15T14:58:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/single-page-application/</loc>
+    <loc>http://localhost:1313/tags/single-page-application/</loc>
     <lastmod>2016-10-15T14:58:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/android/</loc>
+    <loc>http://localhost:1313/tags/android/</loc>
     <lastmod>2016-07-28T20:38:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/blog/2016-07-28-swift-walkthrough/</loc>
+    <loc>http://localhost:1313/blog/2016-07-28-swift-walkthrough/</loc>
     <lastmod>2016-07-28T20:38:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/gist/</loc>
+    <loc>http://localhost:1313/tags/gist/</loc>
     <lastmod>2016-07-28T20:38:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/github/</loc>
+    <loc>http://localhost:1313/tags/github/</loc>
     <lastmod>2016-07-28T20:38:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/ios/</loc>
+    <loc>http://localhost:1313/tags/ios/</loc>
     <lastmod>2016-07-28T20:38:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/java/</loc>
+    <loc>http://localhost:1313/tags/java/</loc>
     <lastmod>2016-07-28T20:38:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/objective-c/</loc>
+    <loc>http://localhost:1313/tags/objective-c/</loc>
     <lastmod>2016-07-28T20:38:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/swift/</loc>
+    <loc>http://localhost:1313/tags/swift/</loc>
     <lastmod>2016-07-28T20:38:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/walkthrough/</loc>
+    <loc>http://localhost:1313/tags/walkthrough/</loc>
     <lastmod>2016-07-28T20:38:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/book/</loc>
+    <loc>http://localhost:1313/tags/book/</loc>
     <lastmod>2016-07-23T22:30:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/blog/2016-07-23-book-review-pragmatic-git/</loc>
+    <loc>http://localhost:1313/blog/2016-07-23-book-review-pragmatic-git/</loc>
     <lastmod>2016-07-23T22:30:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/git/</loc>
+    <loc>http://localhost:1313/tags/git/</loc>
     <lastmod>2016-07-23T22:30:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/guide/</loc>
+    <loc>http://localhost:1313/tags/guide/</loc>
     <lastmod>2016-07-23T22:30:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/pragmatic/</loc>
+    <loc>http://localhost:1313/tags/pragmatic/</loc>
     <lastmod>2016-07-23T22:30:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/review/</loc>
+    <loc>http://localhost:1313/tags/review/</loc>
     <lastmod>2016-07-23T22:30:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/blog/2016-07-06-last-language/</loc>
+    <loc>http://localhost:1313/blog/2016-07-06-last-language/</loc>
     <lastmod>2016-07-06T10:38:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/keynote/</loc>
+    <loc>http://localhost:1313/tags/keynote/</loc>
     <lastmod>2016-07-06T10:38:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/programming-language/</loc>
+    <loc>http://localhost:1313/tags/programming-language/</loc>
     <lastmod>2016-07-06T10:38:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/uncle-bob/</loc>
+    <loc>http://localhost:1313/tags/uncle-bob/</loc>
     <lastmod>2016-07-06T10:38:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/2016/</loc>
+    <loc>http://localhost:1313/tags/2016/</loc>
     <lastmod>2016-07-03T20:10:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/blog/2016-07-03-and-second-conference-of-year-was-nextbuild/</loc>
+    <loc>http://localhost:1313/blog/2016-07-03-and-second-conference-of-year-was-nextbuild/</loc>
     <lastmod>2016-07-03T20:10:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
     <lastmod>2016-07-03T20:10:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/conference/</loc>
+    <loc>http://localhost:1313/tags/conference/</loc>
     <lastmod>2016-07-03T20:10:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/eindhoven/</loc>
+    <loc>http://localhost:1313/tags/eindhoven/</loc>
     <lastmod>2016-07-03T20:10:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/nextbuild/</loc>
+    <loc>http://localhost:1313/tags/nextbuild/</loc>
     <lastmod>2016-07-03T20:10:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/categories/nextbuild-conference-2016/</loc>
+    <loc>http://localhost:1313/categories/nextbuild-conference-2016/</loc>
     <lastmod>2016-07-03T20:10:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/blog/2016-05-21-and-first-conference-of-year-was-dutch/</loc>
+    <loc>http://localhost:1313/blog/2016-05-21-and-first-conference-of-year-was-dutch/</loc>
     <lastmod>2016-05-21T22:46:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/days/</loc>
+    <loc>http://localhost:1313/tags/days/</loc>
     <lastmod>2016-05-21T22:46:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/dutch/</loc>
+    <loc>http://localhost:1313/tags/dutch/</loc>
     <lastmod>2016-05-21T22:46:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/course/</loc>
+    <loc>http://localhost:1313/tags/course/</loc>
     <lastmod>2016-04-17T21:23:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/blog/2016-04-17-course-review-git-key-user/</loc>
+    <loc>http://localhost:1313/blog/2016-04-17-course-review-git-key-user/</loc>
     <lastmod>2016-04-17T21:23:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/blog/2015-11-24-book-review-seven-databases-in-seven/</loc>
+    <loc>http://localhost:1313/blog/2015-11-24-book-review-seven-databases-in-seven/</loc>
     <lastmod>2015-11-24T15:48:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/couchdb/</loc>
+    <loc>http://localhost:1313/tags/couchdb/</loc>
     <lastmod>2015-11-24T15:48:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/databases/</loc>
+    <loc>http://localhost:1313/tags/databases/</loc>
     <lastmod>2015-11-24T15:48:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/hbase/</loc>
+    <loc>http://localhost:1313/tags/hbase/</loc>
     <lastmod>2015-11-24T15:48:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/neo4j/</loc>
+    <loc>http://localhost:1313/tags/neo4j/</loc>
     <lastmod>2015-11-24T15:48:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/postgresql/</loc>
+    <loc>http://localhost:1313/tags/postgresql/</loc>
     <lastmod>2015-11-24T15:48:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/redis/</loc>
+    <loc>http://localhost:1313/tags/redis/</loc>
     <lastmod>2015-11-24T15:48:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/riak/</loc>
+    <loc>http://localhost:1313/tags/riak/</loc>
     <lastmod>2015-11-24T15:48:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/seven/</loc>
+    <loc>http://localhost:1313/tags/seven/</loc>
     <lastmod>2015-11-24T15:48:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/weeks/</loc>
+    <loc>http://localhost:1313/tags/weeks/</loc>
     <lastmod>2015-11-24T15:48:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/2015/</loc>
+    <loc>http://localhost:1313/tags/2015/</loc>
     <lastmod>2015-11-20T19:42:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/joy-of-coding/</loc>
+    <loc>http://localhost:1313/tags/joy-of-coding/</loc>
     <lastmod>2015-11-20T19:42:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/blog/2015-11-20-joy-of-coding-2015-review/</loc>
+    <loc>http://localhost:1313/blog/2015-11-20-joy-of-coding-2015-review/</loc>
     <lastmod>2015-11-20T19:42:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/blog/2015-11-09-book-review-pragmatic-guide-to/</loc>
+    <loc>http://localhost:1313/blog/2015-11-09-book-review-pragmatic-guide-to/</loc>
     <lastmod>2015-11-09T12:23:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/arm/</loc>
+    <loc>http://localhost:1313/tags/arm/</loc>
     <lastmod>2015-03-15T18:35:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/embedded-system/</loc>
+    <loc>http://localhost:1313/tags/embedded-system/</loc>
     <lastmod>2015-03-15T18:35:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/lpc1768/</loc>
+    <loc>http://localhost:1313/tags/lpc1768/</loc>
     <lastmod>2015-03-15T18:35:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/mbed/</loc>
+    <loc>http://localhost:1313/tags/mbed/</loc>
     <lastmod>2015-03-15T18:35:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/microcontroller/</loc>
+    <loc>http://localhost:1313/tags/microcontroller/</loc>
     <lastmod>2015-03-15T18:35:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/blog/2015-03-15-playing-with-microcontrollers/</loc>
+    <loc>http://localhost:1313/blog/2015-03-15-playing-with-microcontrollers/</loc>
     <lastmod>2015-03-15T18:35:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/author/</loc>
+    <loc>http://localhost:1313/tags/author/</loc>
     <lastmod>2015-02-02T20:08:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/design-patterns/</loc>
+    <loc>http://localhost:1313/tags/design-patterns/</loc>
     <lastmod>2015-02-02T20:08:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/first/</loc>
+    <loc>http://localhost:1313/tags/first/</loc>
     <lastmod>2015-02-02T20:08:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/impressions/</loc>
+    <loc>http://localhost:1313/tags/impressions/</loc>
     <lastmod>2015-02-02T20:08:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/blog/2015-02-02-on-writing-book/</loc>
+    <loc>http://localhost:1313/blog/2015-02-02-on-writing-book/</loc>
     <lastmod>2015-02-02T20:08:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/packt/</loc>
+    <loc>http://localhost:1313/tags/packt/</loc>
     <lastmod>2015-02-02T20:08:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/writing/</loc>
+    <loc>http://localhost:1313/tags/writing/</loc>
     <lastmod>2015-02-02T20:08:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/blog/2015-01-14-course-review-sql-performance/</loc>
+    <loc>http://localhost:1313/blog/2015-01-14-course-review-sql-performance/</loc>
     <lastmod>2015-01-14T21:30:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/mysql/</loc>
+    <loc>http://localhost:1313/tags/mysql/</loc>
     <lastmod>2015-01-14T21:30:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/performance/</loc>
+    <loc>http://localhost:1313/tags/performance/</loc>
     <lastmod>2015-01-14T21:30:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/sql/</loc>
+    <loc>http://localhost:1313/tags/sql/</loc>
     <lastmod>2015-01-14T21:30:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/blog/2014-11-16-course-review-language-engineering-with/</loc>
+    <loc>http://localhost:1313/blog/2014-11-16-course-review-language-engineering-with/</loc>
     <lastmod>2014-11-16T20:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/domain-specific-language/</loc>
+    <loc>http://localhost:1313/tags/domain-specific-language/</loc>
     <lastmod>2014-11-16T20:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/dsl/</loc>
+    <loc>http://localhost:1313/tags/dsl/</loc>
     <lastmod>2014-11-16T20:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/engineering/</loc>
+    <loc>http://localhost:1313/tags/engineering/</loc>
     <lastmod>2014-11-16T20:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/implementation/</loc>
+    <loc>http://localhost:1313/tags/implementation/</loc>
     <lastmod>2014-11-16T20:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/mps/</loc>
+    <loc>http://localhost:1313/tags/mps/</loc>
     <lastmod>2014-11-16T20:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/improvement/</loc>
+    <loc>http://localhost:1313/tags/improvement/</loc>
     <lastmod>2014-11-08T22:26:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/join/</loc>
+    <loc>http://localhost:1313/tags/join/</loc>
     <lastmod>2014-11-08T22:26:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/query/</loc>
+    <loc>http://localhost:1313/tags/query/</loc>
     <lastmod>2014-11-08T22:26:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/blog/2014-11-08-two-less-common-tricks-for-improving/</loc>
+    <loc>http://localhost:1313/blog/2014-11-08-two-less-common-tricks-for-improving/</loc>
     <lastmod>2014-11-08T22:26:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/antipatterns/</loc>
+    <loc>http://localhost:1313/tags/antipatterns/</loc>
     <lastmod>2014-09-29T15:52:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/bill-karwin/</loc>
+    <loc>http://localhost:1313/tags/bill-karwin/</loc>
     <lastmod>2014-09-29T15:52:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/blog/2014-09-29-book-review-sql-antipatterns/</loc>
+    <loc>http://localhost:1313/blog/2014-09-29-book-review-sql-antipatterns/</loc>
     <lastmod>2014-09-29T15:52:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/model/</loc>
+    <loc>http://localhost:1313/tags/model/</loc>
     <lastmod>2014-09-29T15:52:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/relational/</loc>
+    <loc>http://localhost:1313/tags/relational/</loc>
     <lastmod>2014-09-29T15:52:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/blog/2014-05-04-being-technical-reviewer-again/</loc>
+    <loc>http://localhost:1313/blog/2014-05-04-being-technical-reviewer-again/</loc>
     <lastmod>2014-05-04T12:53:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/object-oriented/</loc>
+    <loc>http://localhost:1313/tags/object-oriented/</loc>
     <lastmod>2014-05-04T12:53:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/oop/</loc>
+    <loc>http://localhost:1313/tags/oop/</loc>
     <lastmod>2014-05-04T12:53:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/technical/</loc>
+    <loc>http://localhost:1313/tags/technical/</loc>
     <lastmod>2014-05-04T12:53:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/alias/</loc>
+    <loc>http://localhost:1313/tags/alias/</loc>
     <lastmod>2014-04-19T16:13:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/blog/2014-04-19-bash-syntax-error-near-unexpected-token/</loc>
+    <loc>http://localhost:1313/blog/2014-04-19-bash-syntax-error-near-unexpected-token/</loc>
     <lastmod>2014-04-19T16:13:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/error/</loc>
+    <loc>http://localhost:1313/tags/error/</loc>
     <lastmod>2014-04-19T16:13:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/scripting/</loc>
+    <loc>http://localhost:1313/tags/scripting/</loc>
     <lastmod>2014-04-19T16:13:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/shell/</loc>
+    <loc>http://localhost:1313/tags/shell/</loc>
     <lastmod>2014-04-19T16:13:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/shellscript/</loc>
+    <loc>http://localhost:1313/tags/shellscript/</loc>
     <lastmod>2014-04-19T16:13:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/2014/</loc>
+    <loc>http://localhost:1313/tags/2014/</loc>
     <lastmod>2014-03-08T15:49:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/blog/2014-03-08-joy-of-coding-2014-my-impressions/</loc>
+    <loc>http://localhost:1313/blog/2014-03-08-joy-of-coding-2014-my-impressions/</loc>
     <lastmod>2014-03-08T15:49:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/rotterdam/</loc>
+    <loc>http://localhost:1313/tags/rotterdam/</loc>
     <lastmod>2014-03-08T15:49:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/software-engineering/</loc>
+    <loc>http://localhost:1313/tags/software-engineering/</loc>
     <lastmod>2014-03-08T15:49:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/blog/2013-11-28-my-first-book-review/</loc>
+    <loc>http://localhost:1313/blog/2013-11-28-my-first-book-review/</loc>
     <lastmod>2013-11-28T21:52:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/communication/</loc>
+    <loc>http://localhost:1313/tags/communication/</loc>
     <lastmod>2013-07-28T20:52:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/blog/2013-07-28-mbed-usb-voltmeter/</loc>
+    <loc>http://localhost:1313/blog/2013-07-28-mbed-usb-voltmeter/</loc>
     <lastmod>2013-07-28T20:52:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/usb/</loc>
+    <loc>http://localhost:1313/tags/usb/</loc>
     <lastmod>2013-07-28T20:52:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/voltmeter/</loc>
+    <loc>http://localhost:1313/tags/voltmeter/</loc>
     <lastmod>2013-07-28T20:52:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/numerical/</loc>
+    <loc>http://localhost:1313/tags/numerical/</loc>
     <lastmod>2013-06-15T03:43:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/blog/2013-06-15-numeric-string-sorting-in-ruby/</loc>
+    <loc>http://localhost:1313/blog/2013-06-15-numeric-string-sorting-in-ruby/</loc>
     <lastmod>2013-06-15T03:43:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/ruby/</loc>
+    <loc>http://localhost:1313/tags/ruby/</loc>
     <lastmod>2013-06-15T03:43:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/sorting/</loc>
+    <loc>http://localhost:1313/tags/sorting/</loc>
     <lastmod>2013-06-15T03:43:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/string/</loc>
+    <loc>http://localhost:1313/tags/string/</loc>
     <lastmod>2013-06-15T03:43:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/emacs/</loc>
+    <loc>http://localhost:1313/tags/emacs/</loc>
     <lastmod>2013-03-23T19:40:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/gnu/</loc>
+    <loc>http://localhost:1313/tags/gnu/</loc>
     <lastmod>2013-03-23T19:40:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/blog/2013-03-23-why-you-should-try-emacs-if-you-are/</loc>
+    <loc>http://localhost:1313/blog/2013-03-23-why-you-should-try-emacs-if-you-are/</loc>
     <lastmod>2013-03-23T19:40:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/algorithms/</loc>
+    <loc>http://localhost:1313/tags/algorithms/</loc>
     <lastmod>2013-01-04T21:40:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/data-structures/</loc>
+    <loc>http://localhost:1313/tags/data-structures/</loc>
     <lastmod>2013-01-04T21:40:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/blog/2013-01-04-data-structures-and-algorithms-101-part/</loc>
+    <loc>http://localhost:1313/blog/2013-01-04-data-structures-and-algorithms-101-part/</loc>
     <lastmod>2013-01-04T21:40:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/queue/</loc>
+    <loc>http://localhost:1313/tags/queue/</loc>
     <lastmod>2013-01-04T21:40:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/approach/</loc>
+    <loc>http://localhost:1313/tags/approach/</loc>
     <lastmod>2012-10-06T22:36:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/interview/</loc>
+    <loc>http://localhost:1313/tags/interview/</loc>
     <lastmod>2012-10-06T22:36:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/blog/2012-10-06-interview-question-remove-duplicate/</loc>
+    <loc>http://localhost:1313/blog/2012-10-06-interview-question-remove-duplicate/</loc>
     <lastmod>2012-10-06T22:36:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/question/</loc>
+    <loc>http://localhost:1313/tags/question/</loc>
     <lastmod>2012-10-06T22:36:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/tdd/</loc>
+    <loc>http://localhost:1313/tags/tdd/</loc>
     <lastmod>2012-10-06T22:36:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/blog/2012-09-23-data-structures-and-algorithms-101-part/</loc>
+    <loc>http://localhost:1313/blog/2012-09-23-data-structures-and-algorithms-101-part/</loc>
     <lastmod>2012-09-23T20:59:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/stack/</loc>
+    <loc>http://localhost:1313/tags/stack/</loc>
     <lastmod>2012-09-23T20:59:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/bug/</loc>
+    <loc>http://localhost:1313/tags/bug/</loc>
     <lastmod>2012-07-18T21:48:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/pattern/</loc>
+    <loc>http://localhost:1313/tags/pattern/</loc>
     <lastmod>2012-07-18T21:48:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/podcast/</loc>
+    <loc>http://localhost:1313/tags/podcast/</loc>
     <lastmod>2012-07-18T21:48:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/space/</loc>
+    <loc>http://localhost:1313/tags/space/</loc>
     <lastmod>2012-07-18T21:48:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/blog/2012-07-18-what-we-can-learn-from-space-guys/</loc>
+    <loc>http://localhost:1313/blog/2012-07-18-what-we-can-learn-from-space-guys/</loc>
     <lastmod>2012-07-18T21:48:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/api/</loc>
+    <loc>http://localhost:1313/tags/api/</loc>
     <lastmod>2012-07-12T20:29:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/building/</loc>
+    <loc>http://localhost:1313/tags/building/</loc>
     <lastmod>2012-07-12T20:29:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/blog/2012-07-12-on-building-platform/</loc>
+    <loc>http://localhost:1313/blog/2012-07-12-on-building-platform/</loc>
     <lastmod>2012-07-12T20:29:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/platform/</loc>
+    <loc>http://localhost:1313/tags/platform/</loc>
     <lastmod>2012-07-12T20:29:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/concurrency/</loc>
+    <loc>http://localhost:1313/tags/concurrency/</loc>
     <lastmod>2012-07-05T21:38:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/erlang/</loc>
+    <loc>http://localhost:1313/tags/erlang/</loc>
     <lastmod>2012-07-05T21:38:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/paradigm/</loc>
+    <loc>http://localhost:1313/tags/paradigm/</loc>
     <lastmod>2012-07-05T21:38:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/blog/2012-07-05-why-erlang-matters/</loc>
+    <loc>http://localhost:1313/blog/2012-07-05-why-erlang-matters/</loc>
     <lastmod>2012-07-05T21:38:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/career/</loc>
+    <loc>http://localhost:1313/tags/career/</loc>
     <lastmod>2012-06-03T17:29:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/blog/2012-06-03-are-you-evaluating-your-potential/</loc>
+    <loc>http://localhost:1313/blog/2012-06-03-are-you-evaluating-your-potential/</loc>
     <lastmod>2012-06-03T17:29:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/employer/</loc>
+    <loc>http://localhost:1313/tags/employer/</loc>
     <lastmod>2012-06-03T17:29:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/evaluation/</loc>
+    <loc>http://localhost:1313/tags/evaluation/</loc>
     <lastmod>2012-06-03T17:29:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/questions/</loc>
+    <loc>http://localhost:1313/tags/questions/</loc>
     <lastmod>2012-06-03T17:29:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/blog/2012-01-29-9series-introduction-and-chmod/</loc>
+    <loc>http://localhost:1313/blog/2012-01-29-9series-introduction-and-chmod/</loc>
     <lastmod>2012-01-29T20:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/c/</loc>
+    <loc>http://localhost:1313/tags/c/</loc>
     <lastmod>2012-01-29T20:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/chmod/</loc>
+    <loc>http://localhost:1313/tags/chmod/</loc>
     <lastmod>2012-01-29T20:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/introduction/</loc>
+    <loc>http://localhost:1313/tags/introduction/</loc>
     <lastmod>2012-01-29T20:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/operating-system/</loc>
+    <loc>http://localhost:1313/tags/operating-system/</loc>
     <lastmod>2012-01-29T20:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/plan9/</loc>
+    <loc>http://localhost:1313/tags/plan9/</loc>
     <lastmod>2012-01-29T20:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/cigarette/</loc>
+    <loc>http://localhost:1313/tags/cigarette/</loc>
     <lastmod>2011-12-18T20:30:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/grub/</loc>
+    <loc>http://localhost:1313/tags/grub/</loc>
     <lastmod>2011-12-18T20:30:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/blog/2011-12-18-i-love-your-boot-loader/</loc>
+    <loc>http://localhost:1313/blog/2011-12-18-i-love-your-boot-loader/</loc>
     <lastmod>2011-12-18T20:30:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/machine/</loc>
+    <loc>http://localhost:1313/tags/machine/</loc>
     <lastmod>2011-12-18T20:30:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/debian/</loc>
+    <loc>http://localhost:1313/tags/debian/</loc>
     <lastmod>2011-08-25T13:30:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/fix/</loc>
+    <loc>http://localhost:1313/tags/fix/</loc>
     <lastmod>2011-08-25T13:30:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/gcc/</loc>
+    <loc>http://localhost:1313/tags/gcc/</loc>
     <lastmod>2011-08-25T13:30:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/gnu/linux/</loc>
+    <loc>http://localhost:1313/tags/gnu/linux/</loc>
     <lastmod>2011-08-25T13:30:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/blog/2011-08-25-updating-debian-wheezy-breaks-gcc/</loc>
+    <loc>http://localhost:1313/blog/2011-08-25-updating-debian-wheezy-breaks-gcc/</loc>
     <lastmod>2011-08-25T13:30:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/wheezy/</loc>
+    <loc>http://localhost:1313/tags/wheezy/</loc>
     <lastmod>2011-08-25T13:30:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/fun/</loc>
+    <loc>http://localhost:1313/tags/fun/</loc>
     <lastmod>2011-08-05T22:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/job/</loc>
+    <loc>http://localhost:1313/tags/job/</loc>
     <lastmod>2011-08-05T22:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/blog/2011-08-05-job-seeking-post/</loc>
+    <loc>http://localhost:1313/blog/2011-08-05-job-seeking-post/</loc>
     <lastmod>2011-08-05T22:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/linkedin/</loc>
+    <loc>http://localhost:1313/tags/linkedin/</loc>
     <lastmod>2011-08-05T22:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/post/</loc>
+    <loc>http://localhost:1313/tags/post/</loc>
     <lastmod>2011-08-05T22:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/blog/2011-07-31-debian-lenny-squeeze-transition/</loc>
+    <loc>http://localhost:1313/blog/2011-07-31-debian-lenny-squeeze-transition/</loc>
     <lastmod>2011-07-31T00:30:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/lenny/</loc>
+    <loc>http://localhost:1313/tags/lenny/</loc>
     <lastmod>2011-07-31T00:30:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/squeeze/</loc>
+    <loc>http://localhost:1313/tags/squeeze/</loc>
     <lastmod>2011-07-31T00:30:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/upgrade/</loc>
+    <loc>http://localhost:1313/tags/upgrade/</loc>
     <lastmod>2011-07-31T00:30:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/electronics/</loc>
+    <loc>http://localhost:1313/tags/electronics/</loc>
     <lastmod>2011-06-01T16:30:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/hackerspace/</loc>
+    <loc>http://localhost:1313/tags/hackerspace/</loc>
     <lastmod>2011-06-01T16:30:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/hacking/</loc>
+    <loc>http://localhost:1313/tags/hacking/</loc>
     <lastmod>2011-06-01T16:30:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/hardware/</loc>
+    <loc>http://localhost:1313/tags/hardware/</loc>
     <lastmod>2011-06-01T16:30:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/blog/2011-06-01-thehackerspace/</loc>
+    <loc>http://localhost:1313/blog/2011-06-01-thehackerspace/</loc>
     <lastmod>2011-06-01T16:30:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/thessaloniki/</loc>
+    <loc>http://localhost:1313/tags/thessaloniki/</loc>
     <lastmod>2011-06-01T16:30:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/blog/2011-05-21-automatic-web-logon/</loc>
+    <loc>http://localhost:1313/blog/2011-05-21-automatic-web-logon/</loc>
     <lastmod>2011-05-21T19:31:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/code/</loc>
+    <loc>http://localhost:1313/tags/code/</loc>
     <lastmod>2011-05-21T19:31:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/login/</loc>
+    <loc>http://localhost:1313/tags/login/</loc>
     <lastmod>2011-05-21T19:31:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/snippet/</loc>
+    <loc>http://localhost:1313/tags/snippet/</loc>
     <lastmod>2011-05-21T19:31:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/web/</loc>
+    <loc>http://localhost:1313/tags/web/</loc>
     <lastmod>2011-05-21T19:31:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/yahoo/</loc>
+    <loc>http://localhost:1313/tags/yahoo/</loc>
     <lastmod>2011-05-21T19:31:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/connections/</loc>
+    <loc>http://localhost:1313/tags/connections/</loc>
     <lastmod>2011-05-14T14:30:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/blog/2011-05-14-linkedin-bug/</loc>
+    <loc>http://localhost:1313/blog/2011-05-14-linkedin-bug/</loc>
     <lastmod>2011-05-14T14:30:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/assertion/</loc>
+    <loc>http://localhost:1313/tags/assertion/</loc>
     <lastmod>2011-05-12T18:30:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/blog/2011-05-12-beware-of-qassert/</loc>
+    <loc>http://localhost:1313/blog/2011-05-12-beware-of-qassert/</loc>
     <lastmod>2011-05-12T18:30:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/q_assert/</loc>
+    <loc>http://localhost:1313/tags/q_assert/</loc>
     <lastmod>2011-05-12T18:30:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/qt/</loc>
+    <loc>http://localhost:1313/tags/qt/</loc>
     <lastmod>2011-05-12T18:30:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/module/</loc>
+    <loc>http://localhost:1313/tags/module/</loc>
     <lastmod>2011-05-08T21:30:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/profiling/</loc>
+    <loc>http://localhost:1313/tags/profiling/</loc>
     <lastmod>2011-05-08T21:30:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/blog/2011-05-08-python-code-profiling-in-debian/</loc>
+    <loc>http://localhost:1313/blog/2011-05-08-python-code-profiling-in-debian/</loc>
     <lastmod>2011-05-08T21:30:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/timeit/</loc>
+    <loc>http://localhost:1313/tags/timeit/</loc>
     <lastmod>2011-05-08T21:30:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/blog/2011-04-28-back-to-basics/</loc>
+    <loc>http://localhost:1313/blog/2011-04-28-back-to-basics/</loc>
     <lastmod>2011-04-28T10:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/free/</loc>
+    <loc>http://localhost:1313/tags/free/</loc>
     <lastmod>2011-04-28T10:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/freeasinfreedom.eu/</loc>
+    <loc>http://localhost:1313/tags/freeasinfreedom.eu/</loc>
     <lastmod>2011-04-28T10:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/hosting/</loc>
+    <loc>http://localhost:1313/tags/hosting/</loc>
     <lastmod>2011-04-28T10:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/migration/</loc>
+    <loc>http://localhost:1313/tags/migration/</loc>
     <lastmod>2011-04-28T10:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/objectis/</loc>
+    <loc>http://localhost:1313/tags/objectis/</loc>
     <lastmod>2011-04-28T10:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/plone/</loc>
+    <loc>http://localhost:1313/tags/plone/</loc>
     <lastmod>2011-04-28T10:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakisk.me/tags/zope/</loc>
+    <loc>http://localhost:1313/tags/zope/</loc>
     <lastmod>2011-04-28T10:00:00+00:00</lastmod>
   </url>
 </urlset>

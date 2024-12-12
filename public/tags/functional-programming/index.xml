@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Functional Programming on Sakis Kasampalis - Personal homepage</title>
-    <link>https://sakisk.me/tags/functional-programming/</link>
+    <link>http://localhost:1313/tags/functional-programming/</link>
     <description>Recent content in Functional Programming on Sakis Kasampalis - Personal homepage</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 29 Jul 2022 19:00:00 +0000</lastBuildDate>
-    <atom:link href="https://sakisk.me/tags/functional-programming/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/functional-programming/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Map results should be free from side-effects</title>
-      <link>https://sakisk.me/blog/2022-07-29-map-no-side-effects/</link>
+      <link>http://localhost:1313/blog/2022-07-29-map-no-side-effects/</link>
       <pubDate>Fri, 29 Jul 2022 19:00:00 +0000</pubDate>
-      <guid>https://sakisk.me/blog/2022-07-29-map-no-side-effects/</guid>
+      <guid>http://localhost:1313/blog/2022-07-29-map-no-side-effects/</guid>
       <description>&lt;p&gt;When we want to write code that operates on a data structure, it is common to initially implement it for a single item, and then make it more general. In functional languages like Clojure, I use the following pattern a lot, to execute a function on all items of a data structure (aka collection, or seq):&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-clojure&#34; data-lang=&#34;clojure&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;(&lt;span style=&#34;color:#66d9ef&#34;&gt;defn &lt;/span&gt;single-item-function [item]&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    (&lt;span style=&#34;color:#a6e22e&#34;&gt;dostuff&lt;/span&gt;))&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;(&lt;span style=&#34;color:#66d9ef&#34;&gt;defn &lt;/span&gt;collection-function [collection]&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    (map &lt;span style=&#34;color:#f92672&#34;&gt;#&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;single-item-function&lt;/span&gt; %) collection))&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&#xA;&lt;p&gt;So far so good, until I found out that only one of the functions &lt;a href=&#34;https://github.com/faif/sub-matcher&#34;&gt;in my hobby project&lt;/a&gt; was working fine at the &lt;abbr title=&#34;Read-Eval-Print-Loop&#34;&gt;REPL&lt;/abbr&gt; (Read-Eval-Print-Loop), but not outside of it. Guess what was wrong with that function: It had side-effects!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Exploring Swift</title>
-      <link>https://sakisk.me/blog/2016-07-28-swift-walkthrough/</link>
+      <link>http://localhost:1313/blog/2016-07-28-swift-walkthrough/</link>
       <pubDate>Thu, 28 Jul 2016 20:38:00 +0000</pubDate>
-      <guid>https://sakisk.me/blog/2016-07-28-swift-walkthrough/</guid>
+      <guid>http://localhost:1313/blog/2016-07-28-swift-walkthrough/</guid>
       <description>&lt;p&gt;Before the release of &lt;a href=&#34;https://swift.org&#34;&gt;Swift&lt;/a&gt; I had no interest in doing mobile development. The reason&#xA;was that I&amp;rsquo;m not a big fan of Objective-C (the only official iOS language before Swift was&#xA;released) and Java (the official Android language). I know that there are workarounds for using&#xA;other languages but when it comes to mobile development I prefer using the oficially supported tooling.&lt;/p&gt;&#xA;&lt;p&gt;Although I am a programming language enthusiast Objective-C never got me excited. And after having worked&#xA;with (or at least explored) languages that are more pragmatic and functional (for example Python, Scala,&#xA;and Clojure) my feelings for Java are similar. Both Objective-C and Java are too verbose and not pragmatic&#xA;enough for doing modern development.&lt;/p&gt;</description>
     </item>
     <item>
       <title>About uncle Bob&#39;s The Last Programming Language keynote</title>
-      <link>https://sakisk.me/blog/2016-07-06-last-language/</link>
+      <link>http://localhost:1313/blog/2016-07-06-last-language/</link>
       <pubDate>Wed, 06 Jul 2016 10:38:00 +0000</pubDate>
-      <guid>https://sakisk.me/blog/2016-07-06-last-language/</guid>
+      <guid>http://localhost:1313/blog/2016-07-06-last-language/</guid>
       <description>&lt;p&gt;I decided to watch some programming-related videos and I began with uncle Bob&amp;rsquo;s&#xA;keynote &lt;a href=&#34;https://cleancoders.com/episode/clean-code-episode-0/show?autoplay=true&#34;&gt;The Last Programming Language&lt;/a&gt;. In  general I agree with what&#xA;he says, with one exception. Uncle Bob believes that functional programming is important&#xA;because it plays well with multicore programming.&lt;/p&gt;&#xA;&lt;p&gt;I don&amp;rsquo;t think that this is the most important value of functional programming. First of&#xA;all, there&amp;rsquo;s a lot of code written out there that is not multicore-aware. That can happen&#xA;for example when single core performance is sufficient. You can laugh as much as you want&#xA;about this statement but there are many programs where it is actually very true.&lt;/p&gt;</description>
     </item>
   </channel>

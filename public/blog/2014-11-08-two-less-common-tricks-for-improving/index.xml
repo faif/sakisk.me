@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Two less common tricks for improving unexplained slow MySQL queries on Sakis Kasampalis - Personal homepage</title>
-    <link>https://sakisk.me/blog/2014-11-08-two-less-common-tricks-for-improving/</link>
+    <link>http://localhost:1313/blog/2014-11-08-two-less-common-tricks-for-improving/</link>
     <description>Recent content in Two less common tricks for improving unexplained slow MySQL queries on Sakis Kasampalis - Personal homepage</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate></lastBuildDate>
-    <atom:link href="https://sakisk.me/blog/2014-11-08-two-less-common-tricks-for-improving/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/blog/2014-11-08-two-less-common-tricks-for-improving/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

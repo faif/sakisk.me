@@ -10,13 +10,6 @@ page = [ "HTML", "RSS" ]
 [markup.goldmark.renderer]
 unsafe = true
 
-# [[Menus.main]]
-# identifier = "about"
-# name = "About"
-# title = "About me"
-# url = "#about"
-# weight = 1
-
 [[Menus.main]]
 identifier = "blog"
 name = "Blog"
@@ -228,7 +221,3 @@ emailText = "Check out this site"
 article = "Jan 2, 2006"
 articleList = "Jan 2, 2006"
 articleRecent = "Jan 2, 2006"
-
-[services]
-[services.disqus]
-shortname = 'ieraks'

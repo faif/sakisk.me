@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Bill Karwin on Sakis Kasampalis - Personal homepage</title>
-    <link>https://sakisk.me/tags/bill-karwin/</link>
+    <link>http://localhost:1313/tags/bill-karwin/</link>
     <description>Recent content in Bill Karwin on Sakis Kasampalis - Personal homepage</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 29 Sep 2014 15:52:00 +0000</lastBuildDate>
-    <atom:link href="https://sakisk.me/tags/bill-karwin/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/bill-karwin/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Book review: SQL Antipatterns</title>
-      <link>https://sakisk.me/blog/2014-09-29-book-review-sql-antipatterns/</link>
+      <link>http://localhost:1313/blog/2014-09-29-book-review-sql-antipatterns/</link>
       <pubDate>Mon, 29 Sep 2014 15:52:00 +0000</pubDate>
-      <guid>https://sakisk.me/blog/2014-09-29-book-review-sql-antipatterns/</guid>
+      <guid>http://localhost:1313/blog/2014-09-29-book-review-sql-antipatterns/</guid>
       <description>&lt;div dir=&#34;ltr&#34; style=&#34;text-align: left;&#34; trbidi=&#34;on&#34;&gt;&lt;div class=&#34;description markdown collapsible&#34;&gt;                In &lt;a href=&#34;https://pragprog.com/book/bksqla/sql-antipatterns&#34;&gt;SQL Antipatterns&lt;/a&gt;, Bill Karwin does a great job in explaining how to  make efficient use of the relational model, instead of abusing it like  it&#39;s usually done. Many developers abuse relational databases using  antipatterns such as ID required, entity-attribute-value, index  overkill, and so forth (you should read this book without second  thought). Some developers go as far as trying to implement a search  engine based on the &lt;code&gt;LIKE&lt;/code&gt; keyword.&lt;br /&gt;&lt;br /&gt; All those are examples of not using the relational model properly. If  we want to bypass referential integrity or save everything in one  table, then we should not use a relational DB in the first place.  Cursing on the performance of a relational DB when it&#39;s not properly  used is very wrong.&lt;br /&gt;              &lt;/div&gt;&lt;/div&gt;</description>
     </item>
   </channel>

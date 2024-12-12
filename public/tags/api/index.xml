@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>API on Sakis Kasampalis - Personal homepage</title>
-    <link>https://sakisk.me/tags/api/</link>
+    <link>http://localhost:1313/tags/api/</link>
     <description>Recent content in API on Sakis Kasampalis - Personal homepage</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 12 Jul 2012 20:29:00 +0000</lastBuildDate>
-    <atom:link href="https://sakisk.me/tags/api/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/api/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>On building a platform</title>
-      <link>https://sakisk.me/blog/2012-07-12-on-building-platform/</link>
+      <link>http://localhost:1313/blog/2012-07-12-on-building-platform/</link>
       <pubDate>Thu, 12 Jul 2012 20:29:00 +0000</pubDate>
-      <guid>https://sakisk.me/blog/2012-07-12-on-building-platform/</guid>
+      <guid>http://localhost:1313/blog/2012-07-12-on-building-platform/</guid>
       <description>&lt;div dir=&#34;ltr&#34; style=&#34;text-align: left;&#34; trbidi=&#34;on&#34;&gt;The se-radio podcast about &lt;a href=&#34;http://www.se-radio.net/2008/10/episode-113-building-platforms-with-jeff-mcaffer/&#34;&gt;building a platform&lt;/a&gt; contains many useful tips, but the most important IMHO are (1) the importance of the API, (2) &#34;eating your own dog food&#34;.&lt;br /&gt;&lt;br /&gt;The API should be easy to use. This means that it should be intuitive for the users, which in this case are programmers. Note that the developers of the API should not decide about its flexibility and easiness. That should be decided only by the users, so the design of an API is guided by the programmers who use it. Good code documentation is also important, and in this case tools like doxygen are invaluable. Finally, backward compatibility is crucial.&lt;br /&gt;&lt;br /&gt;&#34;Eating your own dog food&#34; in this case means using your own platform, either to extend it or to develop customer products (or by being just the end customer). I find this extremely important, because when programmers develop products that they never use or don&#39;t find useful for themselves, the quality of the product is low. This is related with the &lt;a href=&#34;https://en.wikipedia.org/wiki/The_Cathedral_and_the_Bazaar#Guidelines_for_creating_good_open_source_software&#34;&gt;&#34;Scratching an itch&#34;&lt;/a&gt; topic (see guidelines 1 and 18). Examples: Eclipse developers use Eclipse to develop it further, Apple developers use the stuff that they developed in their daily life, etc.&lt;/div&gt;</description>
     </item>
   </channel>
