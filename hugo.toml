@@ -55,7 +55,7 @@ intro = ""
 title = "Hello world :)"
 subtitle = "I am Sakis, a software architect based in the Netherlands"
 content = "I'm always keen on implementing simple yet performant, scalable, and cost-efficient solutions."
-image = "/images/rtfm.png"
+image = "/images/profile.jpeg"
 
 [params.hero.bottomImage]
 enable = true
@@ -82,7 +82,7 @@ url = "https://x.com/SKasampalis"
 [params.about]
 enable = true
 title = "About"
-image = "/images/profile.jpeg"
+image = "/images/rtfm.png"
 content = """
 The present: I am a Software Architect with ~ 11 years of professional experience as a Software Engineer. My main
 qualities are the ability to work independently, critical thinking, and fitting well into a team. My current interests
