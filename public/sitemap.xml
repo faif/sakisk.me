@@ -2,10 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/tags/aws/</loc>
-    <lastmod>2022-12-29T20:30:00+00:00</lastmod>
+    <loc>http://localhost:1313/tags/api/</loc>
+    <lastmod>2025-01-10T11:16:22+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/</loc>
+    <lastmod>2025-01-10T11:16:22+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/bluesky/</loc>
+    <lastmod>2025-01-10T11:16:22+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/linkedin/</loc>
+    <lastmod>2025-01-10T11:16:22+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/posting-to-linkedin-and-bluesky-programmatically/</loc>
+    <lastmod>2025-01-10T11:16:22+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/program/</loc>
+    <lastmod>2025-01-10T11:16:22+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/python/</loc>
+    <lastmod>2025-01-10T11:16:22+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2025-01-10T11:16:22+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/social-media/</loc>
+    <lastmod>2025-01-10T11:16:22+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2025-01-10T11:16:22+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/aws/</loc>
     <lastmod>2022-12-29T20:30:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/cloud/</loc>
@@ -15,12 +42,6 @@
     <lastmod>2022-12-29T20:30:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/iac/</loc>
-    <lastmod>2022-12-29T20:30:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2022-12-29T20:30:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2022-12-29T20:30:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/terraform/</loc>
@@ -135,9 +156,6 @@
     <lastmod>2019-04-10T13:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/pep-440/</loc>
-    <lastmod>2018-11-02T22:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/python/</loc>
     <lastmod>2018-11-02T22:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/wheels/</loc>
@@ -578,9 +596,6 @@
     <loc>http://localhost:1313/blog/2012-07-18-what-we-can-learn-from-space-guys/</loc>
     <lastmod>2012-07-18T21:48:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/api/</loc>
-    <lastmod>2012-07-12T20:29:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/building/</loc>
     <lastmod>2012-07-12T20:29:00+00:00</lastmod>
   </url><url>
@@ -672,9 +687,6 @@
     <lastmod>2011-08-05T22:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/2011-08-05-job-seeking-post/</loc>
-    <lastmod>2011-08-05T22:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/linkedin/</loc>
     <lastmod>2011-08-05T22:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/post/</loc>

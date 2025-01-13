@@ -76,8 +76,8 @@ icon = "fab fa-linkedin"
 url = "https://www.linkedin.com/in/sakiskasampalis/"
 
 [[params.hero.socialLinks.fontAwesomeIcons]]
-icon = "fab fa-x-twitter"
-url = "https://x.com/SKasampalis"
+icon = "fab fa-twitter"
+url = "https://bsky.app/profile/sakiskas.bsky.social"
 
 [params.about]
 enable = true
@@ -183,7 +183,8 @@ link = "https://vimeo.com/user32695250/videos/page:1/sort:date"
 [params.contact]
 enable = true
 title = "Contact"
-content = """There are different ways to reach out. In general I prefer asynchronous communication, so please use email, LinkedIn, or X (former twitter). Calling should be the last resort. You can find my email and phone number in my CV."""
+content = """There are different ways to reach out. In general I prefer asynchronous communication, so please use email, LinkedIn, or Bluesky.
+Calling should be the last resort. You can find my email and phone number in my CV."""
 btnName = "Contact me"
 btnLink = "/files/cv.pdf"
 

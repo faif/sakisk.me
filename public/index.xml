@@ -6,8 +6,15 @@
     <description>Recent content on Sakis Kasampalis - Personal homepage</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 29 Dec 2022 20:30:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 10 Jan 2025 11:16:22 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Posting to LinkedIn and Bluesky programmatically</title>
+      <link>http://localhost:1313/blog/posting-to-linkedin-and-bluesky-programmatically/</link>
+      <pubDate>Fri, 10 Jan 2025 11:16:22 +0100</pubDate>
+      <guid>http://localhost:1313/blog/posting-to-linkedin-and-bluesky-programmatically/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/assets/bluesky.jpeg&#34; alt=&#34;Bluesky&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;background&#34;&gt;Background&lt;/h2&gt;&#xA;&lt;p&gt;Whenever I have something to share with the world (mainly technical content), I post it on social media so that other&#xA;people can also check it out. I usually post about articles and books that I&amp;rsquo;ve read, new blogposts that I&amp;rsquo;ve&#xA;written, and discounts on my book. The two social media platforms I was using until now were LinkedIn and X (former&#xA;Twitter). But it&amp;rsquo;s time to replace X with something else, for administrative purposes&amp;hellip;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Dirty clouds</title>
       <link>http://localhost:1313/blog/2022-12-29-dirty-clouds/</link>
