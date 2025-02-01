@@ -6,8 +6,15 @@
     <description>Recent content in Blogs on Sakis Kasampalis - Personal homepage</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 10 Jan 2025 11:16:22 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 01 Feb 2025 16:28:14 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Show me your Identity (Center)</title>
+      <link>http://localhost:1313/blog/show-me-your-id/</link>
+      <pubDate>Sat, 01 Feb 2025 16:28:14 +0100</pubDate>
+      <guid>http://localhost:1313/blog/show-me-your-id/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/assets/IAM-Identity-center.png&#34; alt=&#34;Identity Center&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;&#xA;&lt;p&gt;Corporate cloud environments usually consist of multiple accounts. Managing the different users, groups, and access&#xA;policies per account can be a complex and daunting process. &lt;abbr title=&#34;Identity and Access Management&#34;&gt;IAM&lt;/abbr&gt;&#xA;identity center to the rescue! With IAM identity center we can use &lt;abbr title=&#34;Single Sign On&#34;&gt;SSO&lt;/abbr&gt; effectively&#xA;to switch quickly between different &lt;abbr title=&#34;Amazon Web Services&#34;&gt;AWS&lt;/abbr&gt; accounts that we have been given access.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/assets/AWS-SSO-multi-account.jpg&#34; alt=&#34;AWS SSO multiple accounts&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;managing-users-and-groups&#34;&gt;Managing users and groups&lt;/h2&gt;&#xA;&lt;p&gt;Although we can create users and groups directly in IAM Identity Center and manage them using &lt;abbr title=&#34;Infrastructure&#xA;as Code&#34;&gt;IaC&lt;/abbr&gt;, it is more efficient to use an enterprise identity provider (IdP), such as Entra ID, Okta, etc. Using&#xA;an IdP, offers the SSO advantage: no need to generate new credentials, the existing credentials used to login to the corporate&#xA;account are sufficient.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Posting to LinkedIn and Bluesky programmatically</title>
       <link>http://localhost:1313/blog/posting-to-linkedin-and-bluesky-programmatically/</link>
