@@ -19,7 +19,7 @@ weight = 1
 
 [params]
 title = ""
-description = "Unix, Emacs, functional programming"
+description = "*nix, Emacs, functional programming"
 favicon = "/images/lambda.png"
 useBootstrapCDN = false
 mathjax = false
@@ -62,7 +62,7 @@ enable = true
 
 [params.hero.button]
 enable = true
-name = "Resume"
+name = "CV"
 url = "/files/cv.pdf"
 download = false
 newPage = false
@@ -76,15 +76,15 @@ icon = "fab fa-linkedin"
 url = "https://www.linkedin.com/in/sakiskasampalis/"
 
 [[params.hero.socialLinks.fontAwesomeIcons]]
-icon = "fab fa-twitter"
-url = "https://bsky.app/profile/sakiskas.bsky.social"
+icon = "fas fa-hashtag"
+url = "https://bsky.app/profile/sakisk.me"
 
 [params.about]
 enable = true
 title = "About"
 image = "/images/rtfm.png"
 content = """
-The present: I am a Software Architect with ~ 11 years of professional experience as a Software Engineer. My main
+The present: I am a Software Architect with 10+ years of professional experience as a Software Engineer. My main
 qualities are the ability to work independently, critical thinking, and fitting well into a team. My current interests
 are software architecture, distributed systems, and functional programming.
 
@@ -222,3 +222,7 @@ emailText = "Check out this site"
 article = "Jan 2, 2006"
 articleList = "Jan 2, 2006"
 articleRecent = "Jan 2, 2006"
+
+[module]
+[[module.imports]]
+path = 'github.com/hugomods/giscus'
